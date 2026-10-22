@@ -1,0 +1,14 @@
+{
+  "thresholds": {
+    "disciplinas": 0.46,
+    "roles_documentales": 0.48000000000000004,
+    "contenidos": 0.47000000000000003
+  },
+  "grid": [
+    0.01,
+    0.99,
+    0.01
+  ],
+  "criterion": "validation micro-F1; ties macro-F1 then micro-precision",
+  "base": "EXP-07"
+}

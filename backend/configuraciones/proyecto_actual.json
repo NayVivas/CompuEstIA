@@ -1,0 +1,23 @@
+{
+  "nombre": "Caso de validación de fundaciones",
+  "archivos_esperados": {
+    "planta": "Fundaciones_1.pdf",
+    "detalles": "Fundaciones_2.pdf",
+    "columnas": "Columnas.pdf"
+  },
+  "correcciones_referencias_cuadro": [
+    {
+      "referencia_original": "F12",
+      "aparicion": 2,
+      "referencia_correcta": "F13",
+      "motivo": "El cuadro repite F12 en la última fila, mientras la planta identifica esa fundación como F13."
+    }
+  ],
+  "correcciones_columnas_fundaciones": [
+    {
+      "referencia_original": "C4",
+      "referencia_correcta": "C3",
+      "motivo": "El detalle rotulado C4 en el plano de fundaciones corresponde a la sección de C3."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+﻿target,split,etiquetas_presentes,exp18_etiquetas_f1_cero,exp19_etiquetas_f1_cero
+disciplinas,validation,7,2,2
+disciplinas,test,8,3,3
+roles_documentales,validation,7,2,2
+roles_documentales,test,8,4,4
+contenidos,validation,40,21,15
+contenidos,test,40,19,12

@@ -1,0 +1,441 @@
+{
+  "experimento": "EXP19",
+  "objetivo": "mejorar etiquetas minoritarias sin perder más de 0.02 de micro-F1 en VALIDATION",
+  "semilla": 20260925,
+  "paginas_por_split": {
+    "train": 675,
+    "validation": 148,
+    "test": 153
+  },
+  "candidatos_evaluados_en_validation": 60,
+  "configuracion_seleccionada": {
+    "disciplinas": {
+      "model_id": "linearsvc_c05",
+      "family": "linear_svc",
+      "C": 0.5,
+      "score_kind": "decision",
+      "threshold_strategy": "por_etiqueta_s5_r10",
+      "global_threshold": -0.22900806222311504,
+      "micro_f1_validation": 0.7813620071684588,
+      "macro_f1_validation_etiquetas_presentes": 0.46379348840985674
+    },
+    "roles_documentales": {
+      "model_id": "linearsvc_c05",
+      "family": "linear_svc",
+      "C": 0.5,
+      "score_kind": "decision",
+      "threshold_strategy": "por_etiqueta_s5_r10",
+      "global_threshold": -0.14854289509394014,
+      "micro_f1_validation": 0.803894297635605,
+      "macro_f1_validation_etiquetas_presentes": 0.5245496002317984
+    },
+    "contenidos": {
+      "model_id": "linearsvc_c05",
+      "family": "linear_svc",
+      "C": 0.5,
+      "score_kind": "decision",
+      "threshold_strategy": "por_etiqueta_s10_r10",
+      "global_threshold": -0.3740342709944949,
+      "micro_f1_validation": 0.5915238954012624,
+      "macro_f1_validation_etiquetas_presentes": 0.34990204629311894
+    }
+  },
+  "test_evaluado_despues_de_congelar": true,
+  "evaluaciones_test": [
+    {
+      "target": "disciplinas",
+      "model_id": "linearsvc_c05",
+      "threshold_strategy": "por_etiqueta_s5_r10"
+    },
+    {
+      "target": "roles_documentales",
+      "model_id": "linearsvc_c05",
+      "threshold_strategy": "por_etiqueta_s5_r10"
+    },
+    {
+      "target": "contenidos",
+      "model_id": "linearsvc_c05",
+      "threshold_strategy": "por_etiqueta_s10_r10"
+    }
+  ],
+  "metricas": [
+    {
+      "target": "disciplinas",
+      "split": "validation",
+      "model_id": "linearsvc_c05",
+      "threshold_strategy": "por_etiqueta_s5_r10",
+      "micro_precision": 0.8582677165354331,
+      "micro_recall": 0.7171052631578947,
+      "micro_f1": 0.7813620071684588,
+      "macro_precision": 0.4346244131455399,
+      "macro_recall": 0.28457972375882823,
+      "macro_f1": 0.3246554418868997,
+      "macro_f1_etiquetas_presentes": 0.46379348840985674,
+      "hamming_loss": 0.04121621621621622,
+      "exact_match": 0.6959459459459459,
+      "coverage": 0.831081081081081,
+      "abstention": 0.16891891891891897,
+      "cardinalidad_real": 1.027027027027027,
+      "cardinalidad_predicha": 0.8581081081081081
+    },
+    {
+      "target": "disciplinas",
+      "split": "test",
+      "model_id": "linearsvc_c05",
+      "threshold_strategy": "por_etiqueta_s5_r10",
+      "micro_precision": 0.8057553956834532,
+      "micro_recall": 0.6956521739130435,
+      "micro_f1": 0.7466666666666667,
+      "macro_precision": 0.42976490767833725,
+      "macro_recall": 0.4207747154805979,
+      "macro_f1": 0.4250829685594931,
+      "macro_f1_etiquetas_presentes": 0.5313537106993664,
+      "hamming_loss": 0.04967320261437908,
+      "exact_match": 0.6601307189542484,
+      "coverage": 0.869281045751634,
+      "abstention": 0.130718954248366,
+      "cardinalidad_real": 1.0522875816993464,
+      "cardinalidad_predicha": 0.9084967320261438
+    },
+    {
+      "target": "roles_documentales",
+      "split": "validation",
+      "model_id": "linearsvc_c05",
+      "threshold_strategy": "por_etiqueta_s5_r10",
+      "micro_precision": 0.7810810810810811,
+      "micro_recall": 0.828080229226361,
+      "micro_f1": 0.803894297635605,
+      "macro_precision": 0.46132763483096073,
+      "macro_recall": 0.41020045122668275,
+      "macro_f1": 0.4079830224025099,
+      "macro_f1_etiquetas_presentes": 0.5245496002317984,
+      "hamming_loss": 0.10585585585585586,
+      "exact_match": 0.38513513513513514,
+      "coverage": 1.0,
+      "abstention": 0.0,
+      "cardinalidad_real": 2.358108108108108,
+      "cardinalidad_predicha": 2.5
+    },
+    {
+      "target": "roles_documentales",
+      "split": "test",
+      "model_id": "linearsvc_c05",
+      "threshold_strategy": "por_etiqueta_s5_r10",
+      "micro_precision": 0.6616314199395771,
+      "micro_recall": 0.7849462365591398,
+      "micro_f1": 0.7180327868852459,
+      "macro_precision": 0.29588150875518276,
+      "macro_recall": 0.38083979895574094,
+      "macro_f1": 0.33054493138988544,
+      "macro_f1_etiquetas_presentes": 0.3718630478136211,
+      "hamming_loss": 0.12490922294843863,
+      "exact_match": 0.3660130718954248,
+      "coverage": 0.9803921568627451,
+      "abstention": 0.019607843137254943,
+      "cardinalidad_real": 1.8235294117647058,
+      "cardinalidad_predicha": 2.1633986928104574
+    },
+    {
+      "target": "contenidos",
+      "split": "validation",
+      "model_id": "linearsvc_c05",
+      "threshold_strategy": "por_etiqueta_s10_r10",
+      "micro_precision": 0.5963636363636363,
+      "micro_recall": 0.5867620751341681,
+      "micro_f1": 0.5915238954012624,
+      "macro_precision": 0.2621718416146636,
+      "macro_recall": 0.22103007217886558,
+      "macro_f1": 0.22574325567297995,
+      "macro_f1_etiquetas_presentes": 0.34990204629311894,
+      "hamming_loss": 0.04936791630340018,
+      "exact_match": 0.1891891891891892,
+      "coverage": 0.8716216216216216,
+      "abstention": 0.1283783783783784,
+      "cardinalidad_real": 3.777027027027027,
+      "cardinalidad_predicha": 3.7162162162162162
+    },
+    {
+      "target": "contenidos",
+      "split": "test",
+      "model_id": "linearsvc_c05",
+      "threshold_strategy": "por_etiqueta_s10_r10",
+      "micro_precision": 0.48507462686567165,
+      "micro_recall": 0.611764705882353,
+      "micro_f1": 0.5411030176899063,
+      "macro_precision": 0.252227385804037,
+      "macro_recall": 0.30752450269528064,
+      "macro_f1": 0.25840225875903483,
+      "macro_f1_etiquetas_presentes": 0.4005235010765039,
+      "hamming_loss": 0.046489563567362426,
+      "exact_match": 0.1895424836601307,
+      "coverage": 0.869281045751634,
+      "abstention": 0.130718954248366,
+      "cardinalidad_real": 2.7777777777777777,
+      "cardinalidad_predicha": 3.503267973856209
+    }
+  ],
+  "comparacion_exp18_exp19": [
+    {
+      "target": "disciplinas",
+      "exp18_micro_f1": 0.7450980392156863,
+      "exp19_micro_f1": 0.7466666666666667,
+      "delta_micro_f1": 0.0015686274509804088,
+      "exp18_macro_f1": 0.42751967757230924,
+      "exp19_macro_f1": 0.4250829685594931,
+      "delta_macro_f1": -0.0024367090128161184,
+      "exp18_recall": 0.7080745341614907,
+      "exp19_recall": 0.6956521739130435,
+      "delta_recall": -0.012422360248447228
+    },
+    {
+      "target": "roles_documentales",
+      "exp18_micro_f1": 0.7075306479859895,
+      "exp19_micro_f1": 0.7180327868852459,
+      "delta_micro_f1": 0.01050213889925633,
+      "exp18_macro_f1": 0.32119442068185117,
+      "exp19_macro_f1": 0.33054493138988544,
+      "delta_macro_f1": 0.009350510708034276,
+      "exp18_recall": 0.7240143369175627,
+      "exp19_recall": 0.7849462365591398,
+      "delta_recall": 0.06093189964157708
+    },
+    {
+      "target": "contenidos",
+      "exp18_micro_f1": 0.5560165975103735,
+      "exp19_micro_f1": 0.5411030176899063,
+      "delta_micro_f1": -0.014913579820467149,
+      "exp18_macro_f1": 0.2346451825229414,
+      "exp19_macro_f1": 0.25840225875903483,
+      "delta_macro_f1": 0.02375707623609344,
+      "exp18_recall": 0.47294117647058825,
+      "exp19_recall": 0.611764705882353,
+      "delta_recall": 0.13882352941176473
+    }
+  ],
+  "comparacion_por_segmento": [
+    {
+      "target": "disciplinas",
+      "segmento_tipo": "origen",
+      "segmento": "EXP02",
+      "paginas": 17,
+      "exp18_micro_f1": 0.5142857142857142,
+      "exp19_micro_f1": 0.5454545454545454,
+      "delta_micro_f1": 0.03116883116883118,
+      "exp18_recall": 0.5,
+      "exp19_recall": 0.5,
+      "delta_recall": 0.0
+    },
+    {
+      "target": "disciplinas",
+      "segmento_tipo": "origen",
+      "segmento": "EXP11",
+      "paginas": 49,
+      "exp18_micro_f1": 0.7446808510638298,
+      "exp19_micro_f1": 0.7391304347826086,
+      "delta_micro_f1": -0.005550416281221104,
+      "exp18_recall": 0.660377358490566,
+      "exp19_recall": 0.6415094339622641,
+      "delta_recall": -0.018867924528301883
+    },
+    {
+      "target": "disciplinas",
+      "segmento_tipo": "origen",
+      "segmento": "EXP16",
+      "paginas": 87,
+      "exp18_micro_f1": 0.7909604519774012,
+      "exp19_micro_f1": 0.7885714285714286,
+      "delta_micro_f1": -0.002389023405972579,
+      "exp18_recall": 0.7777777777777778,
+      "exp19_recall": 0.7666666666666667,
+      "delta_recall": -0.011111111111111072
+    },
+    {
+      "target": "disciplinas",
+      "segmento_tipo": "extraccion",
+      "segmento": "ocr",
+      "paginas": 3,
+      "exp18_micro_f1": 0.3333333333333333,
+      "exp19_micro_f1": 0.5714285714285714,
+      "delta_micro_f1": 0.23809523809523808,
+      "exp18_recall": 0.2,
+      "exp19_recall": 0.4,
+      "delta_recall": 0.2
+    },
+    {
+      "target": "disciplinas",
+      "segmento_tipo": "extraccion",
+      "segmento": "texto_nativo",
+      "paginas": 150,
+      "exp18_micro_f1": 0.7533333333333333,
+      "exp19_micro_f1": 0.7508532423208191,
+      "delta_micro_f1": -0.0024800910125142295,
+      "exp18_recall": 0.7243589743589743,
+      "exp19_recall": 0.7051282051282052,
+      "delta_recall": -0.019230769230769162
+    },
+    {
+      "target": "roles_documentales",
+      "segmento_tipo": "origen",
+      "segmento": "EXP02",
+      "paginas": 17,
+      "exp18_micro_f1": 0.8387096774193549,
+      "exp19_micro_f1": 0.7567567567567568,
+      "delta_micro_f1": -0.08195292066259807,
+      "exp18_recall": 0.7222222222222222,
+      "exp19_recall": 0.7777777777777778,
+      "delta_recall": 0.05555555555555558
+    },
+    {
+      "target": "roles_documentales",
+      "segmento_tipo": "origen",
+      "segmento": "EXP11",
+      "paginas": 49,
+      "exp18_micro_f1": 0.5942028985507246,
+      "exp19_micro_f1": 0.6535947712418301,
+      "delta_micro_f1": 0.05939187269110546,
+      "exp18_recall": 0.5466666666666666,
+      "exp19_recall": 0.6666666666666666,
+      "delta_recall": 0.12
+    },
+    {
+      "target": "roles_documentales",
+      "segmento_tipo": "origen",
+      "segmento": "EXP16",
+      "paginas": 87,
+      "exp18_micro_f1": 0.736318407960199,
+      "exp19_micro_f1": 0.7380952380952381,
+      "delta_micro_f1": 0.0017768301350391535,
+      "exp18_recall": 0.7956989247311828,
+      "exp19_recall": 0.8333333333333334,
+      "delta_recall": 0.037634408602150615
+    },
+    {
+      "target": "roles_documentales",
+      "segmento_tipo": "extraccion",
+      "segmento": "ocr",
+      "paginas": 3,
+      "exp18_micro_f1": 0.8888888888888888,
+      "exp19_micro_f1": 1.0,
+      "delta_micro_f1": 0.11111111111111116,
+      "exp18_recall": 0.8,
+      "exp19_recall": 1.0,
+      "delta_recall": 0.19999999999999996
+    },
+    {
+      "target": "roles_documentales",
+      "segmento_tipo": "extraccion",
+      "segmento": "texto_nativo",
+      "paginas": 150,
+      "exp18_micro_f1": 0.7046263345195729,
+      "exp19_micro_f1": 0.7133333333333334,
+      "delta_micro_f1": 0.00870699881376047,
+      "exp18_recall": 0.7226277372262774,
+      "exp19_recall": 0.781021897810219,
+      "delta_recall": 0.058394160583941646
+    },
+    {
+      "target": "contenidos",
+      "segmento_tipo": "origen",
+      "segmento": "EXP02",
+      "paginas": 17,
+      "exp18_micro_f1": 0.2857142857142857,
+      "exp19_micro_f1": 0.325,
+      "delta_micro_f1": 0.03928571428571431,
+      "exp18_recall": 0.2,
+      "exp19_recall": 0.43333333333333335,
+      "delta_recall": 0.23333333333333334
+    },
+    {
+      "target": "contenidos",
+      "segmento_tipo": "origen",
+      "segmento": "EXP11",
+      "paginas": 49,
+      "exp18_micro_f1": 0.37583892617449666,
+      "exp19_micro_f1": 0.4935064935064935,
+      "delta_micro_f1": 0.11766756733199685,
+      "exp18_recall": 0.25,
+      "exp19_recall": 0.5089285714285714,
+      "delta_recall": 0.2589285714285714
+    },
+    {
+      "target": "contenidos",
+      "segmento_tipo": "origen",
+      "segmento": "EXP16",
+      "paginas": 87,
+      "exp18_micro_f1": 0.6278195488721805,
+      "exp19_micro_f1": 0.5846153846153846,
+      "delta_micro_f1": -0.04320416425679585,
+      "exp18_recall": 0.5901060070671378,
+      "exp19_recall": 0.6713780918727915,
+      "delta_recall": 0.08127208480565373
+    },
+    {
+      "target": "contenidos",
+      "segmento_tipo": "extraccion",
+      "segmento": "ocr",
+      "paginas": 3,
+      "exp18_micro_f1": 0.5,
+      "exp19_micro_f1": 0.4,
+      "delta_micro_f1": -0.09999999999999998,
+      "exp18_recall": 0.375,
+      "exp19_recall": 0.375,
+      "delta_recall": 0.0
+    },
+    {
+      "target": "contenidos",
+      "segmento_tipo": "extraccion",
+      "segmento": "texto_nativo",
+      "paginas": 150,
+      "exp18_micro_f1": 0.5569620253164557,
+      "exp19_micro_f1": 0.5433403805496829,
+      "delta_micro_f1": -0.013621644766772745,
+      "exp18_recall": 0.4748201438848921,
+      "exp19_recall": 0.6163069544364509,
+      "delta_recall": 0.14148681055155882
+    }
+  ],
+  "diagnostico_etiquetas_f1_cero": [
+    {
+      "target": "disciplinas",
+      "split": "validation",
+      "etiquetas_presentes": 7,
+      "exp18_etiquetas_f1_cero": 2,
+      "exp19_etiquetas_f1_cero": 2
+    },
+    {
+      "target": "disciplinas",
+      "split": "test",
+      "etiquetas_presentes": 8,
+      "exp18_etiquetas_f1_cero": 3,
+      "exp19_etiquetas_f1_cero": 3
+    },
+    {
+      "target": "roles_documentales",
+      "split": "validation",
+      "etiquetas_presentes": 7,
+      "exp18_etiquetas_f1_cero": 2,
+      "exp19_etiquetas_f1_cero": 2
+    },
+    {
+      "target": "roles_documentales",
+      "split": "test",
+      "etiquetas_presentes": 8,
+      "exp18_etiquetas_f1_cero": 4,
+      "exp19_etiquetas_f1_cero": 4
+    },
+    {
+      "target": "contenidos",
+      "split": "validation",
+      "etiquetas_presentes": 40,
+      "exp18_etiquetas_f1_cero": 21,
+      "exp19_etiquetas_f1_cero": 15
+    },
+    {
+      "target": "contenidos",
+      "split": "test",
+      "etiquetas_presentes": 40,
+      "exp18_etiquetas_f1_cero": 19,
+      "exp19_etiquetas_f1_cero": 12
+    }
+  ]
+}

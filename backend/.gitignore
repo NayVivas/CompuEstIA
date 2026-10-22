@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.zip
+data/cache/
+data/analysis/
+data/png/
+data/processed/
+data/reportes/
+datasets_visuales/

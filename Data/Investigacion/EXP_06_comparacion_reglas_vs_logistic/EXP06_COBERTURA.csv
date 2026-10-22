@@ -1,0 +1,4 @@
+task,reglas_coverage,logreg_coverage,reglas_abstention,logreg_abstention
+disciplina,0.3098591549295774,1.0,0.6901408450704226,0.0
+rol_documental,0.3098591549295774,1.0,0.6901408450704226,0.0
+contenido,0.3098591549295774,1.0,0.6901408450704226,0.0

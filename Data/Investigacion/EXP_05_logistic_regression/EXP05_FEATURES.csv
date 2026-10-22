@@ -1,0 +1,6 @@
+feature,description
+cantidad_palabras,cantidad de palabras extraídas
+cantidad_caracteres,cantidad de caracteres extraídos
+cantidad_imagenes,cantidad de imágenes
+tiene_texto,presencia de texto
+tiene_imagenes,presencia de imágenes

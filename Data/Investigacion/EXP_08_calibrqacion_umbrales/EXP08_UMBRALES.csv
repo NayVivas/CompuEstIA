@@ -1,0 +1,4 @@
+target,threshold,selection,grid
+disciplinas,0.46,max validation micro-F1; ties macro-F1 then micro-precision,0.01..0.99
+roles_documentales,0.48000000000000004,max validation micro-F1; ties macro-F1 then micro-precision,0.01..0.99
+contenidos,0.47000000000000003,max validation micro-F1; ties macro-F1 then micro-precision,0.01..0.99

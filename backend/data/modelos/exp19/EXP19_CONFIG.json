@@ -1,0 +1,93 @@
+{
+  "experimento": "EXP19",
+  "semilla": 20260925,
+  "fuente_features": "Data/Investigacion/EXP17_EXP18_Dataset_TRAIN_VALIDATION_TEST/Data/EXP18_tfidf_hibrido/EXP18_TFIDF_HIBRIDO.joblib",
+  "seleccion": "VALIDATION exclusivamente",
+  "tolerancia_micro_f1": 0.02,
+  "modelos_candidatos": [
+    {
+      "model_id": "logreg_c1",
+      "family": "logistic_regression",
+      "c_value": 1.0,
+      "score_kind": "probability"
+    },
+    {
+      "model_id": "logreg_c2",
+      "family": "logistic_regression",
+      "c_value": 2.0,
+      "score_kind": "probability"
+    },
+    {
+      "model_id": "logreg_c4",
+      "family": "logistic_regression",
+      "c_value": 4.0,
+      "score_kind": "probability"
+    },
+    {
+      "model_id": "linearsvc_c05",
+      "family": "linear_svc",
+      "c_value": 0.5,
+      "score_kind": "decision"
+    },
+    {
+      "model_id": "linearsvc_c1",
+      "family": "linear_svc",
+      "c_value": 1.0,
+      "score_kind": "decision"
+    }
+  ],
+  "estrategias_umbrales": [
+    {
+      "strategy_id": "global",
+      "minimum_support": null,
+      "shrinkage": 0.0
+    },
+    {
+      "strategy_id": "por_etiqueta_s5_r10",
+      "minimum_support": 5,
+      "shrinkage": 10.0
+    },
+    {
+      "strategy_id": "por_etiqueta_s5_r25",
+      "minimum_support": 5,
+      "shrinkage": 25.0
+    },
+    {
+      "strategy_id": "por_etiqueta_s10_r10",
+      "minimum_support": 10,
+      "shrinkage": 10.0
+    }
+  ],
+  "configuracion_seleccionada": {
+    "disciplinas": {
+      "model_id": "linearsvc_c05",
+      "family": "linear_svc",
+      "C": 0.5,
+      "score_kind": "decision",
+      "threshold_strategy": "por_etiqueta_s5_r10",
+      "global_threshold": -0.22900806222311504,
+      "micro_f1_validation": 0.7813620071684588,
+      "macro_f1_validation_etiquetas_presentes": 0.46379348840985674
+    },
+    "roles_documentales": {
+      "model_id": "linearsvc_c05",
+      "family": "linear_svc",
+      "C": 0.5,
+      "score_kind": "decision",
+      "threshold_strategy": "por_etiqueta_s5_r10",
+      "global_threshold": -0.14854289509394014,
+      "micro_f1_validation": 0.803894297635605,
+      "macro_f1_validation_etiquetas_presentes": 0.5245496002317984
+    },
+    "contenidos": {
+      "model_id": "linearsvc_c05",
+      "family": "linear_svc",
+      "C": 0.5,
+      "score_kind": "decision",
+      "threshold_strategy": "por_etiqueta_s10_r10",
+      "global_threshold": -0.3740342709944949,
+      "micro_f1_validation": 0.5915238954012624,
+      "macro_f1_validation_etiquetas_presentes": 0.34990204629311894
+    }
+  }
+}

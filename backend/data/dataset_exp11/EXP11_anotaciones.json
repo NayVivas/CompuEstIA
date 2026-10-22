@@ -1,0 +1,7162 @@
+{
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-164.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-164.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "elevacion_fachada"
+    ],
+    "contenidos": [
+      "cubiertas",
+      "detalles_constructivos",
+      "terminaciones"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:49:05.960033+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:49:05.960033+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "elevacion_fachada"
+        ],
+        "contenidos": [
+          "cubiertas",
+          "detalles_constructivos",
+          "terminaciones"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-166.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-166.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "corte"
+    ],
+    "contenidos": [
+      "distribucion_espacios",
+      "cubiertas",
+      "puertas_carpinterias",
+      "ventanas_carpinterias"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:49:40.780629+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:49:40.780629+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "corte"
+        ],
+        "contenidos": [
+          "distribucion_espacios",
+          "cubiertas",
+          "puertas_carpinterias",
+          "ventanas_carpinterias"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-168.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-168.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura",
+      "sanitarias"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "cubiertas",
+      "pluvial"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:50:15.720402+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:50:15.720402+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura",
+          "sanitarias"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "cubiertas",
+          "pluvial"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-170.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-170.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "corte"
+    ],
+    "contenidos": [
+      "columnas_pilares",
+      "vigas",
+      "losas_forjados",
+      "cubiertas_estructurales",
+      "armaduras_acero",
+      "elementos_estructurales_generales"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:50:44.014661+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:50:44.014661+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "corte"
+        ],
+        "contenidos": [
+          "columnas_pilares",
+          "vigas",
+          "losas_forjados",
+          "cubiertas_estructurales",
+          "armaduras_acero",
+          "elementos_estructurales_generales"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-172.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-172.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "fundaciones",
+      "columnas_pilares",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:54:13.571734+00:00",
+    "version_anotacion": 2,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:51:10.974622+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "fundaciones",
+          "columnas_pilares"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      },
+      {
+        "fecha": "2026-09-22T15:54:13.571734+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "fundaciones",
+          "columnas_pilares",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-174.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-174.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle"
+    ],
+    "contenidos": [
+      "vigas",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:51:23.013888+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:51:23.013888+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle"
+        ],
+        "contenidos": [
+          "vigas",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-176.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-176.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle"
+    ],
+    "contenidos": [
+      "vigas",
+      "armaduras_acero",
+      "escaleras_estructurales"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:54:35.433645+00:00",
+    "version_anotacion": 2,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:51:37.595195+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle"
+        ],
+        "contenidos": [
+          "vigas",
+          "armaduras_acero",
+          "escaleras_estructurales"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      },
+      {
+        "fecha": "2026-09-22T15:54:35.433645+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle"
+        ],
+        "contenidos": [
+          "vigas",
+          "armaduras_acero",
+          "escaleras_estructurales"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-178.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-178.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "losas_forjados",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:51:54.662924+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:51:54.662924+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "losas_forjados",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-165.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-165.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:52:25.530527+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:52:25.530527+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-169.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-169.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "columnas_pilares",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:52:39.076849+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:52:39.076849+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "columnas_pilares",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-173.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-173.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "vigas",
+      "fundaciones",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:52:54.595169+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:52:54.595169+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "vigas",
+          "fundaciones",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-167.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-167.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "sanitarias"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "agua_fria",
+      "agua_caliente",
+      "cloacal",
+      "canerias_sanitarias",
+      "artefactos_sanitarios",
+      "pluvial"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:53:34.487099+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:53:34.487099+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "sanitarias"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "agua_fria",
+          "agua_caliente",
+          "cloacal",
+          "canerias_sanitarias",
+          "artefactos_sanitarios",
+          "pluvial"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-171.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-171.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "corte",
+      "detalle"
+    ],
+    "contenidos": [
+      "columnas_pilares",
+      "vigas",
+      "armaduras_acero",
+      "cubiertas_estructurales"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:54:05.689120+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:54:05.689120+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "corte",
+          "detalle"
+        ],
+        "contenidos": [
+          "columnas_pilares",
+          "vigas",
+          "armaduras_acero",
+          "cubiertas_estructurales"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-175.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-175.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle"
+    ],
+    "contenidos": [
+      "columnas_pilares",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:54:29.275573+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:54:29.275573+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle"
+        ],
+        "contenidos": [
+          "columnas_pilares",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-177.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-177.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle"
+    ],
+    "contenidos": [
+      "vigas",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:54:48.040215+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:54:48.040215+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle"
+        ],
+        "contenidos": [
+          "vigas",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_01|||Proyecto_01/Proyecto Final - Machado-Spinelli-179.pdf|||1": {
+    "proyecto_id": "Proyecto_01",
+    "documento": "Proyecto_01/Proyecto Final - Machado-Spinelli-179.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "cuadro_planilla"
+    ],
+    "contenidos": [
+      "escaleras_estructurales",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:55:05.848538+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:55:05.848538+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "cuadro_planilla"
+        ],
+        "contenidos": [
+          "escaleras_estructurales",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_02|||Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-118.pdf|||1": {
+    "proyecto_id": "Proyecto_02",
+    "documento": "Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-118.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "fundaciones",
+      "vigas",
+      "columnas_pilares",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:55:35.143844+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:55:35.143844+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "fundaciones",
+          "vigas",
+          "columnas_pilares",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_02|||Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-119.pdf|||1": {
+    "proyecto_id": "Proyecto_02",
+    "documento": "Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-119.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "corte",
+      "detalle"
+    ],
+    "contenidos": [
+      "vigas",
+      "armaduras_acero",
+      "escaleras_estructurales"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:55:56.516333+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:55:56.516333+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "corte",
+          "detalle"
+        ],
+        "contenidos": [
+          "vigas",
+          "armaduras_acero",
+          "escaleras_estructurales"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_02|||Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-120.pdf|||1": {
+    "proyecto_id": "Proyecto_02",
+    "documento": "Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-120.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "vigas",
+      "escaleras_estructurales",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:56:23.561464+00:00",
+    "version_anotacion": 2,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:56:12.339890+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "vigas",
+          "escaleras_estructurales"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      },
+      {
+        "fecha": "2026-09-22T15:56:23.561464+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "vigas",
+          "escaleras_estructurales",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_02|||Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-121.pdf|||1": {
+    "proyecto_id": "Proyecto_02",
+    "documento": "Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-121.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "vigas",
+      "armaduras_acero",
+      "escaleras_estructurales"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:56:30.282179+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:56:30.282179+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "vigas",
+          "armaduras_acero",
+          "escaleras_estructurales"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_02|||Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-122.pdf|||1": {
+    "proyecto_id": "Proyecto_02",
+    "documento": "Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-122.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "losas_forjados",
+      "vigas",
+      "escaleras_estructurales"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:56:42.968653+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:56:42.968653+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "losas_forjados",
+          "vigas",
+          "escaleras_estructurales"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_02|||Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-123.pdf|||1": {
+    "proyecto_id": "Proyecto_02",
+    "documento": "Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-123.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "losas_forjados",
+      "vigas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:57:02.091426+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:57:02.091426+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "losas_forjados",
+          "vigas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_02|||Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-124.pdf|||1": {
+    "proyecto_id": "Proyecto_02",
+    "documento": "Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-124.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "escaleras_estructurales",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:57:15.038007+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:57:15.038007+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "escaleras_estructurales",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_02|||Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-125.pdf|||1": {
+    "proyecto_id": "Proyecto_02",
+    "documento": "Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-125.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle"
+    ],
+    "contenidos": [
+      "columnas_pilares",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:57:24.657069+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:57:24.657069+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle"
+        ],
+        "contenidos": [
+          "columnas_pilares",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_02|||Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-126.pdf|||1": {
+    "proyecto_id": "Proyecto_02",
+    "documento": "Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-126.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "corte"
+    ],
+    "contenidos": [
+      "fundaciones",
+      "columnas_pilares",
+      "vigas",
+      "losas_forjados",
+      "escaleras_estructurales",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:57:43.187335+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:57:43.187335+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "corte"
+        ],
+        "contenidos": [
+          "fundaciones",
+          "columnas_pilares",
+          "vigas",
+          "losas_forjados",
+          "escaleras_estructurales",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_02|||Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-127.pdf|||1": {
+    "proyecto_id": "Proyecto_02",
+    "documento": "Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-127.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:57:55.296306+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:57:55.296306+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_02|||Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-128.pdf|||1": {
+    "proyecto_id": "Proyecto_02",
+    "documento": "Proyecto_02/Proyecto Final - Fernandez Müller, Ignacio-128.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "corte"
+    ],
+    "contenidos": [
+      "fachadas",
+      "pisos",
+      "distribucion_espacios",
+      "puertas_carpinterias",
+      "ventanas_carpinterias",
+      "cubiertas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:58:20.036373+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:58:20.036373+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "corte"
+        ],
+        "contenidos": [
+          "fachadas",
+          "pisos",
+          "distribucion_espacios",
+          "puertas_carpinterias",
+          "ventanas_carpinterias",
+          "cubiertas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_03|||Proyecto_03/Anexo - Briand-Choplin-111.pdf|||1": {
+    "proyecto_id": "Proyecto_03",
+    "documento": "Proyecto_03/Anexo - Briand-Choplin-111.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:59:09.958872+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:59:09.958872+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_03|||Proyecto_03/Anexo - Briand-Choplin-112.pdf|||1": {
+    "proyecto_id": "Proyecto_03",
+    "documento": "Proyecto_03/Anexo - Briand-Choplin-112.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "fundaciones",
+      "armaduras_acero",
+      "vigas",
+      "columnas_pilares"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T15:59:40.612565+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T15:59:40.612565+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "fundaciones",
+          "armaduras_acero",
+          "vigas",
+          "columnas_pilares"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_03|||Proyecto_03/Anexo - Briand-Choplin-113.pdf|||1": {
+    "proyecto_id": "Proyecto_03",
+    "documento": "Proyecto_03/Anexo - Briand-Choplin-113.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "vigas",
+      "columnas_pilares",
+      "losas_forjados",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:00:13.397010+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:00:13.397010+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "vigas",
+          "columnas_pilares",
+          "losas_forjados",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_03|||Proyecto_03/Anexo - Briand-Choplin-114.pdf|||1": {
+    "proyecto_id": "Proyecto_03",
+    "documento": "Proyecto_03/Anexo - Briand-Choplin-114.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "cubiertas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:00:50.467820+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:00:50.467820+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "cubiertas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_03|||Proyecto_03/Anexo - Briand-Choplin-115.pdf|||1": {
+    "proyecto_id": "Proyecto_03",
+    "documento": "Proyecto_03/Anexo - Briand-Choplin-115.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "corte",
+      "elevacion_fachada"
+    ],
+    "contenidos": [
+      "fachadas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:01:07.759212+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:01:07.759212+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "corte",
+          "elevacion_fachada"
+        ],
+        "contenidos": [
+          "fachadas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_03|||Proyecto_03/Anexo - Briand-Choplin-116.pdf|||1": {
+    "proyecto_id": "Proyecto_03",
+    "documento": "Proyecto_03/Anexo - Briand-Choplin-116.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "corte",
+      "elevacion_fachada"
+    ],
+    "contenidos": [
+      "fachadas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:01:18.568173+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:01:18.568173+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "corte",
+          "elevacion_fachada"
+        ],
+        "contenidos": [
+          "fachadas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_03|||Proyecto_03/Anexo - Briand-Choplin-117.pdf|||1": {
+    "proyecto_id": "Proyecto_03",
+    "documento": "Proyecto_03/Anexo - Briand-Choplin-117.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "sanitarias"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle",
+      "cuadro_planilla"
+    ],
+    "contenidos": [
+      "agua_fria",
+      "agua_caliente",
+      "cloacal",
+      "pluvial",
+      "canerias_sanitarias",
+      "artefactos_sanitarios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:02:00.983288+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:02:00.983288+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "sanitarias"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle",
+          "cuadro_planilla"
+        ],
+        "contenidos": [
+          "agua_fria",
+          "agua_caliente",
+          "cloacal",
+          "pluvial",
+          "canerias_sanitarias",
+          "artefactos_sanitarios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_03|||Proyecto_03/Anexo - Briand-Choplin-118.pdf|||1": {
+    "proyecto_id": "Proyecto_03",
+    "documento": "Proyecto_03/Anexo - Briand-Choplin-118.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "electricidad"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle",
+      "cuadro_planilla"
+    ],
+    "contenidos": [
+      "iluminacion",
+      "tomacorrientes",
+      "fuerza",
+      "baja_tension",
+      "canalizaciones",
+      "tableros"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:02:23.315494+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:02:23.315494+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "electricidad"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle",
+          "cuadro_planilla"
+        ],
+        "contenidos": [
+          "iluminacion",
+          "tomacorrientes",
+          "fuerza",
+          "baja_tension",
+          "canalizaciones",
+          "tableros"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_03|||Proyecto_03/Anexo - Briand-Choplin-119.pdf|||1": {
+    "proyecto_id": "Proyecto_03",
+    "documento": "Proyecto_03/Anexo - Briand-Choplin-119.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "electricidad"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle",
+      "cuadro_planilla"
+    ],
+    "contenidos": [
+      "iluminacion",
+      "tomacorrientes",
+      "fuerza",
+      "baja_tension",
+      "canalizaciones",
+      "tableros"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:02:45.053456+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:02:45.053456+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "electricidad"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle",
+          "cuadro_planilla"
+        ],
+        "contenidos": [
+          "iluminacion",
+          "tomacorrientes",
+          "fuerza",
+          "baja_tension",
+          "canalizaciones",
+          "tableros"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-111.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-111.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "otra"
+    ],
+    "roles_documentales": [
+      "otro"
+    ],
+    "contenidos": [
+      "otro"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:03:03.467147+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:03:03.467147+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "otra"
+        ],
+        "roles_documentales": [
+          "otro"
+        ],
+        "contenidos": [
+          "otro"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-112.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-112.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:03:14.047550+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:03:14.047550+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-113.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-113.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:04:03.008651+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:04:03.008651+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-114.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-114.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:04:15.304400+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:04:15.304400+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-115.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-115.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:04:23.783917+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:04:23.783917+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-116.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-116.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:04:31.805541+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:04:31.805541+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-117.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-117.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:04:40.614678+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:04:40.614678+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-118.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-118.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "implantacion_topografia"
+    ],
+    "roles_documentales": [
+      "implantacion"
+    ],
+    "contenidos": [
+      "terreno"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:05:09.268558+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:05:09.268558+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "implantacion_topografia"
+        ],
+        "roles_documentales": [
+          "implantacion"
+        ],
+        "contenidos": [
+          "terreno"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-119.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-119.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "cuadro_planilla"
+    ],
+    "contenidos": [
+      "distribucion_espacios",
+      "pisos"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:05:51.434821+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:05:51.434821+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "cuadro_planilla"
+        ],
+        "contenidos": [
+          "distribucion_espacios",
+          "pisos"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-120.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-120.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "vigas",
+      "columnas_pilares",
+      "losas_forjados"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:06:54.178454+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:06:54.178454+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "vigas",
+          "columnas_pilares",
+          "losas_forjados"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-121.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-121.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "columnas_pilares",
+      "vigas",
+      "losas_forjados"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:07:24.179687+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:07:24.179687+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "columnas_pilares",
+          "vigas",
+          "losas_forjados"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-122.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-122.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "corte"
+    ],
+    "contenidos": [
+      "distribucion_espacios",
+      "fachadas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:07:51.774671+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:07:51.774671+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "corte"
+        ],
+        "contenidos": [
+          "distribucion_espacios",
+          "fachadas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-123.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-123.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle"
+    ],
+    "contenidos": [
+      "fundaciones",
+      "columnas_pilares",
+      "vigas",
+      "losas_forjados",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:08:23.898993+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:08:23.898993+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle"
+        ],
+        "contenidos": [
+          "fundaciones",
+          "columnas_pilares",
+          "vigas",
+          "losas_forjados",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-124.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-124.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "corte"
+    ],
+    "contenidos": [
+      "fachadas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:08:40.259433+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:08:40.259433+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "corte"
+        ],
+        "contenidos": [
+          "fachadas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-125.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-125.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "isometrico"
+    ],
+    "contenidos": [
+      "fachadas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:08:50.963519+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:08:50.963519+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "isometrico"
+        ],
+        "contenidos": [
+          "fachadas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_04|||Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-126.pdf|||1": {
+    "proyecto_id": "Proyecto_04",
+    "documento": "Proyecto_04/Ingeniería Civil. Proyecto. Aguirres; Molinari; Raggio; Tulissi-2024 (1)-126.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "isometrico"
+    ],
+    "contenidos": [
+      "fachadas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:09:01.714319+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:09:01.714319+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "isometrico"
+        ],
+        "contenidos": [
+          "fachadas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_05|||Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-137.pdf|||1": {
+    "proyecto_id": "Proyecto_05",
+    "documento": "Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-137.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:09:54.714146+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:09:54.714146+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_05|||Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-138.pdf|||1": {
+    "proyecto_id": "Proyecto_05",
+    "documento": "Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-138.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "cuadro_planilla"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:10:23.842421+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:10:23.842421+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "cuadro_planilla"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_05|||Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-139.pdf|||1": {
+    "proyecto_id": "Proyecto_05",
+    "documento": "Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-139.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:10:49.694269+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:10:49.694269+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_05|||Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-140.pdf|||1": {
+    "proyecto_id": "Proyecto_05",
+    "documento": "Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-140.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "cubiertas",
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:11:00.168301+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:11:00.168301+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "cubiertas",
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_05|||Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-141.pdf|||1": {
+    "proyecto_id": "Proyecto_05",
+    "documento": "Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-141.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "elevacion_fachada"
+    ],
+    "contenidos": [
+      "fachadas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:11:14.528751+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:11:14.528751+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "elevacion_fachada"
+        ],
+        "contenidos": [
+          "fachadas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_05|||Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-142.pdf|||1": {
+    "proyecto_id": "Proyecto_05",
+    "documento": "Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-142.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "corte"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:11:26.228509+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:11:26.228509+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "corte"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_05|||Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-144.pdf|||1": {
+    "proyecto_id": "Proyecto_05",
+    "documento": "Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-144.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura",
+      "sanitarias"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "cloacal",
+      "canerias_sanitarias"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:12:35.629382+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:12:35.629382+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura",
+          "sanitarias"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "cloacal",
+          "canerias_sanitarias"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_05|||Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-146.pdf|||1": {
+    "proyecto_id": "Proyecto_05",
+    "documento": "Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-146.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura",
+      "implantacion_topografia"
+    ],
+    "roles_documentales": [
+      "planta",
+      "implantacion"
+    ],
+    "contenidos": [
+      "ejes_replanteo"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:13:01.929305+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:13:01.929305+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura",
+          "implantacion_topografia"
+        ],
+        "roles_documentales": [
+          "planta",
+          "implantacion"
+        ],
+        "contenidos": [
+          "ejes_replanteo"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_05|||Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-149.pdf|||1": {
+    "proyecto_id": "Proyecto_05",
+    "documento": "Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-149.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "implantacion_topografia",
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "implantacion"
+    ],
+    "contenidos": [
+      "terreno"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:15:14.928081+00:00",
+    "version_anotacion": 2,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:13:42.930710+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "pendiente",
+        "ambiguo": "no",
+        "disciplinas": [
+          "implantacion_topografia"
+        ],
+        "roles_documentales": [
+          "implantacion"
+        ],
+        "contenidos": [
+          "terreno"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      },
+      {
+        "fecha": "2026-09-22T16:15:14.928081+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "implantacion_topografia",
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "implantacion"
+        ],
+        "contenidos": [
+          "terreno"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_05|||Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-150.pdf|||1": {
+    "proyecto_id": "Proyecto_05",
+    "documento": "Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-150.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "implantacion_topografia"
+    ],
+    "roles_documentales": [
+      "planta",
+      "cuadro_planilla"
+    ],
+    "contenidos": [
+      "terreno"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:14:03.007095+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:14:03.007095+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "implantacion_topografia"
+        ],
+        "roles_documentales": [
+          "planta",
+          "cuadro_planilla"
+        ],
+        "contenidos": [
+          "terreno"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_05|||Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-153.pdf|||1": {
+    "proyecto_id": "Proyecto_05",
+    "documento": "Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-153.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "sanitarias"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "agua_fria",
+      "agua_caliente",
+      "pluvial",
+      "canerias_sanitarias",
+      "artefactos_sanitarios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:14:36.276767+00:00",
+    "version_anotacion": 2,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:14:23.761499+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "sanitarias"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "agua_fria",
+          "agua_caliente",
+          "cloacal",
+          "pluvial",
+          "canerias_sanitarias",
+          "artefactos_sanitarios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      },
+      {
+        "fecha": "2026-09-22T16:14:36.276767+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "sanitarias"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "agua_fria",
+          "agua_caliente",
+          "pluvial",
+          "canerias_sanitarias",
+          "artefactos_sanitarios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_05|||Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-154.pdf|||1": {
+    "proyecto_id": "Proyecto_05",
+    "documento": "Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-154.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "sanitarias"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "cloacal"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:14:45.889219+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:14:45.889219+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "sanitarias"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "cloacal"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_05|||Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-156.pdf|||1": {
+    "proyecto_id": "Proyecto_05",
+    "documento": "Proyecto_05/Ingeniería Civil. Proyecto. Auilanti; Meinero; Travaglino. 2024-156.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "electricidad"
+    ],
+    "roles_documentales": [
+      "planta",
+      "cuadro_planilla"
+    ],
+    "contenidos": [
+      "iluminacion",
+      "tomacorrientes",
+      "fuerza",
+      "baja_tension",
+      "canalizaciones",
+      "tableros"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:14:59.828265+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:14:59.828265+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "electricidad"
+        ],
+        "roles_documentales": [
+          "planta",
+          "cuadro_planilla"
+        ],
+        "contenidos": [
+          "iluminacion",
+          "tomacorrientes",
+          "fuerza",
+          "baja_tension",
+          "canalizaciones",
+          "tableros"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-212.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-212.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "implantacion_topografia"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "terreno",
+      "implantacion",
+      "niveles"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:15:33.267459+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:15:33.267459+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "implantacion_topografia"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "terreno",
+          "implantacion",
+          "niveles"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-213.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-213.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "implantacion_topografia"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "terreno",
+      "niveles"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:16:20.324490+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:16:20.324490+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "implantacion_topografia"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "terreno",
+          "niveles"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-214.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-214.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "implantacion_topografia"
+    ],
+    "roles_documentales": [
+      "detalle"
+    ],
+    "contenidos": [
+      "niveles",
+      "implantacion",
+      "coordenadas",
+      "ejes_replanteo",
+      "terreno"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:16:33.482419+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:16:33.482419+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "implantacion_topografia"
+        ],
+        "roles_documentales": [
+          "detalle"
+        ],
+        "contenidos": [
+          "niveles",
+          "implantacion",
+          "coordenadas",
+          "ejes_replanteo",
+          "terreno"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-215.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-215.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "implantacion_topografia"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "terreno",
+      "ejes_replanteo",
+      "niveles",
+      "implantacion",
+      "coordenadas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:16:45.063941+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:16:45.063941+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "implantacion_topografia"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "terreno",
+          "ejes_replanteo",
+          "niveles",
+          "implantacion",
+          "coordenadas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-216.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-216.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "implantacion_topografia"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "terreno",
+      "ejes_replanteo",
+      "implantacion",
+      "coordenadas",
+      "niveles"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:16:57.935990+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:16:57.935990+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "implantacion_topografia"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "terreno",
+          "ejes_replanteo",
+          "implantacion",
+          "coordenadas",
+          "niveles"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-217.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-217.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura",
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "corte",
+      "detalle"
+    ],
+    "contenidos": [
+      "elementos_estructurales_generales",
+      "detalles_constructivos"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:17:55.325598+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:17:55.325598+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura",
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "corte",
+          "detalle"
+        ],
+        "contenidos": [
+          "elementos_estructurales_generales",
+          "detalles_constructivos"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-218.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-218.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "implantacion_topografia"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "terreno",
+      "ejes_replanteo",
+      "niveles",
+      "implantacion",
+      "coordenadas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:18:06.138411+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:18:06.138411+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "implantacion_topografia"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "terreno",
+          "ejes_replanteo",
+          "niveles",
+          "implantacion",
+          "coordenadas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-219.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-219.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura",
+      "implantacion_topografia"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "distribucion_espacios",
+      "terreno"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:18:39.147911+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:18:39.147911+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura",
+          "implantacion_topografia"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "distribucion_espacios",
+          "terreno"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-220.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-220.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura",
+      "implantacion_topografia"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "detalles_constructivos",
+      "distribucion_espacios",
+      "terreno"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:18:58.420240+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:18:58.420240+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura",
+          "implantacion_topografia"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "detalles_constructivos",
+          "distribucion_espacios",
+          "terreno"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-221.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-221.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura",
+      "implantacion_topografia"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "detalles_constructivos",
+      "terreno"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:19:14.845471+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:19:14.845471+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura",
+          "implantacion_topografia"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "detalles_constructivos",
+          "terreno"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-222.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-222.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura",
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "armaduras_acero",
+      "detalles_constructivos"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:19:36.868742+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:19:36.868742+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura",
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "armaduras_acero",
+          "detalles_constructivos"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-223.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-223.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura",
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle"
+    ],
+    "contenidos": [
+      "detalles_constructivos",
+      "terreno"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:20:01.395102+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:20:01.395102+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura",
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle"
+        ],
+        "contenidos": [
+          "detalles_constructivos",
+          "terreno"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-224.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-224.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:20:24.822599+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:20:24.822599+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-225.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-225.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:20:30.702144+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:20:30.702144+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-226.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-226.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "fundaciones"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:20:56.494149+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:20:56.494149+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "fundaciones"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-227.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-227.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "fundaciones",
+      "columnas_pilares",
+      "losas_forjados",
+      "vigas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:21:22.245306+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:21:22.245306+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "fundaciones",
+          "columnas_pilares",
+          "losas_forjados",
+          "vigas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-228.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-228.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "vigas",
+      "armaduras_acero",
+      "fundaciones"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:21:43.663138+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:21:43.663138+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "vigas",
+          "armaduras_acero",
+          "fundaciones"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-229.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-229.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "fundaciones",
+      "columnas_pilares",
+      "vigas",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:22:02.047422+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:22:02.047422+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "fundaciones",
+          "columnas_pilares",
+          "vigas",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-230.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-230.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "columnas_pilares",
+      "vigas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:22:24.066475+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:22:24.066475+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "columnas_pilares",
+          "vigas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-231.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-231.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "columnas_pilares",
+      "vigas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:22:39.387782+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:22:39.387782+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "columnas_pilares",
+          "vigas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-232.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-232.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "corte"
+    ],
+    "contenidos": [
+      "columnas_pilares",
+      "escaleras_estructurales"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:22:56.167232+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:22:56.167232+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "corte"
+        ],
+        "contenidos": [
+          "columnas_pilares",
+          "escaleras_estructurales"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-233.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-233.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "corte"
+    ],
+    "contenidos": [
+      "vigas",
+      "columnas_pilares",
+      "losas_forjados",
+      "fundaciones"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:23:20.897912+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:23:20.897912+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "corte"
+        ],
+        "contenidos": [
+          "vigas",
+          "columnas_pilares",
+          "losas_forjados",
+          "fundaciones"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-234.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-234.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "corte"
+    ],
+    "contenidos": [
+      "fundaciones",
+      "columnas_pilares",
+      "vigas",
+      "losas_forjados",
+      "escaleras_estructurales",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:23:32.280255+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:23:32.280255+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "corte"
+        ],
+        "contenidos": [
+          "fundaciones",
+          "columnas_pilares",
+          "vigas",
+          "losas_forjados",
+          "escaleras_estructurales",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-235.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-235.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "fundaciones",
+      "columnas_pilares",
+      "vigas",
+      "losas_forjados",
+      "escaleras_estructurales",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:23:46.295787+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:23:46.295787+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "fundaciones",
+          "columnas_pilares",
+          "vigas",
+          "losas_forjados",
+          "escaleras_estructurales",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-236.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-236.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura",
+      "arquitectura",
+      "implantacion_topografia"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "fundaciones",
+      "distribucion_espacios",
+      "terreno",
+      "niveles"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:24:22.560967+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:24:22.560967+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura",
+          "arquitectura",
+          "implantacion_topografia"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "fundaciones",
+          "distribucion_espacios",
+          "terreno",
+          "niveles"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-237.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-237.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:24:48.319793+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:24:48.319793+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-238.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-238.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:24:55.940075+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:24:55.940075+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-239.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-239.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:25:05.526716+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:25:05.526716+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-240.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-240.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura",
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "columnas_pilares",
+      "vigas",
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:25:57.666700+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:25:57.666700+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura",
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "columnas_pilares",
+          "vigas",
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_06|||Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-241.pdf|||1": {
+    "proyecto_id": "Proyecto_06",
+    "documento": "Proyecto_06/Proyecto Final Ingeniería Civil. ARIZA, H-CORONEL, J C-MARTÍN, M-TAMPLÍN, N-YABAR, C-241.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura",
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "columnas_pilares",
+      "vigas",
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:26:06.851189+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:26:06.851189+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura",
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "columnas_pilares",
+          "vigas",
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_07|||Proyecto_07/Trabajo Final - Facundo Escobar-74.pdf|||1": {
+    "proyecto_id": "Proyecto_07",
+    "documento": "Proyecto_07/Trabajo Final - Facundo Escobar-74.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:26:22.717488+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:26:22.717488+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_07|||Proyecto_07/Trabajo Final - Facundo Escobar-75.pdf|||1": {
+    "proyecto_id": "Proyecto_07",
+    "documento": "Proyecto_07/Trabajo Final - Facundo Escobar-75.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "cubiertas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:26:35.182656+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:26:35.182656+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "cubiertas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_07|||Proyecto_07/Trabajo Final - Facundo Escobar-76.pdf|||1": {
+    "proyecto_id": "Proyecto_07",
+    "documento": "Proyecto_07/Trabajo Final - Facundo Escobar-76.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "elevacion_fachada",
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "distribucion_espacios",
+      "cubiertas",
+      "fachadas",
+      "ventanas_carpinterias",
+      "puertas_carpinterias"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:27:00.236147+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:27:00.236147+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "elevacion_fachada",
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "distribucion_espacios",
+          "cubiertas",
+          "fachadas",
+          "ventanas_carpinterias",
+          "puertas_carpinterias"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_07|||Proyecto_07/Trabajo Final - Facundo Escobar-77.pdf|||1": {
+    "proyecto_id": "Proyecto_07",
+    "documento": "Proyecto_07/Trabajo Final - Facundo Escobar-77.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle"
+    ],
+    "contenidos": [
+      "columnas_pilares",
+      "vigas",
+      "fundaciones",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:27:20.007491+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:27:20.007491+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle"
+        ],
+        "contenidos": [
+          "columnas_pilares",
+          "vigas",
+          "fundaciones",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_07|||Proyecto_07/Trabajo Final - Facundo Escobar-78.pdf|||1": {
+    "proyecto_id": "Proyecto_07",
+    "documento": "Proyecto_07/Trabajo Final - Facundo Escobar-78.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "electricidad"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "iluminacion",
+      "tomacorrientes",
+      "fuerza",
+      "baja_tension",
+      "canalizaciones",
+      "tableros"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:27:29.585073+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:27:29.585073+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "electricidad"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "iluminacion",
+          "tomacorrientes",
+          "fuerza",
+          "baja_tension",
+          "canalizaciones",
+          "tableros"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_07|||Proyecto_07/Trabajo Final - Facundo Escobar-79.pdf|||1": {
+    "proyecto_id": "Proyecto_07",
+    "documento": "Proyecto_07/Trabajo Final - Facundo Escobar-79.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "sanitarias"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "agua_fria"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:27:42.844577+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:27:42.844577+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "sanitarias"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "agua_fria"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_07|||Proyecto_07/Trabajo Final - Facundo Escobar-80.pdf|||1": {
+    "proyecto_id": "Proyecto_07",
+    "documento": "Proyecto_07/Trabajo Final - Facundo Escobar-80.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura",
+      "sanitarias"
+    ],
+    "roles_documentales": [
+      "planta",
+      "detalle"
+    ],
+    "contenidos": [
+      "cubiertas",
+      "agua_fria"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:27:56.336152+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:27:56.336152+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura",
+          "sanitarias"
+        ],
+        "roles_documentales": [
+          "planta",
+          "detalle"
+        ],
+        "contenidos": [
+          "cubiertas",
+          "agua_fria"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_07|||Proyecto_07/Trabajo Final - Facundo Escobar-81.pdf|||1": {
+    "proyecto_id": "Proyecto_07",
+    "documento": "Proyecto_07/Trabajo Final - Facundo Escobar-81.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura",
+      "sanitarias"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios",
+      "agua_caliente"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:28:09.889321+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:28:09.889321+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura",
+          "sanitarias"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios",
+          "agua_caliente"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_07|||Proyecto_07/Trabajo Final - Facundo Escobar-82.pdf|||1": {
+    "proyecto_id": "Proyecto_07",
+    "documento": "Proyecto_07/Trabajo Final - Facundo Escobar-82.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura",
+      "sanitarias"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "cubiertas",
+      "agua_caliente"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:28:23.246555+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:28:23.246555+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura",
+          "sanitarias"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "cubiertas",
+          "agua_caliente"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_07|||Proyecto_07/Trabajo Final - Facundo Escobar-83.pdf|||1": {
+    "proyecto_id": "Proyecto_07",
+    "documento": "Proyecto_07/Trabajo Final - Facundo Escobar-83.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "sanitarias",
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios",
+      "cloacal",
+      "pluvial"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:28:35.477558+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:28:35.477558+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "sanitarias",
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios",
+          "cloacal",
+          "pluvial"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_07|||Proyecto_07/Trabajo Final - Facundo Escobar-84.pdf|||1": {
+    "proyecto_id": "Proyecto_07",
+    "documento": "Proyecto_07/Trabajo Final - Facundo Escobar-84.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura",
+      "sanitarias"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "cubiertas",
+      "pluvial"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:28:47.392264+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:28:47.392264+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura",
+          "sanitarias"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "cubiertas",
+          "pluvial"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_08|||Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-112.pdf|||1": {
+    "proyecto_id": "Proyecto_08",
+    "documento": "Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-112.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "cuadro_planilla"
+    ],
+    "contenidos": [
+      "fundaciones"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:29:31.797484+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:29:31.797484+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "cuadro_planilla"
+        ],
+        "contenidos": [
+          "fundaciones"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_08|||Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-113.pdf|||1": {
+    "proyecto_id": "Proyecto_08",
+    "documento": "Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-113.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "vigas",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:29:52.338073+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:29:52.338073+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "vigas",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_08|||Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-114.pdf|||1": {
+    "proyecto_id": "Proyecto_08",
+    "documento": "Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-114.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "vigas",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:30:02.951413+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:30:02.951413+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "vigas",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_08|||Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-115.pdf|||1": {
+    "proyecto_id": "Proyecto_08",
+    "documento": "Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-115.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "corte"
+    ],
+    "contenidos": [
+      "muros_estructurales",
+      "cubiertas_estructurales"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:30:24.990361+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:30:24.990361+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "corte"
+        ],
+        "contenidos": [
+          "muros_estructurales",
+          "cubiertas_estructurales"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_08|||Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-116.pdf|||1": {
+    "proyecto_id": "Proyecto_08",
+    "documento": "Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-116.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "muros_estructurales",
+      "columnas_pilares",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:30:44.241501+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:30:44.241501+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "muros_estructurales",
+          "columnas_pilares",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_08|||Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-117.pdf|||1": {
+    "proyecto_id": "Proyecto_08",
+    "documento": "Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-117.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "corte",
+      "detalle"
+    ],
+    "contenidos": [
+      "escaleras_estructurales",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:30:54.534290+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:30:54.534290+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "corte",
+          "detalle"
+        ],
+        "contenidos": [
+          "escaleras_estructurales",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_08|||Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-118.pdf|||1": {
+    "proyecto_id": "Proyecto_08",
+    "documento": "Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-118.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "columnas_pilares",
+      "vigas",
+      "losas_forjados",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:31:14.858724+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:31:14.858724+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "columnas_pilares",
+          "vigas",
+          "losas_forjados",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_08|||Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-119.pdf|||1": {
+    "proyecto_id": "Proyecto_08",
+    "documento": "Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-119.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "corte",
+      "detalle"
+    ],
+    "contenidos": [
+      "vigas",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:32:09.809763+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:32:09.809763+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "corte",
+          "detalle"
+        ],
+        "contenidos": [
+          "vigas",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_08|||Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-120.pdf|||1": {
+    "proyecto_id": "Proyecto_08",
+    "documento": "Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-120.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "vigas",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:32:19.797834+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:32:19.797834+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "vigas",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_08|||Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-121.pdf|||1": {
+    "proyecto_id": "Proyecto_08",
+    "documento": "Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-121.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "corte",
+      "detalle"
+    ],
+    "contenidos": [
+      "vigas",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:32:28.063553+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:32:28.063553+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "corte",
+          "detalle"
+        ],
+        "contenidos": [
+          "vigas",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_08|||Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-122.pdf|||1": {
+    "proyecto_id": "Proyecto_08",
+    "documento": "Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-122.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "vigas",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:32:35.411423+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:32:35.411423+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "vigas",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_08|||Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-123.pdf|||1": {
+    "proyecto_id": "Proyecto_08",
+    "documento": "Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-123.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "vigas",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:32:44.080333+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:32:44.080333+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "vigas",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_08|||Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-124.pdf|||1": {
+    "proyecto_id": "Proyecto_08",
+    "documento": "Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-124.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "vigas",
+      "columnas_pilares",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:32:59.767207+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:32:59.767207+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "vigas",
+          "columnas_pilares",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_08|||Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-125.pdf|||1": {
+    "proyecto_id": "Proyecto_08",
+    "documento": "Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-125.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:33:10.394882+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:33:10.394882+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_08|||Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-126.pdf|||1": {
+    "proyecto_id": "Proyecto_08",
+    "documento": "Proyecto_08/DISEÑO ESTRUCTURAL DE UN EDIFICIO DE CONCRETO ARMADO DE 4 PISOS - PÉREZ_FERNÁNDEZ_CHRISTIAN_DISEÑO_ESTRUCTURA_EDIFICIO-126.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "elevacion_fachada",
+      "corte"
+    ],
+    "contenidos": [
+      "distribucion_espacios",
+      "ventanas_carpinterias",
+      "puertas_carpinterias"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:33:34.719015+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:33:34.719015+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "elevacion_fachada",
+          "corte"
+        ],
+        "contenidos": [
+          "distribucion_espacios",
+          "ventanas_carpinterias",
+          "puertas_carpinterias"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_09|||Proyecto_09/Cortes La Fria.pdf|||1": {
+    "proyecto_id": "Proyecto_09",
+    "documento": "Proyecto_09/Cortes La Fria.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "corte",
+      "elevacion_fachada"
+    ],
+    "contenidos": [
+      "distribucion_espacios",
+      "pisos",
+      "cubiertas",
+      "puertas_carpinterias",
+      "ventanas_carpinterias",
+      "fachadas",
+      "detalles_constructivos"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:34:03.387380+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:34:03.387380+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "corte",
+          "elevacion_fachada"
+        ],
+        "contenidos": [
+          "distribucion_espacios",
+          "pisos",
+          "cubiertas",
+          "puertas_carpinterias",
+          "ventanas_carpinterias",
+          "fachadas",
+          "detalles_constructivos"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_09|||Proyecto_09/E1 CO.pdf|||1": {
+    "proyecto_id": "Proyecto_09",
+    "documento": "Proyecto_09/E1 CO.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "fundaciones",
+      "columnas_pilares",
+      "vigas",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:34:26.799694+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:34:26.799694+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "fundaciones",
+          "columnas_pilares",
+          "vigas",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_09|||Proyecto_09/E2 CO.pdf|||1": {
+    "proyecto_id": "Proyecto_09",
+    "documento": "Proyecto_09/E2 CO.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "cubiertas_estructurales",
+      "columnas_pilares",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:34:45.898424+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:34:45.898424+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "cubiertas_estructurales",
+          "columnas_pilares",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_09|||Proyecto_09/E3 CO.pdf|||1": {
+    "proyecto_id": "Proyecto_09",
+    "documento": "Proyecto_09/E3 CO.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "cuadro_planilla",
+      "corte"
+    ],
+    "contenidos": [
+      "escaleras_estructurales",
+      "armaduras_acero",
+      "fundaciones",
+      "vigas",
+      "columnas_pilares"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:35:14.257538+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:35:14.257538+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "cuadro_planilla",
+          "corte"
+        ],
+        "contenidos": [
+          "escaleras_estructurales",
+          "armaduras_acero",
+          "fundaciones",
+          "vigas",
+          "columnas_pilares"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_09|||Proyecto_09/E4 CO.pdf|||1": {
+    "proyecto_id": "Proyecto_09",
+    "documento": "Proyecto_09/E4 CO.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "corte",
+      "detalle",
+      "planta"
+    ],
+    "contenidos": [
+      "armaduras_acero",
+      "columnas_pilares",
+      "vigas",
+      "cubiertas_estructurales",
+      "losas_forjados"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:35:51.705390+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:35:51.705390+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "corte",
+          "detalle",
+          "planta"
+        ],
+        "contenidos": [
+          "armaduras_acero",
+          "columnas_pilares",
+          "vigas",
+          "cubiertas_estructurales",
+          "losas_forjados"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_09|||Proyecto_09/E5 CO.pdf|||1": {
+    "proyecto_id": "Proyecto_09",
+    "documento": "Proyecto_09/E5 CO.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "elevacion_fachada",
+      "corte"
+    ],
+    "contenidos": [
+      "cubiertas_estructurales",
+      "columnas_pilares",
+      "vigas",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:36:14.797796+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:36:14.797796+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "elevacion_fachada",
+          "corte"
+        ],
+        "contenidos": [
+          "cubiertas_estructurales",
+          "columnas_pilares",
+          "vigas",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_09|||Proyecto_09/E6 CO.pdf|||1": {
+    "proyecto_id": "Proyecto_09",
+    "documento": "Proyecto_09/E6 CO.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "corte",
+      "detalle",
+      "planta"
+    ],
+    "contenidos": [
+      "vigas",
+      "columnas_pilares",
+      "losas_forjados",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:36:28.962086+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:36:28.962086+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "corte",
+          "detalle",
+          "planta"
+        ],
+        "contenidos": [
+          "vigas",
+          "columnas_pilares",
+          "losas_forjados",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_09|||Proyecto_09/E7 CO.pdf|||1": {
+    "proyecto_id": "Proyecto_09",
+    "documento": "Proyecto_09/E7 CO.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte"
+    ],
+    "contenidos": [
+      "vigas",
+      "columnas_pilares",
+      "armaduras_acero",
+      "losas_forjados"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:36:47.054295+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:36:47.054295+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte"
+        ],
+        "contenidos": [
+          "vigas",
+          "columnas_pilares",
+          "armaduras_acero",
+          "losas_forjados"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_09|||Proyecto_09/E8 CO.pdf|||1": {
+    "proyecto_id": "Proyecto_09",
+    "documento": "Proyecto_09/E8 CO.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "corte",
+      "cuadro_planilla"
+    ],
+    "contenidos": [
+      "columnas_pilares",
+      "vigas",
+      "losas_forjados",
+      "escaleras_estructurales"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:37:08.078212+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:37:08.078212+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "corte",
+          "cuadro_planilla"
+        ],
+        "contenidos": [
+          "columnas_pilares",
+          "vigas",
+          "losas_forjados",
+          "escaleras_estructurales"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_09|||Proyecto_09/Fachadas La Fria.pdf|||1": {
+    "proyecto_id": "Proyecto_09",
+    "documento": "Proyecto_09/Fachadas La Fria.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "elevacion_fachada",
+      "corte"
+    ],
+    "contenidos": [
+      "fachadas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:37:24.659892+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:37:24.659892+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "elevacion_fachada",
+          "corte"
+        ],
+        "contenidos": [
+          "fachadas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_09|||Proyecto_09/Planta supermercado la fria.pdf|||1": {
+    "proyecto_id": "Proyecto_09",
+    "documento": "Proyecto_09/Planta supermercado la fria.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:37:38.998712+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:37:38.998712+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_10|||Proyecto_10/Capilla alzado.pdf|||1": {
+    "proyecto_id": "Proyecto_10",
+    "documento": "Proyecto_10/Capilla alzado.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "corte"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T17:41:21.864252+00:00",
+    "version_anotacion": 2,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:38:07.557962+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      },
+      {
+        "fecha": "2026-09-22T17:41:21.864252+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "corte"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_10|||Proyecto_10/Capilla electricas.pdf|||1": {
+    "proyecto_id": "Proyecto_10",
+    "documento": "Proyecto_10/Capilla electricas.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "electricidad"
+    ],
+    "roles_documentales": [
+      "planta",
+      "cuadro_planilla"
+    ],
+    "contenidos": [
+      "iluminacion",
+      "tomacorrientes",
+      "canalizaciones",
+      "tableros",
+      "baja_tension",
+      "fuerza"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:38:23.303949+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:38:23.303949+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "electricidad"
+        ],
+        "roles_documentales": [
+          "planta",
+          "cuadro_planilla"
+        ],
+        "contenidos": [
+          "iluminacion",
+          "tomacorrientes",
+          "canalizaciones",
+          "tableros",
+          "baja_tension",
+          "fuerza"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_10|||Proyecto_10/Capilla estructura 2.pdf|||1": {
+    "proyecto_id": "Proyecto_10",
+    "documento": "Proyecto_10/Capilla estructura 2.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "corte",
+      "detalle",
+      "cuadro_planilla"
+    ],
+    "contenidos": [
+      "fundaciones",
+      "vigas",
+      "columnas_pilares",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:38:45.386549+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:38:45.386549+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "corte",
+          "detalle",
+          "cuadro_planilla"
+        ],
+        "contenidos": [
+          "fundaciones",
+          "vigas",
+          "columnas_pilares",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_10|||Proyecto_10/Capilla estructura.pdf|||1": {
+    "proyecto_id": "Proyecto_10",
+    "documento": "Proyecto_10/Capilla estructura.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "detalle",
+      "planta",
+      "corte",
+      "cuadro_planilla"
+    ],
+    "contenidos": [
+      "fundaciones",
+      "columnas_pilares",
+      "vigas",
+      "armaduras_acero"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:39:03.476976+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:39:03.476976+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "detalle",
+          "planta",
+          "corte",
+          "cuadro_planilla"
+        ],
+        "contenidos": [
+          "fundaciones",
+          "columnas_pilares",
+          "vigas",
+          "armaduras_acero"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_10|||Proyecto_10/Capilla planta.pdf|||1": {
+    "proyecto_id": "Proyecto_10",
+    "documento": "Proyecto_10/Capilla planta.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta",
+      "corte"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:39:20.253656+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:39:20.253656+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta",
+          "corte"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_11|||Proyecto_11/Terminal alzados.pdf|||1": {
+    "proyecto_id": "Proyecto_11",
+    "documento": "Proyecto_11/Terminal alzados.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "elevacion_fachada"
+    ],
+    "contenidos": [
+      "fachadas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:39:34.407347+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:39:34.407347+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "elevacion_fachada"
+        ],
+        "contenidos": [
+          "fachadas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_11|||Proyecto_11/Terminal arquitectura pa.pdf|||1": {
+    "proyecto_id": "Proyecto_11",
+    "documento": "Proyecto_11/Terminal arquitectura pa.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:39:42.011749+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:39:42.011749+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_11|||Proyecto_11/Terminal arquitectura pb.pdf|||1": {
+    "proyecto_id": "Proyecto_11",
+    "documento": "Proyecto_11/Terminal arquitectura pb.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "distribucion_espacios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:39:48.484353+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:39:48.484353+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "distribucion_espacios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_11|||Proyecto_11/Terminal cortes.pdf|||1": {
+    "proyecto_id": "Proyecto_11",
+    "documento": "Proyecto_11/Terminal cortes.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "corte",
+      "elevacion_fachada"
+    ],
+    "contenidos": [
+      "distribucion_espacios",
+      "fachadas",
+      "pisos"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:40:05.257722+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:40:05.257722+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "corte",
+          "elevacion_fachada"
+        ],
+        "contenidos": [
+          "distribucion_espacios",
+          "fachadas",
+          "pisos"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_11|||Proyecto_11/Terminal fundaciones.pdf|||1": {
+    "proyecto_id": "Proyecto_11",
+    "documento": "Proyecto_11/Terminal fundaciones.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "estructura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "fundaciones"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:40:15.303300+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:40:15.303300+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "estructura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "fundaciones"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_11|||Proyecto_11/Terminal pa electricas.pdf|||1": {
+    "proyecto_id": "Proyecto_11",
+    "documento": "Proyecto_11/Terminal pa electricas.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "electricidad"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "iluminacion",
+      "tomacorrientes",
+      "fuerza",
+      "baja_tension",
+      "canalizaciones",
+      "tableros"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:40:30.726578+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:40:30.726578+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "electricidad"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "iluminacion",
+          "tomacorrientes",
+          "fuerza",
+          "baja_tension",
+          "canalizaciones",
+          "tableros"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_11|||Proyecto_11/Terminal pb electricas.pdf|||1": {
+    "proyecto_id": "Proyecto_11",
+    "documento": "Proyecto_11/Terminal pb electricas.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "electricidad"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "iluminacion",
+      "canalizaciones",
+      "baja_tension",
+      "fuerza",
+      "tomacorrientes",
+      "tableros"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:40:42.052355+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:40:42.052355+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "electricidad"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "iluminacion",
+          "canalizaciones",
+          "baja_tension",
+          "fuerza",
+          "tomacorrientes",
+          "tableros"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_11|||Proyecto_11/Terminal planta techo.pdf|||1": {
+    "proyecto_id": "Proyecto_11",
+    "documento": "Proyecto_11/Terminal planta techo.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "arquitectura"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "cubiertas"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:40:53.254045+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:40:53.254045+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "arquitectura"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "cubiertas"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_11|||Proyecto_11/Terminal sanitarias 1.pdf|||1": {
+    "proyecto_id": "Proyecto_11",
+    "documento": "Proyecto_11/Terminal sanitarias 1.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "sanitarias"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "agua_fria",
+      "agua_caliente",
+      "cloacal",
+      "pluvial",
+      "canerias_sanitarias",
+      "artefactos_sanitarios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:41:03.111609+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:41:03.111609+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "sanitarias"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "agua_fria",
+          "agua_caliente",
+          "cloacal",
+          "pluvial",
+          "canerias_sanitarias",
+          "artefactos_sanitarios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  },
+  "Proyecto_11|||Proyecto_11/Terminal sanitarias 2.pdf|||1": {
+    "proyecto_id": "Proyecto_11",
+    "documento": "Proyecto_11/Terminal sanitarias 2.pdf",
+    "pagina": 1,
+    "disciplinas": [
+      "sanitarias"
+    ],
+    "roles_documentales": [
+      "planta"
+    ],
+    "contenidos": [
+      "agua_fria",
+      "agua_caliente",
+      "cloacal",
+      "pluvial",
+      "canerias_sanitarias",
+      "artefactos_sanitarios"
+    ],
+    "revisor": "Naylu Vivas",
+    "decision": "confirmada",
+    "ambiguo": "no",
+    "motivo_ambiguedad": "",
+    "evidencia_profesional": "",
+    "observaciones": "",
+    "incluir_en_metricas": true,
+    "fecha_ultima_decision": "2026-09-22T16:41:11.513871+00:00",
+    "version_anotacion": 1,
+    "historial": [
+      {
+        "fecha": "2026-09-22T16:41:11.513871+00:00",
+        "revisor": "Naylu Vivas",
+        "decision": "confirmada",
+        "ambiguo": "no",
+        "disciplinas": [
+          "sanitarias"
+        ],
+        "roles_documentales": [
+          "planta"
+        ],
+        "contenidos": [
+          "agua_fria",
+          "agua_caliente",
+          "cloacal",
+          "pluvial",
+          "canerias_sanitarias",
+          "artefactos_sanitarios"
+        ],
+        "incluir_en_metricas": true,
+        "evidencia": "",
+        "observaciones": ""
+      }
+    ]
+  }
+}

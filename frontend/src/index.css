@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #102235;
+  --color-accent: #24b7a6;
+  --color-accent-dark: #148f84;
+  --color-mist: #f4f7f9;
+  --font-sans: "DM Sans", Arial, sans-serif;
+  --font-display: "Space Grotesk", Arial, sans-serif;
+  --shadow-panel: 0 20px 50px rgba(16, 34, 53, 0.07);
+  --shadow-dark: 0 20px 45px rgba(16, 34, 53, 0.18);
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    background: #f4f7f9;
+    color: #102235;
+    font-family: "DM Sans", Arial, sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+  }
+
+  button,
+  input {
+    font: inherit;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+}
+
+@layer components {
+  .app-background {
+    background:
+      radial-gradient(circle at 90% 0%, rgba(36, 183, 166, 0.08), transparent 28rem),
+      #f4f7f9;
+  }
+
+  .panel-border {
+    @apply border border-slate-200 bg-white shadow-panel;
+  }
+
+  .primary-button {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border border-accent bg-accent px-4 text-xs font-bold text-white shadow-[0_8px_18px_rgba(36,183,166,0.18)] transition duration-150 hover:-translate-y-px hover:border-accent-dark hover:bg-accent-dark hover:shadow-[0_10px_22px_rgba(36,183,166,0.27)] disabled:cursor-not-allowed disabled:border-slate-200 disabled:bg-slate-200 disabled:text-slate-400 disabled:shadow-none;
+  }
+
+  .secondary-button {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-4 text-xs font-bold text-ink transition duration-150 hover:-translate-y-px hover:border-accent hover:text-accent-dark;
+  }
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: scale(0.85);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
+
+.animate-pulse-dot {
+  animation: pulse-dot 1.1s ease-in-out infinite;
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conjunto visual · CómputoEstIA</title>
+  <link rel="stylesheet" href="/anotador_visual.css">
+  <script src="/anotador_visual.js" defer></script>
+</head>
+<body>
+  <header>
+    <div><strong>CómputoEstIA · anotación visual</strong><span>Marcar planos para entrenamiento y evaluación entre proyectos</span></div>
+    <div id="progreso">Cargando…</div>
+  </header>
+  <main>
+    <aside>
+      <label for="proyecto">Proyecto</label>
+      <select id="proyecto"></select>
+      <label for="pagina">Página</label>
+      <select id="pagina" size="14"></select>
+      <p id="origen"></p>
+      <p class="aviso">El dibujo es una anotación humana. No se utiliza para calcular cantidades.</p>
+    </aside>
+    <section class="centro">
+      <div class="barra">
+        <button id="anterior" type="button">← Anterior</button>
+        <button id="siguiente" type="button">Siguiente →</button>
+        <span id="encabezado"></span>
+        <button id="alejar" type="button" aria-label="Alejar plano">−</button>
+        <button id="acercar" type="button" aria-label="Acercar plano">+</button>
+      </div>
+      <div id="lienzo" class="lienzo"><div id="papel" class="papel"><img id="plano" alt="Página del plano"><svg id="dibujo" viewBox="0 0 1 1" preserveAspectRatio="none" aria-label="Marcar elemento sobre el plano"></svg></div></div>
+      <p class="ayuda">Marcá los vértices sobre el plano. Para una viga o cimiento lineal usá una polilínea por el eje; para una superficie, un polígono alrededor del elemento. Podés acercar para precisar.</p>
+    </section>
+    <aside class="editor">
+      <h2>Elemento</h2>
+      <label for="familia">Familia</label>
+      <select id="familia"></select>
+      <label for="geometria">Forma</label>
+      <select id="geometria"></select>
+      <label for="referencia">Referencia visible, si existe</label>
+      <input id="referencia" maxlength="80" placeholder="Por ejemplo, F13">
+      <label for="nota">Nota opcional</label>
+      <input id="nota" maxlength="500" placeholder="Ej.: revisar continuidad">
+      <p id="puntos">0 puntos marcados</p>
+      <div class="fila"><button id="deshacer" type="button">Deshacer punto</button><button id="terminar" type="button">Agregar elemento</button></div>
+      <h2>Elementos de esta página</h2>
+      <ul id="elementos"></ul>
+      <h2>Revisión</h2>
+      <label for="revisor">Nombre del revisor</label>
+      <input id="revisor" maxlength="160" placeholder="Nombre y apellido">
+      <label class="casilla"><input id="revisada" type="checkbox">Revisé la página completa, incluso si no hay elementos de estas cinco familias</label>
+      <button id="guardar" class="principal" type="button">Guardar revisión</button>
+      <p id="mensaje" role="status"></p>
+    </aside>
+  </main>
+</body>
+</html>

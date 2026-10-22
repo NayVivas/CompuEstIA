@@ -1,0 +1,14 @@
+{
+  "semilla": 20260924,
+  "targets": [
+    "disciplinas",
+    "roles_documentales",
+    "contenidos"
+  ],
+  "umbrales": {
+    "disciplinas": 0.4,
+    "roles_documentales": 0.46,
+    "contenidos": 0.45
+  },
+  "C": 2.0
+}

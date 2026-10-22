@@ -1,0 +1,1651 @@
+target,label,direccion,rank,termino,coeficiente
+disciplinas,arquitectura,positiva,1,detalle de,0.6357852633583315
+disciplinas,arquitectura,positiva,2,20,0.5834800662715309
+disciplinas,arquitectura,positiva,3,00,0.44460870260739954
+disciplinas,arquitectura,positiva,4,bano,0.4317818629597463
+disciplinas,arquitectura,positiva,5,vista,0.413412178518869
+disciplinas,arquitectura,positiva,6,esc 20,0.4032153994953391
+disciplinas,arquitectura,positiva,7,arq,0.39513726307843017
+disciplinas,arquitectura,positiva,8,65,0.386594394074831
+disciplinas,arquitectura,positiva,9,detalle,0.38334645122653477
+disciplinas,arquitectura,positiva,10,saavedra detalle,0.3756272507445788
+disciplinas,arquitectura,positiva,11,estante,0.3734479206190339
+disciplinas,arquitectura,positiva,12,eje,0.3618783883374413
+disciplinas,arquitectura,positiva,13,de locales,0.36124709127136195
+disciplinas,arquitectura,positiva,14,locales,0.36124709127136195
+disciplinas,arquitectura,positiva,15,locales detalle,0.36124709127136195
+disciplinas,arquitectura,negativa,1,100,-0.6326426679876165
+disciplinas,arquitectura,negativa,2,estructura,-0.5282555211617748
+disciplinas,arquitectura,negativa,3,instalacion,-0.4807672871044868
+disciplinas,arquitectura,negativa,4,viga,-0.4449814089069715
+disciplinas,arquitectura,negativa,5,cm,-0.39292492060746753
+disciplinas,arquitectura,negativa,6,cordoba plano,-0.3756395291776266
+disciplinas,arquitectura,negativa,7,estructura estructura,-0.35894977998719935
+disciplinas,arquitectura,negativa,8,saavedra estructura,-0.35894977998719935
+disciplinas,arquitectura,negativa,9,cv,-0.3558915519986452
+disciplinas,arquitectura,negativa,10,estrib,-0.3517988074555107
+disciplinas,arquitectura,negativa,11,esc 100,-0.34676199290073983
+disciplinas,arquitectura,negativa,12,60 casa,-0.34168892749837165
+disciplinas,arquitectura,negativa,13,15 cm,-0.33302814367328626
+disciplinas,arquitectura,negativa,14,2ø8,-0.33287981601184674
+disciplinas,arquitectura,negativa,15,instalacion de,-0.33096153634503755
+disciplinas,electricidad,positiva,1,electricidad,1.3801019947670203
+disciplinas,electricidad,positiva,2,de electricidad,0.9082981022761877
+disciplinas,electricidad,positiva,3,tv,0.8657929350330599
+disciplinas,electricidad,positiva,4,instalacion,0.8585238389390919
+disciplinas,electricidad,positiva,5,tomas,0.732257587491921
+disciplinas,electricidad,positiva,6,2h,0.7225956243975253
+disciplinas,electricidad,positiva,7,planteo electricidad,0.6143077141327813
+disciplinas,electricidad,positiva,8,saavedra planteo,0.6143077141327813
+disciplinas,electricidad,positiva,9,instalacion electrica,0.6143077141327813
+disciplinas,electricidad,positiva,10,tv plano,0.6143077141327813
+disciplinas,electricidad,positiva,11,planteo,0.6143077141327813
+disciplinas,electricidad,positiva,12,electricidad instalacion,0.6143077141327813
+disciplinas,electricidad,positiva,13,electrica planta,0.6143077141327813
+disciplinas,electricidad,positiva,14,2h 12,0.5976858480507454
+disciplinas,electricidad,positiva,15,t2,0.5841717844084037
+disciplinas,electricidad,negativa,1,de,-0.6977362058946247
+disciplinas,electricidad,negativa,2,00,-0.5216607953685327
+disciplinas,electricidad,negativa,3,20,-0.5015505396556158
+disciplinas,electricidad,negativa,4,10,-0.47219386803302776
+disciplinas,electricidad,negativa,5,detalle,-0.4577281356306721
+disciplinas,electricidad,negativa,6,en,-0.4298527403310996
+disciplinas,electricidad,negativa,7,detalle de,-0.39727195503471757
+disciplinas,electricidad,negativa,8,50,-0.39567522995919074
+disciplinas,electricidad,negativa,9,40,-0.3804847585686658
+disciplinas,electricidad,negativa,10,cm,-0.3417511845057022
+disciplinas,electricidad,negativa,11,arq,-0.3344383055806547
+disciplinas,electricidad,negativa,12,vista,-0.31080100340140754
+disciplinas,electricidad,negativa,13,saavedra,-0.3097833921096146
+disciplinas,electricidad,negativa,14,la,-0.3039306854403415
+disciplinas,electricidad,negativa,15,65,-0.29863934982495377
+disciplinas,estructura,positiva,1,estructura,0.8329337629461057
+disciplinas,estructura,positiva,2,cm,0.6399718193890261
+disciplinas,estructura,positiva,3,viga,0.6260506151428119
+disciplinas,estructura,positiva,4,saavedra estructura,0.5423078563183343
+disciplinas,estructura,positiva,5,estructura estructura,0.5423078563183343
+disciplinas,estructura,positiva,6,vf,0.47876709457929606
+disciplinas,estructura,positiva,7,planta de,0.4697062868614556
+disciplinas,estructura,positiva,8,estrib,0.4638060012897056
+disciplinas,estructura,positiva,9,15 cm,0.4595629880727871
+disciplinas,estructura,positiva,10,2ø8,0.44221143949305547
+disciplinas,estructura,positiva,11,losa,0.43520664322449504
+disciplinas,estructura,positiva,12,armado de,0.43397651974538737
+disciplinas,estructura,positiva,13,ø6c,0.4268557693046574
+disciplinas,estructura,positiva,14,estrib ø6c,0.4268557693046574
+disciplinas,estructura,positiva,15,cv3,0.41582508111460575
+disciplinas,estructura,negativa,1,00,-0.4382554980820269
+disciplinas,estructura,negativa,2,detalle de,-0.43114470881522465
+disciplinas,estructura,negativa,3,instalacion,-0.40349975308774766
+disciplinas,estructura,negativa,4,plano,-0.37718197988814217
+disciplinas,estructura,negativa,5,bano,-0.37223772112690795
+disciplinas,estructura,negativa,6,plano instalacion,-0.364405111361031
+disciplinas,estructura,negativa,7,instalacion de,-0.35930790172036053
+disciplinas,estructura,negativa,8,esc 20,-0.3293660800426031
+disciplinas,estructura,negativa,9,arq,-0.3058297623435003
+disciplinas,estructura,negativa,10,saavedra detalle,-0.30499434239208784
+disciplinas,estructura,negativa,11,estante,-0.29997073547522873
+disciplinas,estructura,negativa,12,20,-0.29846215890191996
+disciplinas,estructura,negativa,13,locales detalle,-0.2944057574430164
+disciplinas,estructura,negativa,14,locales,-0.2944057574430164
+disciplinas,estructura,negativa,15,de locales,-0.2944057574430164
+disciplinas,gas,positiva,1,gas,0.7723785337053733
+disciplinas,gas,positiva,2,de gas,0.7262487081209343
+disciplinas,gas,positiva,3,instalacion de,0.35745858225174676
+disciplinas,gas,positiva,4,instalacion,0.3127320025615891
+disciplinas,gas,positiva,5,plano instalacion,0.30552953353920975
+disciplinas,gas,positiva,6,cordoba plano,0.25765316038657715
+disciplinas,gas,positiva,7,5e,0.17656100547899536
+disciplinas,gas,positiva,8,tuberias,0.16828732913748787
+disciplinas,gas,positiva,9,167,0.15251529275578093
+disciplinas,gas,positiva,10,5e1,0.15251529275578093
+disciplinas,gas,positiva,11,las tuberias,0.15251529275578093
+disciplinas,gas,positiva,12,78 5e,0.15251529275578093
+disciplinas,gas,positiva,13,i1,0.13897598917873616
+disciplinas,gas,positiva,14,cobre,0.13826728222961296
+disciplinas,gas,positiva,15,de cobre,0.13826728222961296
+disciplinas,gas,negativa,1,de,-0.9061587676317722
+disciplinas,gas,negativa,2,20,-0.6200257688721048
+disciplinas,gas,negativa,3,arq,-0.6194567050998359
+disciplinas,gas,negativa,4,saavedra,-0.6078175392750471
+disciplinas,gas,negativa,5,00,-0.5973270736462976
+disciplinas,gas,negativa,6,10,-0.5539395725294647
+disciplinas,gas,negativa,7,50,-0.5070883157883627
+disciplinas,gas,negativa,8,plano,-0.5002452368319998
+disciplinas,gas,negativa,9,12,-0.4819011801330159
+disciplinas,gas,negativa,10,60,-0.4766627277207973
+disciplinas,gas,negativa,11,planta,-0.4730321943467807
+disciplinas,gas,negativa,12,40,-0.4684887423780074
+disciplinas,gas,negativa,13,del,-0.4683126386502853
+disciplinas,gas,negativa,14,80,-0.440823352839195
+disciplinas,gas,negativa,15,01,-0.4138650558346143
+disciplinas,implantacion_topografia,positiva,1,00 54,1.5852816864511234
+disciplinas,implantacion_topografia,positiva,2,emplazamiento,1.5740758516049131
+disciplinas,implantacion_topografia,positiva,3,000,1.481195696351184
+disciplinas,implantacion_topografia,positiva,4,an,1.2109801195414893
+disciplinas,implantacion_topografia,positiva,5,by,1.2109801195414893
+disciplinas,implantacion_topografia,positiva,6,produced by,1.2109801195414893
+disciplinas,implantacion_topografia,positiva,7,autodesk,1.2109801195414893
+disciplinas,implantacion_topografia,positiva,8,educational,1.2109801195414893
+disciplinas,implantacion_topografia,positiva,9,educational product,1.2109801195414893
+disciplinas,implantacion_topografia,positiva,10,product,1.2109801195414893
+disciplinas,implantacion_topografia,positiva,11,an autodesk,1.2109801195414893
+disciplinas,implantacion_topografia,positiva,12,autodesk educational,1.2109801195414893
+disciplinas,implantacion_topografia,positiva,13,by an,1.2109801195414893
+disciplinas,implantacion_topografia,positiva,14,produced,1.2109801195414893
+disciplinas,implantacion_topografia,positiva,15,25 00,1.0753925005356568
+disciplinas,implantacion_topografia,negativa,1,20,-0.26548951608468846
+disciplinas,implantacion_topografia,negativa,2,60,-0.22574585567343453
+disciplinas,implantacion_topografia,negativa,3,40,-0.2249650942919022
+disciplinas,implantacion_topografia,negativa,4,30,-0.21134275169818212
+disciplinas,implantacion_topografia,negativa,5,80,-0.1979600526720093
+disciplinas,implantacion_topografia,negativa,6,del,-0.18788632457790275
+disciplinas,implantacion_topografia,negativa,7,arq,-0.18442712430733083
+disciplinas,implantacion_topografia,negativa,8,saavedra,-0.18010264031741868
+disciplinas,implantacion_topografia,negativa,9,70,-0.178517836287446
+disciplinas,implantacion_topografia,negativa,10,esc,-0.16605949508494205
+disciplinas,implantacion_topografia,negativa,11,en,-0.15909392111275492
+disciplinas,implantacion_topografia,negativa,12,90,-0.1563241030151398
+disciplinas,implantacion_topografia,negativa,13,proyecto,-0.1559945123239409
+disciplinas,implantacion_topografia,negativa,14,15,-0.1476040358813626
+disciplinas,implantacion_topografia,negativa,15,planta,-0.14261732539676122
+disciplinas,otra,positiva,1,escala,1.9959700243533134
+disciplinas,otra,positiva,2,100,1.886311138227894
+disciplinas,otra,positiva,3,planos,1.8079825390255255
+disciplinas,otra,positiva,4,en,1.2383916674324191
+disciplinas,otra,positiva,5,secciones,1.0950828578242167
+disciplinas,otra,positiva,6,plantas,1.067062964271025
+disciplinas,otra,positiva,7,alzado,0.9806282049612038
+disciplinas,otra,positiva,8,alzado seccion,0.8106076239299768
+disciplinas,otra,positiva,9,de cordoba,0.8082264700566892
+disciplinas,otra,positiva,10,lugar oliva,0.8082264700566892
+disciplinas,otra,positiva,11,proyecto viviendas,0.8082264700566892
+disciplinas,otra,positiva,12,depto tercero,0.8082264700566892
+disciplinas,otra,positiva,13,del sur,0.8082264700566892
+disciplinas,otra,positiva,14,viviendas,0.8082264700566892
+disciplinas,otra,positiva,15,viviendas del,0.8082264700566892
+disciplinas,otra,negativa,1,esc 100,-0.6071868968497582
+disciplinas,otra,negativa,2,esc,-0.4691039379024524
+disciplinas,otra,negativa,3,cordoba plano,-0.4034927423636627
+disciplinas,otra,negativa,4,plano instalacion,-0.3625143341377202
+disciplinas,otra,negativa,5,instalacion de,-0.3458661330681827
+disciplinas,otra,negativa,6,plano,-0.34425207988141554
+disciplinas,otra,negativa,7,instalacion,-0.33870101089911503
+disciplinas,otra,negativa,8,cordoba planta,-0.3046854332885332
+disciplinas,otra,negativa,9,00,-0.1862081889680781
+disciplinas,otra,negativa,10,arq,-0.1728569415449744
+disciplinas,otra,negativa,11,saavedra,-0.16990572753975927
+disciplinas,otra,negativa,12,de aberturas,-0.16113935558243506
+disciplinas,otra,negativa,13,cordoba planilla,-0.16113935558243506
+disciplinas,otra,negativa,14,aberturas,-0.16113935558243506
+disciplinas,otra,negativa,15,12,-0.1525098221645318
+disciplinas,sanitarias,positiva,1,instalaciones sanitarias,0.7392646676343949
+disciplinas,sanitarias,positiva,2,sanitarias,0.7392646676343949
+disciplinas,sanitarias,positiva,3,plano instalacion,0.6832174658406637
+disciplinas,sanitarias,positiva,4,instalaciones,0.6450153352025896
+disciplinas,sanitarias,positiva,5,instalacion de,0.633440646311104
+disciplinas,sanitarias,positiva,6,cordoba plano,0.6088126703551732
+disciplinas,sanitarias,positiva,7,instalacion,0.5699220043393806
+disciplinas,sanitarias,positiva,8,ø110,0.5697830404716506
+disciplinas,sanitarias,positiva,9,ø63,0.5402451364988592
+disciplinas,sanitarias,positiva,10,pvc,0.5200786419972201
+disciplinas,sanitarias,positiva,11,de agua,0.4902167300220323
+disciplinas,sanitarias,positiva,12,vadala instalaciones,0.4364650225087899
+disciplinas,sanitarias,positiva,13,01 casa,0.4364650225087899
+disciplinas,sanitarias,positiva,14,villarreal 01,0.4364650225087899
+disciplinas,sanitarias,positiva,15,nro cliente,0.4364650225087899
+disciplinas,sanitarias,negativa,1,20,-0.5060473523239847
+disciplinas,sanitarias,negativa,2,arq,-0.47470724691579425
+disciplinas,sanitarias,negativa,3,saavedra,-0.45244296230914266
+disciplinas,sanitarias,negativa,4,en,-0.4384619389737411
+disciplinas,sanitarias,negativa,5,00,-0.43825443356483856
+disciplinas,sanitarias,negativa,6,de,-0.4336702173787706
+disciplinas,sanitarias,negativa,7,01 12,-0.39671304895678544
+disciplinas,sanitarias,negativa,8,tangorra 01,-0.3955747211441918
+disciplinas,sanitarias,negativa,9,nro nombre,-0.3955747211441918
+disciplinas,sanitarias,negativa,10,esc fecha,-0.3955747211441918
+disciplinas,sanitarias,negativa,11,arq florencia,-0.3955747211441918
+disciplinas,sanitarias,negativa,12,fecha notas,-0.3955747211441918
+disciplinas,sanitarias,negativa,13,florencia,-0.3955747211441918
+disciplinas,sanitarias,negativa,14,fecha,-0.3955747211441918
+disciplinas,sanitarias,negativa,15,tangorra,-0.3955747211441918
+roles_documentales,corte,positiva,1,npt,0.5415986075881282
+roles_documentales,corte,positiva,2,pb 00,0.4742861932487869
+roles_documentales,corte,positiva,3,27 npt,0.43957291808038884
+roles_documentales,corte,positiva,4,pa 27,0.43957291808038884
+roles_documentales,corte,positiva,5,vereda 20,0.39222544941656323
+roles_documentales,corte,positiva,6,vereda,0.39222544941656323
+roles_documentales,corte,positiva,7,nivel vereda,0.39222544941656323
+roles_documentales,corte,positiva,8,40 nivel,0.39222544941656323
+roles_documentales,corte,positiva,9,npt pb,0.39170542610236136
+roles_documentales,corte,positiva,10,ruwh,0.3867817692304218
+roles_documentales,corte,positiva,11,arquitectura,0.35360434007245595
+roles_documentales,corte,positiva,12,referencia carpinterias,0.3185269914791882
+roles_documentales,corte,positiva,13,referencia,0.3185269914791882
+roles_documentales,corte,positiva,14,planta referencia,0.3185269914791882
+roles_documentales,corte,positiva,15,20 92,0.3156602410794613
+roles_documentales,corte,negativa,1,de,-0.9316429439937609
+roles_documentales,corte,negativa,2,100,-0.5699804183792802
+roles_documentales,corte,negativa,3,esc,-0.5153304110217156
+roles_documentales,corte,negativa,4,60,-0.5136647433421035
+roles_documentales,corte,negativa,5,70,-0.4985993582737218
+roles_documentales,corte,negativa,6,10,-0.49150766429758946
+roles_documentales,corte,negativa,7,plano,-0.4717953047573364
+roles_documentales,corte,negativa,8,detalle de,-0.4339221147683745
+roles_documentales,corte,negativa,9,detalle,-0.40329039354105395
+roles_documentales,corte,negativa,10,la,-0.3818369059276549
+roles_documentales,corte,negativa,11,esc 100,-0.37575404354794356
+roles_documentales,corte,negativa,12,25,-0.34824729580909825
+roles_documentales,corte,negativa,13,en,-0.34717995389152595
+roles_documentales,corte,negativa,14,planta,-0.34167302067608507
+roles_documentales,corte,negativa,15,50,-0.3397590656897114
+roles_documentales,cuadro_planilla,positiva,1,lvl,0.3027443624166889
+roles_documentales,cuadro_planilla,positiva,2,muro,0.2704996190757606
+roles_documentales,cuadro_planilla,positiva,3,clt,0.2649037056918532
+roles_documentales,cuadro_planilla,positiva,4,2h,0.2614112329275726
+roles_documentales,cuadro_planilla,positiva,5,kg,0.25344575586831447
+roles_documentales,cuadro_planilla,positiva,6,280,0.25317865648093163
+roles_documentales,cuadro_planilla,positiva,7,placa,0.24182314303388092
+roles_documentales,cuadro_planilla,positiva,8,clt 280,0.23941013142984494
+roles_documentales,cuadro_planilla,positiva,9,280 l7s,0.23763607546575108
+roles_documentales,cuadro_planilla,positiva,10,l7s,0.23763607546575108
+roles_documentales,cuadro_planilla,positiva,11,400,0.23363956687531298
+roles_documentales,cuadro_planilla,positiva,12,2r,0.23014089387306136
+roles_documentales,cuadro_planilla,positiva,13,mm2,0.2261109530076903
+roles_documentales,cuadro_planilla,positiva,14,nervada,0.22503006279024185
+roles_documentales,cuadro_planilla,positiva,15,correa lvl,0.22355243891949989
+roles_documentales,cuadro_planilla,negativa,1,de,-0.8480975418317255
+roles_documentales,cuadro_planilla,negativa,2,arq,-0.7170710944017905
+roles_documentales,cuadro_planilla,negativa,3,saavedra,-0.7059598154472716
+roles_documentales,cuadro_planilla,negativa,4,plano,-0.6888826926544026
+roles_documentales,cuadro_planilla,negativa,5,del,-0.6870360041840555
+roles_documentales,cuadro_planilla,negativa,6,esc,-0.6411454124997759
+roles_documentales,cuadro_planilla,negativa,7,proyecto,-0.5869891769747269
+roles_documentales,cuadro_planilla,negativa,8,01,-0.517517227144805
+roles_documentales,cuadro_planilla,negativa,9,lucia villarreal,-0.4317621849078805
+roles_documentales,cuadro_planilla,negativa,10,cliente,-0.4317621849078805
+roles_documentales,cuadro_planilla,negativa,11,plano nro,-0.4317621849078805
+roles_documentales,cuadro_planilla,negativa,12,nro,-0.4317621849078805
+roles_documentales,cuadro_planilla,negativa,13,pablo,-0.4317621849078805
+roles_documentales,cuadro_planilla,negativa,14,pablo andrea,-0.4317621849078805
+roles_documentales,cuadro_planilla,negativa,15,arq lucia,-0.4317621849078805
+roles_documentales,detalle,positiva,1,detalle,0.8389505127198826
+roles_documentales,detalle,positiva,2,detalle de,0.798242468726624
+roles_documentales,detalle,positiva,3,cm,0.5562783158036937
+roles_documentales,detalle,positiva,4,esc 20,0.49618131532408283
+roles_documentales,detalle,positiva,5,vista,0.49077630377497267
+roles_documentales,detalle,positiva,6,20,0.4800835668269625
+roles_documentales,detalle,positiva,7,saavedra detalle,0.46613181488551786
+roles_documentales,detalle,positiva,8,de locales,0.4474076796761041
+roles_documentales,detalle,positiva,9,locales,0.4474076796761041
+roles_documentales,detalle,positiva,10,locales detalle,0.4474076796761041
+roles_documentales,detalle,positiva,11,estante,0.4430224702727414
+roles_documentales,detalle,positiva,12,eje,0.44223879883614886
+roles_documentales,detalle,positiva,13,20 casa,0.42079580465355554
+roles_documentales,detalle,positiva,14,2025 20,0.42079580465355554
+roles_documentales,detalle,positiva,15,viga,0.4059815114665511
+roles_documentales,detalle,negativa,1,100,-0.4621240296690735
+roles_documentales,detalle,negativa,2,esc 100,-0.39979037243155974
+roles_documentales,detalle,negativa,3,replanteo,-0.3775085897496682
+roles_documentales,detalle,negativa,4,vf,-0.35676512180877723
+roles_documentales,detalle,negativa,5,cv,-0.3299688132930145
+roles_documentales,detalle,negativa,6,arquitectura,-0.32811592594830363
+roles_documentales,detalle,negativa,7,instalacion,-0.3222742221808766
+roles_documentales,detalle,negativa,8,planta baja,-0.31669121421648566
+roles_documentales,detalle,negativa,9,planta,-0.31239401859705124
+roles_documentales,detalle,negativa,10,sur,-0.30792884010367644
+roles_documentales,detalle,negativa,11,hall,-0.2908902015207932
+roles_documentales,detalle,negativa,12,del sur,-0.29078316692344625
+roles_documentales,detalle,negativa,13,depto,-0.29078316692344625
+roles_documentales,detalle,negativa,14,pcia de,-0.29078316692344625
+roles_documentales,detalle,negativa,15,tercero arriba,-0.29078316692344625
+roles_documentales,elevacion_fachada,positiva,1,alzado,0.4012448147491336
+roles_documentales,elevacion_fachada,positiva,2,seccion seccion,0.35903777087960537
+roles_documentales,elevacion_fachada,positiva,3,seccion,0.33032992188229526
+roles_documentales,elevacion_fachada,positiva,4,glh24,0.29496127661363264
+roles_documentales,elevacion_fachada,positiva,5,5x57mm,0.29117365827731634
+roles_documentales,elevacion_fachada,positiva,6,pilar,0.2899586166075573
+roles_documentales,elevacion_fachada,positiva,7,clt,0.2874625650494032
+roles_documentales,elevacion_fachada,positiva,8,pilar lvl,0.2724840842999187
+roles_documentales,elevacion_fachada,positiva,9,285x800 5x57mm,0.2724840842999187
+roles_documentales,elevacion_fachada,positiva,10,ha 30,0.2646725462171461
+roles_documentales,elevacion_fachada,positiva,11,ha,0.2631518008234224
+roles_documentales,elevacion_fachada,positiva,12,00 75,0.25723086602304385
+roles_documentales,elevacion_fachada,positiva,13,5x57mm pilar,0.2521507883085869
+roles_documentales,elevacion_fachada,positiva,14,75 00,0.24707830526802269
+roles_documentales,elevacion_fachada,positiva,15,170x800,0.24577178044477807
+roles_documentales,elevacion_fachada,negativa,1,de,-0.8012671348666671
+roles_documentales,elevacion_fachada,negativa,2,plano,-0.6686180697544448
+roles_documentales,elevacion_fachada,negativa,3,del,-0.6417820964438173
+roles_documentales,elevacion_fachada,negativa,4,arq,-0.6197364659295214
+roles_documentales,elevacion_fachada,negativa,5,saavedra,-0.6086619528025446
+roles_documentales,elevacion_fachada,negativa,6,esc,-0.5523538733857671
+roles_documentales,elevacion_fachada,negativa,7,proyecto,-0.5398630810722486
+roles_documentales,elevacion_fachada,negativa,8,50,-0.4531585832167687
+roles_documentales,elevacion_fachada,negativa,9,01,-0.4516429107754131
+roles_documentales,elevacion_fachada,negativa,10,70,-0.3939915482468561
+roles_documentales,elevacion_fachada,negativa,11,20,-0.38950459602625437
+roles_documentales,elevacion_fachada,negativa,12,60,-0.38820454320479886
+roles_documentales,elevacion_fachada,negativa,13,casa,-0.3726296179947692
+roles_documentales,elevacion_fachada,negativa,14,casa saavedra,-0.3724156459888731
+roles_documentales,elevacion_fachada,negativa,15,saavedra pablo,-0.3724156459888731
+roles_documentales,implantacion,positiva,1,emplazamiento,2.006221999576394
+roles_documentales,implantacion,positiva,2,000,1.892179574003758
+roles_documentales,implantacion,positiva,3,100 250,1.1867959141776645
+roles_documentales,implantacion,positiva,4,10 000,1.1800568794253317
+roles_documentales,implantacion,positiva,5,situacion emplazamiento,1.1800568794253317
+roles_documentales,implantacion,positiva,6,situacion,1.1800568794253317
+roles_documentales,implantacion,positiva,7,10 25,1.1278653744129779
+roles_documentales,implantacion,positiva,8,planos definicion,1.1082572786459377
+roles_documentales,implantacion,positiva,9,arquitectonica,1.1082572786459377
+roles_documentales,implantacion,positiva,10,definicion arquitectonica,1.1082572786459377
+roles_documentales,implantacion,positiva,11,definicion,1.1082572786459377
+roles_documentales,implantacion,positiva,12,25 50,1.0106162317173277
+roles_documentales,implantacion,positiva,13,500,0.7905485071561228
+roles_documentales,implantacion,positiva,14,garcia ii,0.7666840520164254
+roles_documentales,implantacion,positiva,15,danza de,0.7666840520164254
+roles_documentales,implantacion,negativa,1,00,-0.16650447796322132
+roles_documentales,implantacion,negativa,2,20,-0.15317021386852903
+roles_documentales,implantacion,negativa,3,plano,-0.1483909230861384
+roles_documentales,implantacion,negativa,4,arq,-0.1379121264819368
+roles_documentales,implantacion,negativa,5,del,-0.13782383026243045
+roles_documentales,implantacion,negativa,6,saavedra,-0.13554485542333083
+roles_documentales,implantacion,negativa,7,12,-0.1267004051044134
+roles_documentales,implantacion,negativa,8,esc,-0.1261341256278551
+roles_documentales,implantacion,negativa,9,proyecto,-0.12098675083400827
+roles_documentales,implantacion,negativa,10,40,-0.11470503928607381
+roles_documentales,implantacion,negativa,11,60,-0.11434632471868315
+roles_documentales,implantacion,negativa,12,30,-0.1065234919917587
+roles_documentales,implantacion,negativa,13,planta,-0.10380162032901578
+roles_documentales,implantacion,negativa,14,80,-0.09845634256272189
+roles_documentales,implantacion,negativa,15,en,-0.09638869985129499
+roles_documentales,isometrico,positiva,1,75 35,-0.005627855217647197
+roles_documentales,isometrico,positiva,2,foso ha,-0.005879340662243212
+roles_documentales,isometrico,positiva,3,30 20cm,-0.005879340662243212
+roles_documentales,isometrico,positiva,4,de foso,-0.005879340662243212
+roles_documentales,isometrico,positiva,5,al vlperorjtd,-0.005889793942509156
+roles_documentales,isometrico,positiva,6,industrial 21,-0.005889793942509156
+roles_documentales,isometrico,positiva,7,80 patio,-0.005889793942509156
+roles_documentales,isometrico,positiva,8,de 20,-0.005889793942509156
+roles_documentales,isometrico,positiva,9,duela,-0.005889793942509156
+roles_documentales,isometrico,positiva,10,vlperorjtd,-0.005889793942509156
+roles_documentales,isometrico,positiva,11,duela de,-0.005889793942509156
+roles_documentales,isometrico,positiva,12,de en,-0.005889793942509156
+roles_documentales,isometrico,positiva,13,75 05,-0.006005517158593576
+roles_documentales,isometrico,positiva,14,09 14,-0.0062146574777486195
+roles_documentales,isometrico,positiva,15,09 15,-0.0062146574777486195
+roles_documentales,isometrico,negativa,1,de,-1.1647397197416522
+roles_documentales,isometrico,negativa,2,plano,-0.689730417482133
+roles_documentales,isometrico,negativa,3,00,-0.6361284346427855
+roles_documentales,isometrico,negativa,4,del,-0.6266448752661151
+roles_documentales,isometrico,negativa,5,arq,-0.618345886193869
+roles_documentales,isometrico,negativa,6,20,-0.6110778779887177
+roles_documentales,isometrico,negativa,7,saavedra,-0.6075114113147307
+roles_documentales,isometrico,negativa,8,10,-0.6037903896685618
+roles_documentales,isometrico,negativa,9,50,-0.5671399504627999
+roles_documentales,isometrico,negativa,10,esc,-0.5483462191622727
+roles_documentales,isometrico,negativa,11,proyecto,-0.5429602428829003
+roles_documentales,isometrico,negativa,12,12,-0.5334798341064177
+roles_documentales,isometrico,negativa,13,60,-0.5000566608303514
+roles_documentales,isometrico,negativa,14,40,-0.4772661790690268
+roles_documentales,isometrico,negativa,15,30,-0.437899299553991
+roles_documentales,otro,positiva,1,escala,1.9959700243533134
+roles_documentales,otro,positiva,2,100,1.886311138227894
+roles_documentales,otro,positiva,3,planos,1.8079825390255255
+roles_documentales,otro,positiva,4,en,1.2383916674324191
+roles_documentales,otro,positiva,5,secciones,1.0950828578242167
+roles_documentales,otro,positiva,6,plantas,1.067062964271025
+roles_documentales,otro,positiva,7,alzado,0.9806282049612038
+roles_documentales,otro,positiva,8,alzado seccion,0.8106076239299768
+roles_documentales,otro,positiva,9,de cordoba,0.8082264700566892
+roles_documentales,otro,positiva,10,lugar oliva,0.8082264700566892
+roles_documentales,otro,positiva,11,proyecto viviendas,0.8082264700566892
+roles_documentales,otro,positiva,12,depto tercero,0.8082264700566892
+roles_documentales,otro,positiva,13,del sur,0.8082264700566892
+roles_documentales,otro,positiva,14,viviendas,0.8082264700566892
+roles_documentales,otro,positiva,15,viviendas del,0.8082264700566892
+roles_documentales,otro,negativa,1,esc 100,-0.6071868968497582
+roles_documentales,otro,negativa,2,esc,-0.4691039379024524
+roles_documentales,otro,negativa,3,cordoba plano,-0.4034927423636627
+roles_documentales,otro,negativa,4,plano instalacion,-0.3625143341377202
+roles_documentales,otro,negativa,5,instalacion de,-0.3458661330681827
+roles_documentales,otro,negativa,6,plano,-0.34425207988141554
+roles_documentales,otro,negativa,7,instalacion,-0.33870101089911503
+roles_documentales,otro,negativa,8,cordoba planta,-0.3046854332885332
+roles_documentales,otro,negativa,9,00,-0.1862081889680781
+roles_documentales,otro,negativa,10,arq,-0.1728569415449744
+roles_documentales,otro,negativa,11,saavedra,-0.16990572753975927
+roles_documentales,otro,negativa,12,de aberturas,-0.16113935558243506
+roles_documentales,otro,negativa,13,cordoba planilla,-0.16113935558243506
+roles_documentales,otro,negativa,14,aberturas,-0.16113935558243506
+roles_documentales,otro,negativa,15,12,-0.1525098221645318
+roles_documentales,planta,positiva,1,esc 100,0.5598291807457476
+roles_documentales,planta,positiva,2,replanteo,0.4425483685172945
+roles_documentales,planta,positiva,3,instalacion,0.43998992524365116
+roles_documentales,planta,positiva,4,cordoba plano,0.37211996567750355
+roles_documentales,planta,positiva,5,plano instalacion,0.3280322891378503
+roles_documentales,planta,positiva,6,instalacion de,0.32171390024080065
+roles_documentales,planta,positiva,7,11,0.29047409649600986
+roles_documentales,planta,positiva,8,planta,0.28512746244820225
+roles_documentales,planta,positiva,9,electricidad,0.2790976615230195
+roles_documentales,planta,positiva,10,36,0.27332749198973144
+roles_documentales,planta,positiva,11,54,0.2670710864077547
+roles_documentales,planta,positiva,12,cordoba planta,0.26332872257804557
+roles_documentales,planta,positiva,13,de agua,0.25295550995506916
+roles_documentales,planta,positiva,14,techos,0.24954158671884222
+roles_documentales,planta,positiva,15,40 40,0.23622535004009448
+roles_documentales,planta,negativa,1,detalle de,-0.9393833244510738
+roles_documentales,planta,negativa,2,de,-0.8356398653662803
+roles_documentales,planta,negativa,3,20,-0.8114176236895876
+roles_documentales,planta,negativa,4,detalle,-0.6941413559053924
+roles_documentales,planta,negativa,5,vista,-0.5876941044491314
+roles_documentales,planta,negativa,6,saavedra,-0.5806529719242394
+roles_documentales,planta,negativa,7,arq,-0.5770114328946162
+roles_documentales,planta,negativa,8,esc 20,-0.5581571583897839
+roles_documentales,planta,negativa,9,saavedra detalle,-0.519353362873012
+roles_documentales,planta,negativa,10,estante,-0.5183858975627106
+roles_documentales,planta,negativa,11,npt,-0.5153340416020913
+roles_documentales,planta,negativa,12,10,-0.5061210858632197
+roles_documentales,planta,negativa,13,locales,-0.49641168812156994
+roles_documentales,planta,negativa,14,de locales,-0.49641168812156994
+roles_documentales,planta,negativa,15,locales detalle,-0.49641168812156994
+contenidos,agua_caliente,positiva,1,sanitarias,0.7604653302371414
+contenidos,agua_caliente,positiva,2,instalaciones sanitarias,0.7604653302371414
+contenidos,agua_caliente,positiva,3,instalaciones,0.6648332043831465
+contenidos,agua_caliente,positiva,4,ø110,0.5818691598319816
+contenidos,agua_caliente,positiva,5,ø63,0.5580836017397741
+contenidos,agua_caliente,positiva,6,pvc,0.5090043756212765
+contenidos,agua_caliente,positiva,7,pend,0.4558002939485799
+contenidos,agua_caliente,positiva,8,2ø19,0.44566986933524516
+contenidos,agua_caliente,positiva,9,nro cliente,0.4443968851846751
+contenidos,agua_caliente,positiva,10,proyecto notas,0.4443968851846751
+contenidos,agua_caliente,positiva,11,01 casa,0.4443968851846751
+contenidos,agua_caliente,positiva,12,sanitarias planta,0.4443968851846751
+contenidos,agua_caliente,positiva,13,vadala instalaciones,0.4443968851846751
+contenidos,agua_caliente,positiva,14,villarreal 01,0.4443968851846751
+contenidos,agua_caliente,positiva,15,0019,0.4127875692224519
+contenidos,agua_caliente,negativa,1,de,-0.5969638398291429
+contenidos,agua_caliente,negativa,2,20,-0.5564632812445809
+contenidos,agua_caliente,negativa,3,00,-0.4751482298997393
+contenidos,agua_caliente,negativa,4,arq,-0.4717093965639811
+contenidos,agua_caliente,negativa,5,saavedra,-0.45065655825005824
+contenidos,agua_caliente,negativa,6,esc,-0.4390161649806868
+contenidos,agua_caliente,negativa,7,del,-0.4311957999480447
+contenidos,agua_caliente,negativa,8,en,-0.40055911370386144
+contenidos,agua_caliente,negativa,9,01 12,-0.39731276181012387
+contenidos,agua_caliente,negativa,10,florencia,-0.39675106790596365
+contenidos,agua_caliente,negativa,11,florencia tangorra,-0.39675106790596365
+contenidos,agua_caliente,negativa,12,fecha,-0.39675106790596365
+contenidos,agua_caliente,negativa,13,tangorra 01,-0.39675106790596365
+contenidos,agua_caliente,negativa,14,nombre del,-0.39675106790596365
+contenidos,agua_caliente,negativa,15,fecha notas,-0.39675106790596365
+contenidos,agua_fria,positiva,1,sanitarias,0.7604653302371414
+contenidos,agua_fria,positiva,2,instalaciones sanitarias,0.7604653302371414
+contenidos,agua_fria,positiva,3,instalaciones,0.6648332043831465
+contenidos,agua_fria,positiva,4,ø110,0.5818691598319816
+contenidos,agua_fria,positiva,5,ø63,0.5580836017397741
+contenidos,agua_fria,positiva,6,pvc,0.5090043756212765
+contenidos,agua_fria,positiva,7,pend,0.4558002939485799
+contenidos,agua_fria,positiva,8,2ø19,0.44566986933524516
+contenidos,agua_fria,positiva,9,nro cliente,0.4443968851846751
+contenidos,agua_fria,positiva,10,proyecto notas,0.4443968851846751
+contenidos,agua_fria,positiva,11,01 casa,0.4443968851846751
+contenidos,agua_fria,positiva,12,sanitarias planta,0.4443968851846751
+contenidos,agua_fria,positiva,13,vadala instalaciones,0.4443968851846751
+contenidos,agua_fria,positiva,14,villarreal 01,0.4443968851846751
+contenidos,agua_fria,positiva,15,0019,0.4127875692224519
+contenidos,agua_fria,negativa,1,de,-0.5969638398291429
+contenidos,agua_fria,negativa,2,20,-0.5564632812445809
+contenidos,agua_fria,negativa,3,00,-0.4751482298997393
+contenidos,agua_fria,negativa,4,arq,-0.4717093965639811
+contenidos,agua_fria,negativa,5,saavedra,-0.45065655825005824
+contenidos,agua_fria,negativa,6,esc,-0.4390161649806868
+contenidos,agua_fria,negativa,7,del,-0.4311957999480447
+contenidos,agua_fria,negativa,8,en,-0.40055911370386144
+contenidos,agua_fria,negativa,9,01 12,-0.39731276181012387
+contenidos,agua_fria,negativa,10,florencia,-0.39675106790596365
+contenidos,agua_fria,negativa,11,florencia tangorra,-0.39675106790596365
+contenidos,agua_fria,negativa,12,fecha,-0.39675106790596365
+contenidos,agua_fria,negativa,13,tangorra 01,-0.39675106790596365
+contenidos,agua_fria,negativa,14,nombre del,-0.39675106790596365
+contenidos,agua_fria,negativa,15,fecha notas,-0.39675106790596365
+contenidos,armaduras_acero,positiva,1,estructura,0.6731538745504897
+contenidos,armaduras_acero,positiva,2,cm,0.6548446577035993
+contenidos,armaduras_acero,positiva,3,viga,0.5707156717682149
+contenidos,armaduras_acero,positiva,4,estrib,0.545911319466965
+contenidos,armaduras_acero,positiva,5,2ø8,0.5339790034400969
+contenidos,armaduras_acero,positiva,6,estructura armado,0.5081252252895888
+contenidos,armaduras_acero,positiva,7,ø6c,0.5021626118240707
+contenidos,armaduras_acero,positiva,8,estrib ø6c,0.5021626118240707
+contenidos,armaduras_acero,positiva,9,2ø12,0.4804564868935799
+contenidos,armaduras_acero,positiva,10,15 cm,0.4583019561901014
+contenidos,armaduras_acero,positiva,11,armado de,0.45423857236490117
+contenidos,armaduras_acero,positiva,12,estructura estructura,0.4329307436102909
+contenidos,armaduras_acero,positiva,13,saavedra estructura,0.4329307436102909
+contenidos,armaduras_acero,positiva,14,3ø12,0.4299572769483038
+contenidos,armaduras_acero,positiva,15,clt,0.4297975216622864
+contenidos,armaduras_acero,negativa,1,20,-0.5532216353522641
+contenidos,armaduras_acero,negativa,2,50,-0.5327139041918982
+contenidos,armaduras_acero,negativa,3,00,-0.5193394161328452
+contenidos,armaduras_acero,negativa,4,del,-0.48518423914786396
+contenidos,armaduras_acero,negativa,5,de,-0.43639632669030803
+contenidos,armaduras_acero,negativa,6,esc,-0.4221599281609667
+contenidos,armaduras_acero,negativa,7,plano,-0.4057285843367697
+contenidos,armaduras_acero,negativa,8,detalle de,-0.40549780226969595
+contenidos,armaduras_acero,negativa,9,proyecto,-0.38754974931036484
+contenidos,armaduras_acero,negativa,10,sur,-0.3586307776520957
+contenidos,armaduras_acero,negativa,11,vista,-0.3554577844585659
+contenidos,armaduras_acero,negativa,12,planta,-0.3483355574838248
+contenidos,armaduras_acero,negativa,13,del sur,-0.34124156635327507
+contenidos,armaduras_acero,negativa,14,arriba pcia,-0.34124156635327507
+contenidos,armaduras_acero,negativa,15,arriba,-0.34124156635327507
+contenidos,artefactos_gas,positiva,1,5e,0.18347874293585353
+contenidos,artefactos_gas,positiva,2,tuberias,0.17488090033476744
+contenidos,artefactos_gas,positiva,3,78 5e,0.15849090866586293
+contenidos,artefactos_gas,positiva,4,5e1,0.15849090866586293
+contenidos,artefactos_gas,positiva,5,167,0.15849090866586293
+contenidos,artefactos_gas,positiva,6,las tuberias,0.15849090866586293
+contenidos,artefactos_gas,positiva,7,i1,0.14520861080761946
+contenidos,artefactos_gas,positiva,8,cobre,0.14368465485242332
+contenidos,artefactos_gas,positiva,9,de cobre,0.14368465485242332
+contenidos,artefactos_gas,positiva,10,antes,0.13430103486336337
+contenidos,artefactos_gas,positiva,11,gas,0.12342808237359608
+contenidos,artefactos_gas,positiva,12,la tuberia,0.1228164121705668
+contenidos,artefactos_gas,positiva,13,conexiones,0.1228164121705668
+contenidos,artefactos_gas,positiva,14,llave,0.1228164121705668
+contenidos,artefactos_gas,positiva,15,no se,0.1228164121705668
+contenidos,artefactos_gas,negativa,1,de,-1.0811104148822392
+contenidos,artefactos_gas,negativa,2,plano,-0.6751039488862842
+contenidos,artefactos_gas,negativa,3,20,-0.6175238696290619
+contenidos,artefactos_gas,negativa,4,arq,-0.6132655540016736
+contenidos,artefactos_gas,negativa,5,saavedra,-0.6015729172972571
+contenidos,artefactos_gas,negativa,6,00,-0.5952064197983846
+contenidos,artefactos_gas,negativa,7,del,-0.570441601439693
+contenidos,artefactos_gas,negativa,8,10,-0.5504798890000446
+contenidos,artefactos_gas,negativa,9,esc,-0.5443256182866041
+contenidos,artefactos_gas,negativa,10,50,-0.5035657203592891
+contenidos,artefactos_gas,negativa,11,12,-0.4781734306430344
+contenidos,artefactos_gas,negativa,12,proyecto,-0.4751376879189909
+contenidos,artefactos_gas,negativa,13,60,-0.4743350209784015
+contenidos,artefactos_gas,negativa,14,40,-0.46763481095672116
+contenidos,artefactos_gas,negativa,15,80,-0.4420679978023679
+contenidos,artefactos_sanitarios,positiva,1,mortero cem,0.25364164034185527
+contenidos,artefactos_sanitarios,positiva,2,are,0.25364164034185527
+contenidos,artefactos_sanitarios,positiva,3,cem are,0.25364164034185527
+contenidos,artefactos_sanitarios,positiva,4,51,0.21639262746836332
+contenidos,artefactos_sanitarios,positiva,5,39 76,0.2159055257606465
+contenidos,artefactos_sanitarios,positiva,6,33 95,0.2159055257606465
+contenidos,artefactos_sanitarios,positiva,7,pend,0.2114037408598012
+contenidos,artefactos_sanitarios,positiva,8,concreto armado,0.2046679138048926
+contenidos,artefactos_sanitarios,positiva,9,51 81,0.2042249784282263
+contenidos,artefactos_sanitarios,positiva,10,76,0.19968746099015994
+contenidos,artefactos_sanitarios,positiva,11,sxoj,0.19294977674707392
+contenidos,artefactos_sanitarios,positiva,12,pp sxoj,0.19294977674707392
+contenidos,artefactos_sanitarios,positiva,13,32 17,0.18606524791836845
+contenidos,artefactos_sanitarios,positiva,14,72 11,0.18606524791836845
+contenidos,artefactos_sanitarios,positiva,15,17 52,0.18606524791836845
+contenidos,artefactos_sanitarios,negativa,1,de,-1.0132889470261315
+contenidos,artefactos_sanitarios,negativa,2,plano,-0.6467042893546128
+contenidos,artefactos_sanitarios,negativa,3,del,-0.642409962737479
+contenidos,artefactos_sanitarios,negativa,4,arq,-0.6172982913213193
+contenidos,artefactos_sanitarios,negativa,5,saavedra,-0.6020712800245466
+contenidos,artefactos_sanitarios,negativa,6,20,-0.5754254374546132
+contenidos,artefactos_sanitarios,negativa,7,esc,-0.5445101520088234
+contenidos,artefactos_sanitarios,negativa,8,proyecto,-0.5359617782685887
+contenidos,artefactos_sanitarios,negativa,9,00,-0.48520443700623006
+contenidos,artefactos_sanitarios,negativa,10,01,-0.4501240606865784
+contenidos,artefactos_sanitarios,negativa,11,80,-0.434195668386759
+contenidos,artefactos_sanitarios,negativa,12,en,-0.41543303582991375
+contenidos,artefactos_sanitarios,negativa,13,60,-0.41312835274213494
+contenidos,artefactos_sanitarios,negativa,14,10,-0.3923654330197689
+contenidos,artefactos_sanitarios,negativa,15,planta,-0.3877218657038972
+contenidos,baja_tension,positiva,1,1m,0.6013210696345539
+contenidos,baja_tension,positiva,2,t2,0.5558593731709583
+contenidos,baja_tension,positiva,3,2h 12,0.5197131522677075
+contenidos,baja_tension,positiva,4,2h,0.48329313422818726
+contenidos,baja_tension,positiva,5,tomas de,0.45865668347172417
+contenidos,baja_tension,positiva,6,c14,0.4462863665416941
+contenidos,baja_tension,positiva,7,c13,0.4344428157224881
+contenidos,baja_tension,positiva,8,12 2h,0.42291991817936064
+contenidos,baja_tension,positiva,9,tomas,0.40722138848448225
+contenidos,baja_tension,positiva,10,12 2t,0.39510885448856564
+contenidos,baja_tension,positiva,11,4h 12,0.3932177909311034
+contenidos,baja_tension,positiva,12,2t,0.3879194392808183
+contenidos,baja_tension,positiva,13,de piso,0.3638333501972062
+contenidos,baja_tension,positiva,14,4h,0.3504767877965989
+contenidos,baja_tension,positiva,15,12 3t,0.32316121065434356
+contenidos,baja_tension,negativa,1,de,-0.852133723313105
+contenidos,baja_tension,negativa,2,arq,-0.617355630170797
+contenidos,baja_tension,negativa,3,saavedra,-0.6046330927737599
+contenidos,baja_tension,negativa,4,del,-0.5694412572907886
+contenidos,baja_tension,negativa,5,plano,-0.563311966929202
+contenidos,baja_tension,negativa,6,esc,-0.5498319133507765
+contenidos,baja_tension,negativa,7,proyecto,-0.5369881443619793
+contenidos,baja_tension,negativa,8,00,-0.5048711980869569
+contenidos,baja_tension,negativa,9,20,-0.46903662928556866
+contenidos,baja_tension,negativa,10,10,-0.46750144519504966
+contenidos,baja_tension,negativa,11,01,-0.44250524619447373
+contenidos,baja_tension,negativa,12,planta,-0.4065235230967287
+contenidos,baja_tension,negativa,13,50,-0.3931159901518019
+contenidos,baja_tension,negativa,14,detalle,-0.38661899156836577
+contenidos,baja_tension,negativa,15,en,-0.3844227927373572
+contenidos,canalizaciones,positiva,1,1m,0.6013210696345539
+contenidos,canalizaciones,positiva,2,t2,0.5558593731709583
+contenidos,canalizaciones,positiva,3,2h 12,0.5197131522677075
+contenidos,canalizaciones,positiva,4,2h,0.48329313422818726
+contenidos,canalizaciones,positiva,5,tomas de,0.45865668347172417
+contenidos,canalizaciones,positiva,6,c14,0.4462863665416941
+contenidos,canalizaciones,positiva,7,c13,0.4344428157224881
+contenidos,canalizaciones,positiva,8,12 2h,0.42291991817936064
+contenidos,canalizaciones,positiva,9,tomas,0.40722138848448225
+contenidos,canalizaciones,positiva,10,12 2t,0.39510885448856564
+contenidos,canalizaciones,positiva,11,4h 12,0.3932177909311034
+contenidos,canalizaciones,positiva,12,2t,0.3879194392808183
+contenidos,canalizaciones,positiva,13,de piso,0.3638333501972062
+contenidos,canalizaciones,positiva,14,4h,0.3504767877965989
+contenidos,canalizaciones,positiva,15,12 3t,0.32316121065434356
+contenidos,canalizaciones,negativa,1,de,-0.852133723313105
+contenidos,canalizaciones,negativa,2,arq,-0.617355630170797
+contenidos,canalizaciones,negativa,3,saavedra,-0.6046330927737599
+contenidos,canalizaciones,negativa,4,del,-0.5694412572907886
+contenidos,canalizaciones,negativa,5,plano,-0.563311966929202
+contenidos,canalizaciones,negativa,6,esc,-0.5498319133507765
+contenidos,canalizaciones,negativa,7,proyecto,-0.5369881443619793
+contenidos,canalizaciones,negativa,8,00,-0.5048711980869569
+contenidos,canalizaciones,negativa,9,20,-0.46903662928556866
+contenidos,canalizaciones,negativa,10,10,-0.46750144519504966
+contenidos,canalizaciones,negativa,11,01,-0.44250524619447373
+contenidos,canalizaciones,negativa,12,planta,-0.4065235230967287
+contenidos,canalizaciones,negativa,13,50,-0.3931159901518019
+contenidos,canalizaciones,negativa,14,detalle,-0.38661899156836577
+contenidos,canalizaciones,negativa,15,en,-0.3844227927373572
+contenidos,canerias_gas,positiva,1,5e,0.18347874293585353
+contenidos,canerias_gas,positiva,2,tuberias,0.17488090033476744
+contenidos,canerias_gas,positiva,3,78 5e,0.15849090866586293
+contenidos,canerias_gas,positiva,4,5e1,0.15849090866586293
+contenidos,canerias_gas,positiva,5,167,0.15849090866586293
+contenidos,canerias_gas,positiva,6,las tuberias,0.15849090866586293
+contenidos,canerias_gas,positiva,7,i1,0.14520861080761946
+contenidos,canerias_gas,positiva,8,cobre,0.14368465485242332
+contenidos,canerias_gas,positiva,9,de cobre,0.14368465485242332
+contenidos,canerias_gas,positiva,10,antes,0.13430103486336337
+contenidos,canerias_gas,positiva,11,gas,0.12342808237359608
+contenidos,canerias_gas,positiva,12,la tuberia,0.1228164121705668
+contenidos,canerias_gas,positiva,13,conexiones,0.1228164121705668
+contenidos,canerias_gas,positiva,14,llave,0.1228164121705668
+contenidos,canerias_gas,positiva,15,no se,0.1228164121705668
+contenidos,canerias_gas,negativa,1,de,-1.0811104148822392
+contenidos,canerias_gas,negativa,2,plano,-0.6751039488862842
+contenidos,canerias_gas,negativa,3,20,-0.6175238696290619
+contenidos,canerias_gas,negativa,4,arq,-0.6132655540016736
+contenidos,canerias_gas,negativa,5,saavedra,-0.6015729172972571
+contenidos,canerias_gas,negativa,6,00,-0.5952064197983846
+contenidos,canerias_gas,negativa,7,del,-0.570441601439693
+contenidos,canerias_gas,negativa,8,10,-0.5504798890000446
+contenidos,canerias_gas,negativa,9,esc,-0.5443256182866041
+contenidos,canerias_gas,negativa,10,50,-0.5035657203592891
+contenidos,canerias_gas,negativa,11,12,-0.4781734306430344
+contenidos,canerias_gas,negativa,12,proyecto,-0.4751376879189909
+contenidos,canerias_gas,negativa,13,60,-0.4743350209784015
+contenidos,canerias_gas,negativa,14,40,-0.46763481095672116
+contenidos,canerias_gas,negativa,15,80,-0.4420679978023679
+contenidos,canerias_sanitarias,positiva,1,de agua,0.41506656262064834
+contenidos,canerias_sanitarias,positiva,2,agua,0.34808930092364376
+contenidos,canerias_sanitarias,positiva,3,plano instalacion,0.3414642294895614
+contenidos,canerias_sanitarias,positiva,4,instalacion de,0.30978252670694767
+contenidos,canerias_sanitarias,positiva,5,cordoba plano,0.29157105546892137
+contenidos,canerias_sanitarias,positiva,6,instalacion,0.2678316833668586
+contenidos,canerias_sanitarias,positiva,7,mortero cem,0.25147844396701724
+contenidos,canerias_sanitarias,positiva,8,are,0.25147844396701724
+contenidos,canerias_sanitarias,positiva,9,cem are,0.25147844396701724
+contenidos,canerias_sanitarias,positiva,10,51,0.21358678721680346
+contenidos,canerias_sanitarias,positiva,11,33 95,0.21354053056121497
+contenidos,canerias_sanitarias,positiva,12,39 76,0.21354053056121497
+contenidos,canerias_sanitarias,positiva,13,pend,0.20833879671407227
+contenidos,canerias_sanitarias,positiva,14,concreto armado,0.20239019578942033
+contenidos,canerias_sanitarias,positiva,15,51 81,0.2019995258335948
+contenidos,canerias_sanitarias,negativa,1,de,-0.8319082904451179
+contenidos,canerias_sanitarias,negativa,2,arq,-0.6258300741279852
+contenidos,canerias_sanitarias,negativa,3,saavedra,-0.6103277244863038
+contenidos,canerias_sanitarias,negativa,4,20,-0.5799298260798945
+contenidos,canerias_sanitarias,negativa,5,del,-0.5346955631599717
+contenidos,canerias_sanitarias,negativa,6,00,-0.4884808128209856
+contenidos,canerias_sanitarias,negativa,7,plano,-0.4622950832147512
+contenidos,canerias_sanitarias,negativa,8,01,-0.4546905888436669
+contenidos,canerias_sanitarias,negativa,9,80,-0.43479096563855485
+contenidos,canerias_sanitarias,negativa,10,en,-0.43318340814579115
+contenidos,canerias_sanitarias,negativa,11,planta,-0.4324691088112022
+contenidos,canerias_sanitarias,negativa,12,proyecto,-0.41678475121433883
+contenidos,canerias_sanitarias,negativa,13,60,-0.41657799931790446
+contenidos,canerias_sanitarias,negativa,14,10,-0.3972865428739106
+contenidos,canerias_sanitarias,negativa,15,40,-0.38503475673450516
+contenidos,cielorrasos,positiva,1,53,1.4728206386693
+contenidos,cielorrasos,positiva,2,93,1.3024715043598565
+contenidos,cielorrasos,positiva,3,93 93,1.176308596483819
+contenidos,cielorrasos,positiva,4,85,1.1078558508798426
+contenidos,cielorrasos,positiva,5,11,1.0755464565306454
+contenidos,cielorrasos,positiva,6,05,1.0415984641196063
+contenidos,cielorrasos,positiva,7,99,0.8726567323380362
+contenidos,cielorrasos,positiva,8,06,0.8693800638082386
+contenidos,cielorrasos,positiva,9,05 05,0.8601016247648811
+contenidos,cielorrasos,positiva,10,cielorrasos planta,0.8188509729285441
+contenidos,cielorrasos,positiva,11,cielorrasos,0.8188509729285441
+contenidos,cielorrasos,positiva,12,75 53,0.8188509729285441
+contenidos,cielorrasos,positiva,13,cielorrasos2,0.8188509729285441
+contenidos,cielorrasos,positiva,14,cielorrasos2 cielorrasos,0.8188509729285441
+contenidos,cielorrasos,positiva,15,saavedra cielorrasos2,0.8188509729285441
+contenidos,cielorrasos,negativa,1,de,-0.2502166482592329
+contenidos,cielorrasos,negativa,2,detalle,-0.22907195939912448
+contenidos,cielorrasos,negativa,3,detalle de,-0.2145890272902827
+contenidos,cielorrasos,negativa,4,cl,-0.16924135251667116
+contenidos,cielorrasos,negativa,5,cl cl,-0.16423494479893372
+contenidos,cielorrasos,negativa,6,cuarto,-0.15250298163726914
+contenidos,cielorrasos,negativa,7,bano,-0.13440553468008545
+contenidos,cielorrasos,negativa,8,vista,-0.13345571485322086
+contenidos,cielorrasos,negativa,9,esc 20,-0.13095351390281823
+contenidos,cielorrasos,negativa,10,20,-0.13026932028215224
+contenidos,cielorrasos,negativa,11,edxr,-0.1291507317817011
+contenidos,cielorrasos,negativa,12,eje,-0.12232125110296937
+contenidos,cielorrasos,negativa,13,saavedra detalle,-0.12174347201850268
+contenidos,cielorrasos,negativa,14,00,-0.12055456219389864
+contenidos,cielorrasos,negativa,15,cuarto cuarto,-0.11940578599621794
+contenidos,cloacal,positiva,1,ø110,0.7053018671309503
+contenidos,cloacal,positiva,2,ø63,0.6434054865108476
+contenidos,cloacal,positiva,3,pvc,0.5958963650040936
+contenidos,cloacal,positiva,4,2ø19,0.5423300656949869
+contenidos,cloacal,positiva,5,pend,0.515815335764267
+contenidos,cloacal,positiva,6,instalaciones sanitarias,0.5148102904128184
+contenidos,cloacal,positiva,7,sanitarias,0.5148102904128184
+contenidos,cloacal,positiva,8,2ø19 2ø19,0.48983621325263893
+contenidos,cloacal,positiva,9,2llp,0.477246194006355
+contenidos,cloacal,positiva,10,instalaciones,0.44253259392465205
+contenidos,cloacal,positiva,11,ø110 ø110,0.42616198721054355
+contenidos,cloacal,positiva,12,plano instalacion,0.3540915447385344
+contenidos,cloacal,positiva,13,ip,0.3514229781296553
+contenidos,cloacal,positiva,14,vent,0.3514229781296553
+contenidos,cloacal,positiva,15,instalacion de,0.32216358880478574
+contenidos,cloacal,negativa,1,20,-0.5917400673643258
+contenidos,cloacal,negativa,2,arq,-0.5597928037016093
+contenidos,cloacal,negativa,3,saavedra,-0.5428357711986964
+contenidos,cloacal,negativa,4,de,-0.5387218991232409
+contenidos,cloacal,negativa,5,00,-0.4989704837810479
+contenidos,cloacal,negativa,6,en,-0.44075857490808296
+contenidos,cloacal,negativa,7,80,-0.43236331795438193
+contenidos,cloacal,negativa,8,60,-0.4273227790968301
+contenidos,cloacal,negativa,9,40,-0.3935604789767206
+contenidos,cloacal,negativa,10,esc,-0.38367457433880786
+contenidos,cloacal,negativa,11,01,-0.37844694436827836
+contenidos,cloacal,negativa,12,del,-0.372003034371446
+contenidos,cloacal,negativa,13,01 12,-0.3669711337724441
+contenidos,cloacal,negativa,14,nombre del,-0.3664113352455109
+contenidos,cloacal,negativa,15,esc fecha,-0.3664113352455109
+contenidos,columnas_pilares,positiva,1,cm,0.5006213581473645
+contenidos,columnas_pilares,positiva,2,viga,0.47422869237004456
+contenidos,columnas_pilares,positiva,3,de columnas,0.47340659989392403
+contenidos,columnas_pilares,positiva,4,clt,0.38631674006623545
+contenidos,columnas_pilares,positiva,5,vt,0.38545965368526985
+contenidos,columnas_pilares,positiva,6,lvl,0.38463658435121967
+contenidos,columnas_pilares,positiva,7,cv cv,0.3547530653245921
+contenidos,columnas_pilares,positiva,8,vt vt,0.34561943417485985
+contenidos,columnas_pilares,positiva,9,columnas,0.3381638496794461
+contenidos,columnas_pilares,positiva,10,1ø8,0.32862410490483396
+contenidos,columnas_pilares,positiva,11,2ø12 1ø8,0.32862410490483396
+contenidos,columnas_pilares,positiva,12,cv3 cv3,0.32016579322978644
+contenidos,columnas_pilares,positiva,13,2ø8 2ø8,0.31783899906120716
+contenidos,columnas_pilares,positiva,14,cv,0.3160150975806153
+contenidos,columnas_pilares,positiva,15,cv3,0.31276285040266627
+contenidos,columnas_pilares,negativa,1,plano,-0.6140290628368179
+contenidos,columnas_pilares,negativa,2,del,-0.5295897448793175
+contenidos,columnas_pilares,negativa,3,50,-0.5193627085289384
+contenidos,columnas_pilares,negativa,4,00,-0.5064871848109518
+contenidos,columnas_pilares,negativa,5,arq,-0.5061834202735562
+contenidos,columnas_pilares,negativa,6,de,-0.4916566823733668
+contenidos,columnas_pilares,negativa,7,saavedra,-0.4874269867446277
+contenidos,columnas_pilares,negativa,8,20,-0.4549597057684035
+contenidos,columnas_pilares,negativa,9,proyecto,-0.43166924085548625
+contenidos,columnas_pilares,negativa,10,esc,-0.41741078393608744
+contenidos,columnas_pilares,negativa,11,01,-0.3646214051937281
+contenidos,columnas_pilares,negativa,12,detalle de,-0.34434119448074696
+contenidos,columnas_pilares,negativa,13,vista,-0.3353753396793488
+contenidos,columnas_pilares,negativa,14,01 12,-0.32804793265023885
+contenidos,columnas_pilares,negativa,15,60,-0.3161520232072449
+contenidos,coordenadas,positiva,1,00 54,1.5852816864511234
+contenidos,coordenadas,positiva,2,emplazamiento,1.5740758516049131
+contenidos,coordenadas,positiva,3,000,1.481195696351184
+contenidos,coordenadas,positiva,4,an,1.2109801195414893
+contenidos,coordenadas,positiva,5,by,1.2109801195414893
+contenidos,coordenadas,positiva,6,produced by,1.2109801195414893
+contenidos,coordenadas,positiva,7,autodesk,1.2109801195414893
+contenidos,coordenadas,positiva,8,educational,1.2109801195414893
+contenidos,coordenadas,positiva,9,educational product,1.2109801195414893
+contenidos,coordenadas,positiva,10,product,1.2109801195414893
+contenidos,coordenadas,positiva,11,an autodesk,1.2109801195414893
+contenidos,coordenadas,positiva,12,autodesk educational,1.2109801195414893
+contenidos,coordenadas,positiva,13,by an,1.2109801195414893
+contenidos,coordenadas,positiva,14,produced,1.2109801195414893
+contenidos,coordenadas,positiva,15,25 00,1.0753925005356568
+contenidos,coordenadas,negativa,1,20,-0.26548951608468846
+contenidos,coordenadas,negativa,2,60,-0.22574585567343453
+contenidos,coordenadas,negativa,3,40,-0.2249650942919022
+contenidos,coordenadas,negativa,4,30,-0.21134275169818212
+contenidos,coordenadas,negativa,5,80,-0.1979600526720093
+contenidos,coordenadas,negativa,6,del,-0.18788632457790275
+contenidos,coordenadas,negativa,7,arq,-0.18442712430733083
+contenidos,coordenadas,negativa,8,saavedra,-0.18010264031741868
+contenidos,coordenadas,negativa,9,70,-0.178517836287446
+contenidos,coordenadas,negativa,10,esc,-0.16605949508494205
+contenidos,coordenadas,negativa,11,en,-0.15909392111275492
+contenidos,coordenadas,negativa,12,90,-0.1563241030151398
+contenidos,coordenadas,negativa,13,proyecto,-0.1559945123239409
+contenidos,coordenadas,negativa,14,15,-0.1476040358813626
+contenidos,coordenadas,negativa,15,planta,-0.14261732539676122
+contenidos,cubiertas,positiva,1,pendiente del,0.8043524121397255
+contenidos,cubiertas,positiva,2,pendiente,0.6313481541083358
+contenidos,cubiertas,positiva,3,bap,0.6014548900606123
+contenidos,cubiertas,positiva,4,bap bap,0.5836867050561932
+contenidos,cubiertas,positiva,5,de azoteas,0.3386637377482766
+contenidos,cubiertas,positiva,6,azoteas,0.2958887755259823
+contenidos,cubiertas,positiva,7,capilla comedor,0.2672069142696992
+contenidos,cubiertas,positiva,8,6000,0.2591346744729658
+contenidos,cubiertas,positiva,9,ð1,0.25311584316329044
+contenidos,cubiertas,positiva,10,mortero cemento,0.21938860605638166
+contenidos,cubiertas,positiva,11,cemento arena,0.21626340015233064
+contenidos,cubiertas,positiva,12,cemento,0.20568625008386027
+contenidos,cubiertas,positiva,13,arena,0.18210542843530925
+contenidos,cubiertas,positiva,14,de mortero,0.17851141753798627
+contenidos,cubiertas,positiva,15,00 21,0.1728682571316216
+contenidos,cubiertas,negativa,1,de,-1.0156256558375514
+contenidos,cubiertas,negativa,2,plano,-0.6530797100387462
+contenidos,cubiertas,negativa,3,arq,-0.6135231977703961
+contenidos,cubiertas,negativa,4,saavedra,-0.6003480616657548
+contenidos,cubiertas,negativa,5,esc,-0.5457495105491137
+contenidos,cubiertas,negativa,6,proyecto,-0.5327112585071068
+contenidos,cubiertas,negativa,7,00,-0.4855553256743781
+contenidos,cubiertas,negativa,8,en,-0.46201718448079504
+contenidos,cubiertas,negativa,9,20,-0.4582421723649158
+contenidos,cubiertas,negativa,10,12,-0.45786509404291137
+contenidos,cubiertas,negativa,11,01,-0.4393596649847589
+contenidos,cubiertas,negativa,12,10,-0.4367713315042285
+contenidos,cubiertas,negativa,13,15,-0.4094629237012665
+contenidos,cubiertas,negativa,14,50,-0.36782029730941423
+contenidos,cubiertas,negativa,15,casa,-0.36767061631983666
+contenidos,cubiertas_estructurales,positiva,1,de techos,1.3192326190865686
+contenidos,cubiertas_estructurales,positiva,2,techos,1.1670097064071567
+contenidos,cubiertas_estructurales,positiva,3,lvl,0.980865893147387
+contenidos,cubiertas_estructurales,positiva,4,clt,0.9491813691575716
+contenidos,cubiertas_estructurales,positiva,5,planta de,0.9082073936286151
+contenidos,cubiertas_estructurales,positiva,6,viga,0.8494483138609094
+contenidos,cubiertas_estructurales,positiva,7,45,0.7904938932932851
+contenidos,cubiertas_estructurales,positiva,8,glh24,0.758366949561918
+contenidos,cubiertas_estructurales,positiva,9,cordoba planta,0.7384967276960124
+contenidos,cubiertas_estructurales,positiva,10,800,0.7022400901585658
+contenidos,cubiertas_estructurales,positiva,11,de clt,0.6833919996587856
+contenidos,cubiertas_estructurales,positiva,12,cubierta,0.6737848873629737
+contenidos,cubiertas_estructurales,positiva,13,50 50,0.6621032424164859
+contenidos,cubiertas_estructurales,positiva,14,200,0.6209398408796268
+contenidos,cubiertas_estructurales,positiva,15,de,0.6074074646603819
+contenidos,cubiertas_estructurales,negativa,1,esc,-0.342028298815263
+contenidos,cubiertas_estructurales,negativa,2,esc 100,-0.34093520723574355
+contenidos,cubiertas_estructurales,negativa,3,plano,-0.2953123515299054
+contenidos,cubiertas_estructurales,negativa,4,20,-0.2499716656994392
+contenidos,cubiertas_estructurales,negativa,5,01 12,-0.2395042413218298
+contenidos,cubiertas_estructurales,negativa,6,12 2025,-0.23667109742488412
+contenidos,cubiertas_estructurales,negativa,7,2025,-0.23667109742488412
+contenidos,cubiertas_estructurales,negativa,8,cordoba plano,-0.21093704863890134
+contenidos,cubiertas_estructurales,negativa,9,instalacion,-0.19353245405803424
+contenidos,cubiertas_estructurales,negativa,10,plano instalacion,-0.1882633799533138
+contenidos,cubiertas_estructurales,negativa,11,70,-0.1872269400695071
+contenidos,cubiertas_estructurales,negativa,12,instalacion de,-0.1837699317930862
+contenidos,cubiertas_estructurales,negativa,13,vista,-0.17638237876554266
+contenidos,cubiertas_estructurales,negativa,14,12,-0.16334392222933514
+contenidos,cubiertas_estructurales,negativa,15,educational product,-0.16131007200873484
+contenidos,detalles_constructivos,positiva,1,detalle de,1.3847330544983665
+contenidos,detalles_constructivos,positiva,2,20,1.3717186413094398
+contenidos,detalles_constructivos,positiva,3,detalle,1.176282051861447
+contenidos,detalles_constructivos,positiva,4,00,1.1734391774730444
+contenidos,detalles_constructivos,positiva,5,de,1.0105265756863173
+contenidos,detalles_constructivos,positiva,6,10,0.9316611465173222
+contenidos,detalles_constructivos,positiva,7,esc 20,0.8843429195387783
+contenidos,detalles_constructivos,positiva,8,saavedra detalle,0.827939076002211
+contenidos,detalles_constructivos,positiva,9,eje,0.8040112757751182
+contenidos,detalles_constructivos,positiva,10,vista,0.798668718303285
+contenidos,detalles_constructivos,positiva,11,estante,0.7924235290274074
+contenidos,detalles_constructivos,positiva,12,locales,0.7843416822626617
+contenidos,detalles_constructivos,positiva,13,de locales,0.7843416822626617
+contenidos,detalles_constructivos,positiva,14,locales detalle,0.7843416822626617
+contenidos,detalles_constructivos,positiva,15,esc,0.7779055047740161
+contenidos,detalles_constructivos,negativa,1,60 casa,-0.3657945909008728
+contenidos,detalles_constructivos,negativa,2,2025 60,-0.3484229632913008
+contenidos,detalles_constructivos,negativa,3,baja,-0.24714201342002706
+contenidos,detalles_constructivos,negativa,4,planta baja,-0.23595959001725397
+contenidos,detalles_constructivos,negativa,5,replanteo,-0.23415624256729886
+contenidos,detalles_constructivos,negativa,6,viga,-0.22643162152876292
+contenidos,detalles_constructivos,negativa,7,estructura,-0.2227054026665878
+contenidos,detalles_constructivos,negativa,8,100,-0.19953483187461385
+contenidos,detalles_constructivos,negativa,9,estructura estructura,-0.19262451305367762
+contenidos,detalles_constructivos,negativa,10,saavedra estructura,-0.19262451305367762
+contenidos,detalles_constructivos,negativa,11,del sur,-0.18535715245573037
+contenidos,detalles_constructivos,negativa,12,pcia de,-0.18535715245573037
+contenidos,detalles_constructivos,negativa,13,pcia,-0.18535715245573037
+contenidos,detalles_constructivos,negativa,14,lugar oliva,-0.18535715245573037
+contenidos,detalles_constructivos,negativa,15,de cordoba,-0.18535715245573037
+contenidos,distribucion_espacios,positiva,1,hall,0.4442923586919899
+contenidos,distribucion_espacios,positiva,2,paso,0.35976229357865086
+contenidos,distribucion_espacios,positiva,3,vestidor,0.3173687115256339
+contenidos,distribucion_espacios,positiva,4,terraza,0.3164418460518425
+contenidos,distribucion_espacios,positiva,5,habitacion bano,0.31481396323235455
+contenidos,distribucion_espacios,positiva,6,habitacion,0.31011357620734104
+contenidos,distribucion_espacios,positiva,7,azotea,0.3058564884647176
+contenidos,distribucion_espacios,positiva,8,npt azotea,0.30388550386799
+contenidos,distribucion_espacios,positiva,9,58,0.27738390806050395
+contenidos,distribucion_espacios,positiva,10,antebano,0.26107805912874144
+contenidos,distribucion_espacios,positiva,11,carpinterias planta,0.256765236801035
+contenidos,distribucion_espacios,positiva,12,parrilla plano,0.25548437418302855
+contenidos,distribucion_espacios,positiva,13,terraza inaccesible,0.2553032889147415
+contenidos,distribucion_espacios,positiva,14,inaccesible,0.2553032889147415
+contenidos,distribucion_espacios,positiva,15,escalera hall,0.25295936478680175
+contenidos,distribucion_espacios,negativa,1,de,-1.030908585462482
+contenidos,distribucion_espacios,negativa,2,plano,-0.6092508395773678
+contenidos,distribucion_espacios,negativa,3,esc,-0.5103773686339598
+contenidos,distribucion_espacios,negativa,4,saavedra,-0.5053716693017086
+contenidos,distribucion_espacios,negativa,5,detalle,-0.4916426852738787
+contenidos,distribucion_espacios,negativa,6,detalle de,-0.4738888669678597
+contenidos,distribucion_espacios,negativa,7,arq,-0.45698740725698006
+contenidos,distribucion_espacios,negativa,8,10,-0.4379645622763085
+contenidos,distribucion_espacios,negativa,9,100,-0.43547807256422094
+contenidos,distribucion_espacios,negativa,10,proyecto,-0.3963462973852102
+contenidos,distribucion_espacios,negativa,11,del,-0.3912527738536908
+contenidos,distribucion_espacios,negativa,12,en,-0.3811521900788886
+contenidos,distribucion_espacios,negativa,13,01,-0.3787367105712067
+contenidos,distribucion_espacios,negativa,14,la,-0.3751021063919392
+contenidos,distribucion_espacios,negativa,15,viga,-0.3372667079496374
+contenidos,ejes_replanteo,positiva,1,00 54,1.5852816864511234
+contenidos,ejes_replanteo,positiva,2,emplazamiento,1.5740758516049131
+contenidos,ejes_replanteo,positiva,3,000,1.481195696351184
+contenidos,ejes_replanteo,positiva,4,an,1.2109801195414893
+contenidos,ejes_replanteo,positiva,5,by,1.2109801195414893
+contenidos,ejes_replanteo,positiva,6,produced by,1.2109801195414893
+contenidos,ejes_replanteo,positiva,7,autodesk,1.2109801195414893
+contenidos,ejes_replanteo,positiva,8,educational,1.2109801195414893
+contenidos,ejes_replanteo,positiva,9,educational product,1.2109801195414893
+contenidos,ejes_replanteo,positiva,10,product,1.2109801195414893
+contenidos,ejes_replanteo,positiva,11,an autodesk,1.2109801195414893
+contenidos,ejes_replanteo,positiva,12,autodesk educational,1.2109801195414893
+contenidos,ejes_replanteo,positiva,13,by an,1.2109801195414893
+contenidos,ejes_replanteo,positiva,14,produced,1.2109801195414893
+contenidos,ejes_replanteo,positiva,15,25 00,1.0753925005356568
+contenidos,ejes_replanteo,negativa,1,20,-0.26548951608468846
+contenidos,ejes_replanteo,negativa,2,60,-0.22574585567343453
+contenidos,ejes_replanteo,negativa,3,40,-0.2249650942919022
+contenidos,ejes_replanteo,negativa,4,30,-0.21134275169818212
+contenidos,ejes_replanteo,negativa,5,80,-0.1979600526720093
+contenidos,ejes_replanteo,negativa,6,del,-0.18788632457790275
+contenidos,ejes_replanteo,negativa,7,arq,-0.18442712430733083
+contenidos,ejes_replanteo,negativa,8,saavedra,-0.18010264031741868
+contenidos,ejes_replanteo,negativa,9,70,-0.178517836287446
+contenidos,ejes_replanteo,negativa,10,esc,-0.16605949508494205
+contenidos,ejes_replanteo,negativa,11,en,-0.15909392111275492
+contenidos,ejes_replanteo,negativa,12,90,-0.1563241030151398
+contenidos,ejes_replanteo,negativa,13,proyecto,-0.1559945123239409
+contenidos,ejes_replanteo,negativa,14,15,-0.1476040358813626
+contenidos,ejes_replanteo,negativa,15,planta,-0.14261732539676122
+contenidos,elementos_estructurales_generales,positiva,1,lvl,1.1911906036577222
+contenidos,elementos_estructurales_generales,positiva,2,clt,1.1754304240164843
+contenidos,elementos_estructurales_generales,positiva,3,viga,1.1111817285151293
+contenidos,elementos_estructurales_generales,positiva,4,glh24,0.9400469025641397
+contenidos,elementos_estructurales_generales,positiva,5,800,0.8810881710814863
+contenidos,elementos_estructurales_generales,positiva,6,de clt,0.8721626712633829
+contenidos,elementos_estructurales_generales,positiva,7,200,0.8259327422524513
+contenidos,elementos_estructurales_generales,positiva,8,de glh24,0.7692086652921265
+contenidos,elementos_estructurales_generales,positiva,9,150,0.7416468422482385
+contenidos,elementos_estructurales_generales,positiva,10,300,0.6985168891056639
+contenidos,elementos_estructurales_generales,positiva,11,120,0.6850492216740713
+contenidos,elementos_estructurales_generales,positiva,12,viga de,0.6711991637002895
+contenidos,elementos_estructurales_generales,positiva,13,280,0.6539610769689622
+contenidos,elementos_estructurales_generales,positiva,14,clt 280,0.6491587869086494
+contenidos,elementos_estructurales_generales,positiva,15,280 l7s,0.6440204282363249
+contenidos,elementos_estructurales_generales,negativa,1,plano,-0.2304505629335589
+contenidos,elementos_estructurales_generales,negativa,2,arq,-0.2044954562644941
+contenidos,elementos_estructurales_generales,negativa,3,saavedra,-0.2011898197679772
+contenidos,elementos_estructurales_generales,negativa,4,esc,-0.1857024682303885
+contenidos,elementos_estructurales_generales,negativa,5,proyecto,-0.17119904386193643
+contenidos,elementos_estructurales_generales,negativa,6,del,-0.16943255991303857
+contenidos,elementos_estructurales_generales,negativa,7,01,-0.1435399207773505
+contenidos,elementos_estructurales_generales,negativa,8,casa,-0.12178570612046816
+contenidos,elementos_estructurales_generales,negativa,9,notas,-0.1217514689977301
+contenidos,elementos_estructurales_generales,negativa,10,saavedra pablo,-0.1217514689977301
+contenidos,elementos_estructurales_generales,negativa,11,arq lucia,-0.1217514689977301
+contenidos,elementos_estructurales_generales,negativa,12,andrea,-0.1217514689977301
+contenidos,elementos_estructurales_generales,negativa,13,cliente proyecto,-0.1217514689977301
+contenidos,elementos_estructurales_generales,negativa,14,pablo,-0.1217514689977301
+contenidos,elementos_estructurales_generales,negativa,15,lucia villarreal,-0.1217514689977301
+contenidos,escaleras_estructurales,positiva,1,lvl,0.4975498177231005
+contenidos,escaleras_estructurales,positiva,2,clt,0.4332090208813134
+contenidos,escaleras_estructurales,positiva,3,800,0.33567504114642127
+contenidos,escaleras_estructurales,positiva,4,glh24,0.32587400822410845
+contenidos,escaleras_estructurales,positiva,5,viga,0.32361953263578913
+contenidos,escaleras_estructurales,positiva,6,de clt,0.30039050615352064
+contenidos,escaleras_estructurales,positiva,7,150,0.27887130102608404
+contenidos,escaleras_estructurales,positiva,8,clt 280,0.2747002032247987
+contenidos,escaleras_estructurales,positiva,9,l7s,0.27279113857469767
+contenidos,escaleras_estructurales,positiva,10,280 l7s,0.27279113857469767
+contenidos,escaleras_estructurales,positiva,11,280,0.2711098330514621
+contenidos,escaleras_estructurales,positiva,12,120,0.2623454455174403
+contenidos,escaleras_estructurales,positiva,13,40 40,0.2615751936305072
+contenidos,escaleras_estructurales,positiva,14,lvl 285x800,0.2567934755455822
+contenidos,escaleras_estructurales,positiva,15,285x800,0.2567934755455822
+contenidos,escaleras_estructurales,negativa,1,de,-0.8419080410117076
+contenidos,escaleras_estructurales,negativa,2,plano,-0.6886870775710195
+contenidos,escaleras_estructurales,negativa,3,del,-0.6352332157535738
+contenidos,escaleras_estructurales,negativa,4,arq,-0.6100192000328593
+contenidos,escaleras_estructurales,negativa,5,saavedra,-0.5978012575061097
+contenidos,escaleras_estructurales,negativa,6,esc,-0.5552809440799016
+contenidos,escaleras_estructurales,negativa,7,proyecto,-0.5430685427418733
+contenidos,escaleras_estructurales,negativa,8,20,-0.5117641547663607
+contenidos,escaleras_estructurales,negativa,9,50,-0.46142463363173775
+contenidos,escaleras_estructurales,negativa,10,12,-0.4572976002938895
+contenidos,escaleras_estructurales,negativa,11,00,-0.4308393539250248
+contenidos,escaleras_estructurales,negativa,12,01,-0.42356906677185496
+contenidos,escaleras_estructurales,negativa,13,60,-0.4055666566630425
+contenidos,escaleras_estructurales,negativa,14,10,-0.3968081200743179
+contenidos,escaleras_estructurales,negativa,15,01 12,-0.3697535514053606
+contenidos,fachadas,positiva,1,arquitectura fachada,0.4188223529729734
+contenidos,fachadas,positiva,2,92 32,0.4188223529729734
+contenidos,fachadas,positiva,3,referencia,0.41653564562857764
+contenidos,fachadas,positiva,4,referencia carpinterias,0.41653564562857764
+contenidos,fachadas,positiva,5,planta referencia,0.41653564562857764
+contenidos,fachadas,positiva,6,40 58,0.3895975443027706
+contenidos,fachadas,positiva,7,32 plano,0.3787670390020392
+contenidos,fachadas,positiva,8,20 92,0.3627189839723392
+contenidos,fachadas,positiva,9,50 casa,0.3561120186894854
+contenidos,fachadas,positiva,10,2025 50,0.3561120186894854
+contenidos,fachadas,positiva,11,alzado,0.34986877554741586
+contenidos,fachadas,positiva,12,arquitectura,0.3250886920986673
+contenidos,fachadas,positiva,13,nivel vereda,0.3053153381458573
+contenidos,fachadas,positiva,14,40 nivel,0.3053153381458573
+contenidos,fachadas,positiva,15,vereda 20,0.3053153381458573
+contenidos,fachadas,negativa,1,de,-0.9940814509502031
+contenidos,fachadas,negativa,2,60,-0.5593475159879747
+contenidos,fachadas,negativa,3,en,-0.5202606741020886
+contenidos,fachadas,negativa,4,10,-0.5015861899226077
+contenidos,fachadas,negativa,5,20,-0.46472088625161045
+contenidos,fachadas,negativa,6,70,-0.4598922914664485
+contenidos,fachadas,negativa,7,la,-0.4083905864735074
+contenidos,fachadas,negativa,8,100,-0.4075524455444934
+contenidos,fachadas,negativa,9,80,-0.3952384145465901
+contenidos,fachadas,negativa,10,con,-0.39087035979418794
+contenidos,fachadas,negativa,11,bano,-0.38594195354137534
+contenidos,fachadas,negativa,12,detalle,-0.37008227110858916
+contenidos,fachadas,negativa,13,del,-0.3687303768667384
+contenidos,fachadas,negativa,14,esc,-0.36129657072671423
+contenidos,fachadas,negativa,15,11,-0.34588984271299655
+contenidos,fuerza,positiva,1,t2,0.5629574666151858
+contenidos,fuerza,positiva,2,2h 12,0.5262696551742977
+contenidos,fuerza,positiva,3,2h,0.4894486334741656
+contenidos,fuerza,positiva,4,c14,0.45182309159121337
+contenidos,fuerza,positiva,5,c13,0.4399074506598595
+contenidos,fuerza,positiva,6,12 2h,0.42820270079625333
+contenidos,fuerza,positiva,7,12 2t,0.4000976512902842
+contenidos,fuerza,positiva,8,4h 12,0.39818466283035286
+contenidos,fuerza,positiva,9,2t,0.3928248823387576
+contenidos,fuerza,positiva,10,4h,0.35495468851000467
+contenidos,fuerza,positiva,11,12 3t,0.3272357502019423
+contenidos,fuerza,positiva,12,6h 12,0.3199629812504157
+contenidos,fuerza,positiva,13,3t,0.3199629812504157
+contenidos,fuerza,positiva,14,6h,0.3199629812504157
+contenidos,fuerza,positiva,15,12 4h,0.30162512536636216
+contenidos,fuerza,negativa,1,de,-1.0505539921447566
+contenidos,fuerza,negativa,2,del,-0.628626345901831
+contenidos,fuerza,negativa,3,plano,-0.6266905785711789
+contenidos,fuerza,negativa,4,arq,-0.6151545452518954
+contenidos,fuerza,negativa,5,saavedra,-0.6024804600347425
+contenidos,fuerza,negativa,6,esc,-0.5449755464769908
+contenidos,fuerza,negativa,7,proyecto,-0.5329225155935785
+contenidos,fuerza,negativa,8,00,-0.500878812812425
+contenidos,fuerza,negativa,9,en,-0.46755700067480505
+contenidos,fuerza,negativa,10,10,-0.4616238492146855
+contenidos,fuerza,negativa,11,20,-0.4600051665251231
+contenidos,fuerza,negativa,12,01,-0.4415876558003041
+contenidos,fuerza,negativa,13,planta,-0.39749408033968026
+contenidos,fuerza,negativa,14,50,-0.38591253534958697
+contenidos,fuerza,negativa,15,detalle,-0.38028633557236274
+contenidos,fundaciones,positiva,1,vf,0.6796523340636643
+contenidos,fundaciones,positiva,2,bases,0.6153663239550283
+contenidos,fundaciones,positiva,3,de bases,0.5280963685406522
+contenidos,fundaciones,positiva,4,de fundacion,0.5008439387043445
+contenidos,fundaciones,positiva,5,fundacion,0.4537837678853369
+contenidos,fundaciones,positiva,6,estructura,0.4028230221978491
+contenidos,fundaciones,positiva,7,vf vf,0.37340901982848274
+contenidos,fundaciones,positiva,8,ho,0.35125453664398615
+contenidos,fundaciones,positiva,9,estructura armado,0.34128520712881794
+contenidos,fundaciones,positiva,10,18x18,0.32756769793169627
+contenidos,fundaciones,positiva,11,muro de,0.32609898111480456
+contenidos,fundaciones,positiva,12,malla,0.3145742585997838
+contenidos,fundaciones,positiva,13,zapata,0.31043637682307634
+contenidos,fundaciones,positiva,14,6x6 10,0.3032718069111328
+contenidos,fundaciones,positiva,15,contrapiso,0.30255447955123554
+contenidos,fundaciones,negativa,1,00,-0.5481885286922733
+contenidos,fundaciones,negativa,2,plano,-0.5050044917301466
+contenidos,fundaciones,negativa,3,de,-0.49320264548116727
+contenidos,fundaciones,negativa,4,50,-0.4509777040776468
+contenidos,fundaciones,negativa,5,arq,-0.4188026962666156
+contenidos,fundaciones,negativa,6,10,-0.4058505147567334
+contenidos,fundaciones,negativa,7,saavedra,-0.3947080938033077
+contenidos,fundaciones,negativa,8,proyecto,-0.3877076344196638
+contenidos,fundaciones,negativa,9,esc,-0.38605272036340677
+contenidos,fundaciones,negativa,10,del,-0.3851533610649627
+contenidos,fundaciones,negativa,11,planta,-0.3638087477571395
+contenidos,fundaciones,negativa,12,detalle de,-0.36335020888340774
+contenidos,fundaciones,negativa,13,bano,-0.3230102227970532
+contenidos,fundaciones,negativa,14,40,-0.30680413259441447
+contenidos,fundaciones,negativa,15,70,-0.3020315430732903
+contenidos,gas_general,positiva,1,gas,0.7723785337053733
+contenidos,gas_general,positiva,2,de gas,0.7262487081209343
+contenidos,gas_general,positiva,3,instalacion de,0.35745858225174676
+contenidos,gas_general,positiva,4,instalacion,0.3127320025615891
+contenidos,gas_general,positiva,5,plano instalacion,0.30552953353920975
+contenidos,gas_general,positiva,6,cordoba plano,0.25765316038657715
+contenidos,gas_general,positiva,7,5e,0.17656100547899536
+contenidos,gas_general,positiva,8,tuberias,0.16828732913748787
+contenidos,gas_general,positiva,9,167,0.15251529275578093
+contenidos,gas_general,positiva,10,5e1,0.15251529275578093
+contenidos,gas_general,positiva,11,las tuberias,0.15251529275578093
+contenidos,gas_general,positiva,12,78 5e,0.15251529275578093
+contenidos,gas_general,positiva,13,i1,0.13897598917873616
+contenidos,gas_general,positiva,14,cobre,0.13826728222961296
+contenidos,gas_general,positiva,15,de cobre,0.13826728222961296
+contenidos,gas_general,negativa,1,de,-0.9061587676317722
+contenidos,gas_general,negativa,2,20,-0.6200257688721048
+contenidos,gas_general,negativa,3,arq,-0.6194567050998359
+contenidos,gas_general,negativa,4,saavedra,-0.6078175392750471
+contenidos,gas_general,negativa,5,00,-0.5973270736462976
+contenidos,gas_general,negativa,6,10,-0.5539395725294647
+contenidos,gas_general,negativa,7,50,-0.5070883157883627
+contenidos,gas_general,negativa,8,plano,-0.5002452368319998
+contenidos,gas_general,negativa,9,12,-0.4819011801330159
+contenidos,gas_general,negativa,10,60,-0.4766627277207973
+contenidos,gas_general,negativa,11,planta,-0.4730321943467807
+contenidos,gas_general,negativa,12,40,-0.4684887423780074
+contenidos,gas_general,negativa,13,del,-0.4683126386502853
+contenidos,gas_general,negativa,14,80,-0.440823352839195
+contenidos,gas_general,negativa,15,01,-0.4138650558346143
+contenidos,iluminacion,positiva,1,electricidad,1.3912205527268309
+contenidos,iluminacion,positiva,2,de electricidad,0.9164392248624368
+contenidos,iluminacion,positiva,3,tv,0.8714837138814764
+contenidos,iluminacion,positiva,4,instalacion,0.8657020012694369
+contenidos,iluminacion,positiva,5,tomas,0.7377767787405592
+contenidos,iluminacion,positiva,6,electricidad instalacion,0.6183895088175166
+contenidos,iluminacion,positiva,7,tv plano,0.6183895088175166
+contenidos,iluminacion,positiva,8,electrica planta,0.6183895088175166
+contenidos,iluminacion,positiva,9,instalacion electrica,0.6183895088175166
+contenidos,iluminacion,positiva,10,planteo,0.6183895088175166
+contenidos,iluminacion,positiva,11,saavedra planteo,0.6183895088175166
+contenidos,iluminacion,positiva,12,planteo electricidad,0.6183895088175166
+contenidos,iluminacion,positiva,13,2h,0.5698678021871854
+contenidos,iluminacion,positiva,14,electrica,0.5692494432765401
+contenidos,iluminacion,positiva,15,bocas,0.5617904149847737
+contenidos,iluminacion,negativa,1,de,-0.7130839166047827
+contenidos,iluminacion,negativa,2,00,-0.5385131881644125
+contenidos,iluminacion,negativa,3,20,-0.5252056279273686
+contenidos,iluminacion,negativa,4,10,-0.484608212595041
+contenidos,iluminacion,negativa,5,detalle,-0.45722129791912997
+contenidos,iluminacion,negativa,6,en,-0.42394282500779745
+contenidos,iluminacion,negativa,7,50,-0.41359290189418163
+contenidos,iluminacion,negativa,8,detalle de,-0.3985310090156512
+contenidos,iluminacion,negativa,9,40,-0.39612584264246437
+contenidos,iluminacion,negativa,10,cm,-0.33646481774292036
+contenidos,iluminacion,negativa,11,arq,-0.3360947392048254
+contenidos,iluminacion,negativa,12,la,-0.31916565239906136
+contenidos,iluminacion,negativa,13,saavedra,-0.3119339825092889
+contenidos,iluminacion,negativa,14,vista,-0.31108251700907963
+contenidos,iluminacion,negativa,15,65,-0.29605293705174107
+contenidos,implantacion,positiva,1,00 54,1.5852816864511234
+contenidos,implantacion,positiva,2,emplazamiento,1.5740758516049131
+contenidos,implantacion,positiva,3,000,1.481195696351184
+contenidos,implantacion,positiva,4,an,1.2109801195414893
+contenidos,implantacion,positiva,5,by,1.2109801195414893
+contenidos,implantacion,positiva,6,produced by,1.2109801195414893
+contenidos,implantacion,positiva,7,autodesk,1.2109801195414893
+contenidos,implantacion,positiva,8,educational,1.2109801195414893
+contenidos,implantacion,positiva,9,educational product,1.2109801195414893
+contenidos,implantacion,positiva,10,product,1.2109801195414893
+contenidos,implantacion,positiva,11,an autodesk,1.2109801195414893
+contenidos,implantacion,positiva,12,autodesk educational,1.2109801195414893
+contenidos,implantacion,positiva,13,by an,1.2109801195414893
+contenidos,implantacion,positiva,14,produced,1.2109801195414893
+contenidos,implantacion,positiva,15,25 00,1.0753925005356568
+contenidos,implantacion,negativa,1,20,-0.26548951608468846
+contenidos,implantacion,negativa,2,60,-0.22574585567343453
+contenidos,implantacion,negativa,3,40,-0.2249650942919022
+contenidos,implantacion,negativa,4,30,-0.21134275169818212
+contenidos,implantacion,negativa,5,80,-0.1979600526720093
+contenidos,implantacion,negativa,6,del,-0.18788632457790275
+contenidos,implantacion,negativa,7,arq,-0.18442712430733083
+contenidos,implantacion,negativa,8,saavedra,-0.18010264031741868
+contenidos,implantacion,negativa,9,70,-0.178517836287446
+contenidos,implantacion,negativa,10,esc,-0.16605949508494205
+contenidos,implantacion,negativa,11,en,-0.15909392111275492
+contenidos,implantacion,negativa,12,90,-0.1563241030151398
+contenidos,implantacion,negativa,13,proyecto,-0.1559945123239409
+contenidos,implantacion,negativa,14,15,-0.1476040358813626
+contenidos,implantacion,negativa,15,planta,-0.14261732539676122
+contenidos,losas_forjados,positiva,1,de losas,0.5689750947590494
+contenidos,losas_forjados,positiva,2,losas esc,0.5689750947590494
+contenidos,losas_forjados,positiva,3,cubierta,0.45356720283299684
+contenidos,losas_forjados,positiva,4,losas,0.44356201847923926
+contenidos,losas_forjados,positiva,5,clt,0.41787304899065414
+contenidos,losas_forjados,positiva,6,lvl,0.410118643745335
+contenidos,losas_forjados,positiva,7,viga,0.33995664252373603
+contenidos,losas_forjados,positiva,8,glh24,0.33320161273709775
+contenidos,losas_forjados,positiva,9,losa,0.3216666773323738
+contenidos,losas_forjados,positiva,10,pendiente del,0.31798158951865085
+contenidos,losas_forjados,positiva,11,300,0.30106253999310834
+contenidos,losas_forjados,positiva,12,150,0.2977893424709166
+contenidos,losas_forjados,positiva,13,pendiente,0.2927532326879229
+contenidos,losas_forjados,positiva,14,47,0.29246087422261025
+contenidos,losas_forjados,positiva,15,800,0.28066484440579603
+contenidos,losas_forjados,negativa,1,plano,-0.4880292184179516
+contenidos,losas_forjados,negativa,2,20,-0.4762739121029925
+contenidos,losas_forjados,negativa,3,saavedra,-0.4685630032385006
+contenidos,losas_forjados,negativa,4,00,-0.4578737339199196
+contenidos,losas_forjados,negativa,5,de,-0.4498892582110789
+contenidos,losas_forjados,negativa,6,arq,-0.44132467040570866
+contenidos,losas_forjados,negativa,7,10,-0.41691276678025474
+contenidos,losas_forjados,negativa,8,proyecto,-0.37332603772220885
+contenidos,losas_forjados,negativa,9,60,-0.35476807804364996
+contenidos,losas_forjados,negativa,10,01 12,-0.34632264967930354
+contenidos,losas_forjados,negativa,11,12,-0.34295360012602777
+contenidos,losas_forjados,negativa,12,esc,-0.3376451293008235
+contenidos,losas_forjados,negativa,13,12 2025,-0.3346583111087743
+contenidos,losas_forjados,negativa,14,2025,-0.3346583111087743
+contenidos,losas_forjados,negativa,15,01,-0.3316432319277367
+contenidos,muros_estructurales,positiva,1,clt,0.4757570882371574
+contenidos,muros_estructurales,positiva,2,lvl,0.46389586740784644
+contenidos,muros_estructurales,positiva,3,glh24,0.37931122691325936
+contenidos,muros_estructurales,positiva,4,300,0.35265185267301047
+contenidos,muros_estructurales,positiva,5,150,0.34542448661809516
+contenidos,muros_estructurales,positiva,6,viga,0.3372676057143815
+contenidos,muros_estructurales,positiva,7,de clt,0.32131809636743996
+contenidos,muros_estructurales,positiva,8,800,0.32127741514468144
+contenidos,muros_estructurales,positiva,9,ha,0.3142879571544907
+contenidos,muros_estructurales,positiva,10,120,0.31350694407615287
+contenidos,muros_estructurales,positiva,11,ha 30,0.3104633806968092
+contenidos,muros_estructurales,positiva,12,280,0.304273752185289
+contenidos,muros_estructurales,positiva,13,placa,0.2900104938896127
+contenidos,muros_estructurales,positiva,14,400,0.2894018220240674
+contenidos,muros_estructurales,positiva,15,clt 280,0.2852557979442743
+contenidos,muros_estructurales,negativa,1,de,-0.8114943752009723
+contenidos,muros_estructurales,negativa,2,plano,-0.6820873636798542
+contenidos,muros_estructurales,negativa,3,arq,-0.6304180300926334
+contenidos,muros_estructurales,negativa,4,saavedra,-0.6198009535070527
+contenidos,muros_estructurales,negativa,5,del,-0.6090446695733298
+contenidos,muros_estructurales,negativa,6,esc,-0.5624455339274887
+contenidos,muros_estructurales,negativa,7,proyecto,-0.5512452110309801
+contenidos,muros_estructurales,negativa,8,00,-0.48697194326425236
+contenidos,muros_estructurales,negativa,9,50,-0.46051662423270096
+contenidos,muros_estructurales,negativa,10,20,-0.45551915516231534
+contenidos,muros_estructurales,negativa,11,01,-0.45145942078104767
+contenidos,muros_estructurales,negativa,12,60,-0.42534075153529594
+contenidos,muros_estructurales,negativa,13,10,-0.4137292064294577
+contenidos,muros_estructurales,negativa,14,12,-0.4074042157750398
+contenidos,muros_estructurales,negativa,15,casa,-0.37935260977497764
+contenidos,niveles,positiva,1,00 54,1.5852816864511234
+contenidos,niveles,positiva,2,emplazamiento,1.5740758516049131
+contenidos,niveles,positiva,3,000,1.481195696351184
+contenidos,niveles,positiva,4,an,1.2109801195414893
+contenidos,niveles,positiva,5,by,1.2109801195414893
+contenidos,niveles,positiva,6,produced by,1.2109801195414893
+contenidos,niveles,positiva,7,autodesk,1.2109801195414893
+contenidos,niveles,positiva,8,educational,1.2109801195414893
+contenidos,niveles,positiva,9,educational product,1.2109801195414893
+contenidos,niveles,positiva,10,product,1.2109801195414893
+contenidos,niveles,positiva,11,an autodesk,1.2109801195414893
+contenidos,niveles,positiva,12,autodesk educational,1.2109801195414893
+contenidos,niveles,positiva,13,by an,1.2109801195414893
+contenidos,niveles,positiva,14,produced,1.2109801195414893
+contenidos,niveles,positiva,15,25 00,1.0753925005356568
+contenidos,niveles,negativa,1,20,-0.26548951608468846
+contenidos,niveles,negativa,2,60,-0.22574585567343453
+contenidos,niveles,negativa,3,40,-0.2249650942919022
+contenidos,niveles,negativa,4,30,-0.21134275169818212
+contenidos,niveles,negativa,5,80,-0.1979600526720093
+contenidos,niveles,negativa,6,del,-0.18788632457790275
+contenidos,niveles,negativa,7,arq,-0.18442712430733083
+contenidos,niveles,negativa,8,saavedra,-0.18010264031741868
+contenidos,niveles,negativa,9,70,-0.178517836287446
+contenidos,niveles,negativa,10,esc,-0.16605949508494205
+contenidos,niveles,negativa,11,en,-0.15909392111275492
+contenidos,niveles,negativa,12,90,-0.1563241030151398
+contenidos,niveles,negativa,13,proyecto,-0.1559945123239409
+contenidos,niveles,negativa,14,15,-0.1476040358813626
+contenidos,niveles,negativa,15,planta,-0.14261732539676122
+contenidos,otro,positiva,1,replanteo,2.2382658665544652
+contenidos,otro,positiva,2,escala,1.7140850214822598
+contenidos,otro,positiva,3,100,1.5647563570961556
+contenidos,otro,positiva,4,saavedra replanteo,1.5430344681065433
+contenidos,otro,positiva,5,replanteo planta,1.5430344681065433
+contenidos,otro,positiva,6,replanteo muros,1.5430344681065433
+contenidos,otro,positiva,7,muros replanteo,1.5430344681065433
+contenidos,otro,positiva,8,planos,1.5239126287809797
+contenidos,otro,positiva,9,en,1.001058136149713
+contenidos,otro,positiva,10,muros,0.9880141462189665
+contenidos,otro,positiva,11,planta baja,0.9731231128998623
+contenidos,otro,positiva,12,secciones,0.9239474733549897
+contenidos,otro,positiva,13,2025 60,0.9003424646235593
+contenidos,otro,positiva,14,plantas,0.9000115198617369
+contenidos,otro,positiva,15,del,0.8960779510971696
+contenidos,otro,negativa,1,esc 100,-0.5595919706297589
+contenidos,otro,negativa,2,cordoba plano,-0.35697551909233843
+contenidos,otro,negativa,3,instalacion,-0.3557828813924415
+contenidos,otro,negativa,4,00,-0.32395256321673876
+contenidos,otro,negativa,5,plano instalacion,-0.3205085069832038
+contenidos,otro,negativa,6,instalacion de,-0.3061908604749647
+contenidos,otro,negativa,7,cordoba planta,-0.29726396870543387
+contenidos,otro,negativa,8,detalle,-0.25294015291209493
+contenidos,otro,negativa,9,detalle de,-0.2509609642447902
+contenidos,otro,negativa,10,40,-0.23251705963383523
+contenidos,otro,negativa,11,30,-0.1877363065019398
+contenidos,otro,negativa,12,bano,-0.18258231123001453
+contenidos,otro,negativa,13,80,-0.17802557116340564
+contenidos,otro,negativa,14,electricidad,-0.1767091885333718
+contenidos,otro,negativa,15,estructura,-0.1744495974300754
+contenidos,pisos,positiva,1,cl,0.6092428241531512
+contenidos,pisos,positiva,2,cl cl,0.6090369989899346
+contenidos,pisos,positiva,3,50 65,0.5871174610041197
+contenidos,pisos,positiva,4,65 50,0.5163369358911045
+contenidos,pisos,positiva,5,interceramic,0.4282321930615372
+contenidos,pisos,positiva,6,dessert,0.4282321930615372
+contenidos,pisos,positiva,7,dubai,0.4282321930615372
+contenidos,pisos,positiva,8,dessert dubai,0.4282321930615372
+contenidos,pisos,positiva,9,del sur,0.40698082663211704
+contenidos,pisos,positiva,10,viviendas del,0.40698082663211704
+contenidos,pisos,positiva,11,viviendas,0.40698082663211704
+contenidos,pisos,positiva,12,cordoba,0.40698082663211704
+contenidos,pisos,positiva,13,de cordoba,0.40698082663211704
+contenidos,pisos,positiva,14,lugar oliva,0.40698082663211704
+contenidos,pisos,positiva,15,tercero arriba,0.40698082663211704
+contenidos,pisos,negativa,1,100,-0.7580077930047286
+contenidos,pisos,negativa,2,esc,-0.7431917730856189
+contenidos,pisos,negativa,3,de,-0.7368540573756582
+contenidos,pisos,negativa,4,plano,-0.6889299675614392
+contenidos,pisos,negativa,5,esc 100,-0.6553277726122816
+contenidos,pisos,negativa,6,arq,-0.5366766230846447
+contenidos,pisos,negativa,7,saavedra,-0.5230822731240242
+contenidos,pisos,negativa,8,cordoba plano,-0.4384966057221357
+contenidos,pisos,negativa,9,la,-0.420581240008645
+contenidos,pisos,negativa,10,plano instalacion,-0.3898238669443059
+contenidos,pisos,negativa,11,01,-0.3866016902424036
+contenidos,pisos,negativa,12,instalacion,-0.38621833049329507
+contenidos,pisos,negativa,13,instalacion de,-0.38015970520132586
+contenidos,pisos,negativa,14,patio,-0.3510947311631473
+contenidos,pisos,negativa,15,detalle,-0.3468369193301782
+contenidos,pluvial,positiva,1,instalaciones sanitarias,0.7603999102962126
+contenidos,pluvial,positiva,2,sanitarias,0.7603999102962126
+contenidos,pluvial,positiva,3,instalaciones,0.6661857105738463
+contenidos,pluvial,positiva,4,pvc,0.6011847473856803
+contenidos,pluvial,positiva,5,ø110,0.5777165192189264
+contenidos,pluvial,positiva,6,ø63,0.5566621885764608
+contenidos,pluvial,positiva,7,pend,0.47041840854258543
+contenidos,pluvial,positiva,8,01 casa,0.44584882082200533
+contenidos,pluvial,positiva,9,sanitarias planta,0.44584882082200533
+contenidos,pluvial,positiva,10,proyecto notas,0.44584882082200533
+contenidos,pluvial,positiva,11,nro cliente,0.44584882082200533
+contenidos,pluvial,positiva,12,villarreal 01,0.44584882082200533
+contenidos,pluvial,positiva,13,vadala instalaciones,0.44584882082200533
+contenidos,pluvial,positiva,14,de agua,0.44513531907820486
+contenidos,pluvial,positiva,15,2ø19,0.4415929915905782
+contenidos,pluvial,negativa,1,20,-0.6009283154013182
+contenidos,pluvial,negativa,2,de,-0.5961074436600619
+contenidos,pluvial,negativa,3,en,-0.5255425161149727
+contenidos,pluvial,negativa,4,00,-0.5035113284939539
+contenidos,pluvial,negativa,5,arq,-0.47012684462402965
+contenidos,pluvial,negativa,6,saavedra,-0.44890502341924465
+contenidos,pluvial,negativa,7,esc,-0.43699822966951096
+contenidos,pluvial,negativa,8,del,-0.43244736943429507
+contenidos,pluvial,negativa,9,60,-0.42862097302152863
+contenidos,pluvial,negativa,10,80,-0.42755873783065435
+contenidos,pluvial,negativa,11,40,-0.39710454773553217
+contenidos,pluvial,negativa,12,nombre del,-0.39611065016498415
+contenidos,pluvial,negativa,13,tangorra 01,-0.39611065016498415
+contenidos,pluvial,negativa,14,nro nombre,-0.39611065016498415
+contenidos,pluvial,negativa,15,fecha notas,-0.39611065016498415
+contenidos,puertas_carpinterias,positiva,1,planilla de,0.8717890643000499
+contenidos,puertas_carpinterias,positiva,2,planilla,0.8717890643000499
+contenidos,puertas_carpinterias,positiva,3,habitacion,0.8495259856617602
+contenidos,puertas_carpinterias,positiva,4,de aberturas,0.8472607300805137
+contenidos,puertas_carpinterias,positiva,5,cordoba planilla,0.8472607300805137
+contenidos,puertas_carpinterias,positiva,6,aberturas,0.8472607300805137
+contenidos,puertas_carpinterias,positiva,7,carpinterias,0.8414880821329246
+contenidos,puertas_carpinterias,positiva,8,carpinterias planta,0.7903870691123107
+contenidos,puertas_carpinterias,positiva,9,saavedra planta,0.7645406294457149
+contenidos,puertas_carpinterias,positiva,10,habitacion bano,0.7108512010031558
+contenidos,puertas_carpinterias,positiva,11,comedor,0.6894268751922937
+contenidos,puertas_carpinterias,positiva,12,50 casa,0.6881552617166843
+contenidos,puertas_carpinterias,positiva,13,2025 50,0.6881552617166843
+contenidos,puertas_carpinterias,positiva,14,marco,0.6461892033768163
+contenidos,puertas_carpinterias,positiva,15,paso,0.5749167448886614
+contenidos,puertas_carpinterias,negativa,1,100,-0.6473592016584768
+contenidos,puertas_carpinterias,negativa,2,esc 100,-0.572671119508839
+contenidos,puertas_carpinterias,negativa,3,detalle,-0.41819959382069344
+contenidos,puertas_carpinterias,negativa,4,detalle de,-0.3947357354752397
+contenidos,puertas_carpinterias,negativa,5,cordoba plano,-0.3812998085261337
+contenidos,puertas_carpinterias,negativa,6,esc,-0.3703276282467595
+contenidos,puertas_carpinterias,negativa,7,instalacion,-0.357333478145342
+contenidos,puertas_carpinterias,negativa,8,plano instalacion,-0.3405130148866807
+contenidos,puertas_carpinterias,negativa,9,instalacion de,-0.3300553259993982
+contenidos,puertas_carpinterias,negativa,10,cordoba planta,-0.27898888079833867
+contenidos,puertas_carpinterias,negativa,11,20,-0.2736020335191345
+contenidos,puertas_carpinterias,negativa,12,esc 20,-0.24238744513378332
+contenidos,puertas_carpinterias,negativa,13,saavedra detalle,-0.2278365973255739
+contenidos,puertas_carpinterias,negativa,14,cl,-0.21981169045806964
+contenidos,puertas_carpinterias,negativa,15,45,-0.21877132758910012
+contenidos,regulacion_gas,positiva,1,5e,0.18347874293585353
+contenidos,regulacion_gas,positiva,2,tuberias,0.17488090033476744
+contenidos,regulacion_gas,positiva,3,78 5e,0.15849090866586293
+contenidos,regulacion_gas,positiva,4,5e1,0.15849090866586293
+contenidos,regulacion_gas,positiva,5,167,0.15849090866586293
+contenidos,regulacion_gas,positiva,6,las tuberias,0.15849090866586293
+contenidos,regulacion_gas,positiva,7,i1,0.14520861080761946
+contenidos,regulacion_gas,positiva,8,cobre,0.14368465485242332
+contenidos,regulacion_gas,positiva,9,de cobre,0.14368465485242332
+contenidos,regulacion_gas,positiva,10,antes,0.13430103486336337
+contenidos,regulacion_gas,positiva,11,gas,0.12342808237359608
+contenidos,regulacion_gas,positiva,12,la tuberia,0.1228164121705668
+contenidos,regulacion_gas,positiva,13,conexiones,0.1228164121705668
+contenidos,regulacion_gas,positiva,14,llave,0.1228164121705668
+contenidos,regulacion_gas,positiva,15,no se,0.1228164121705668
+contenidos,regulacion_gas,negativa,1,de,-1.0811104148822392
+contenidos,regulacion_gas,negativa,2,plano,-0.6751039488862842
+contenidos,regulacion_gas,negativa,3,20,-0.6175238696290619
+contenidos,regulacion_gas,negativa,4,arq,-0.6132655540016736
+contenidos,regulacion_gas,negativa,5,saavedra,-0.6015729172972571
+contenidos,regulacion_gas,negativa,6,00,-0.5952064197983846
+contenidos,regulacion_gas,negativa,7,del,-0.570441601439693
+contenidos,regulacion_gas,negativa,8,10,-0.5504798890000446
+contenidos,regulacion_gas,negativa,9,esc,-0.5443256182866041
+contenidos,regulacion_gas,negativa,10,50,-0.5035657203592891
+contenidos,regulacion_gas,negativa,11,12,-0.4781734306430344
+contenidos,regulacion_gas,negativa,12,proyecto,-0.4751376879189909
+contenidos,regulacion_gas,negativa,13,60,-0.4743350209784015
+contenidos,regulacion_gas,negativa,14,40,-0.46763481095672116
+contenidos,regulacion_gas,negativa,15,80,-0.4420679978023679
+contenidos,tableros,positiva,1,1m,0.6013210696345539
+contenidos,tableros,positiva,2,t2,0.5558593731709583
+contenidos,tableros,positiva,3,2h 12,0.5197131522677075
+contenidos,tableros,positiva,4,2h,0.48329313422818726
+contenidos,tableros,positiva,5,tomas de,0.45865668347172417
+contenidos,tableros,positiva,6,c14,0.4462863665416941
+contenidos,tableros,positiva,7,c13,0.4344428157224881
+contenidos,tableros,positiva,8,12 2h,0.42291991817936064
+contenidos,tableros,positiva,9,tomas,0.40722138848448225
+contenidos,tableros,positiva,10,12 2t,0.39510885448856564
+contenidos,tableros,positiva,11,4h 12,0.3932177909311034
+contenidos,tableros,positiva,12,2t,0.3879194392808183
+contenidos,tableros,positiva,13,de piso,0.3638333501972062
+contenidos,tableros,positiva,14,4h,0.3504767877965989
+contenidos,tableros,positiva,15,12 3t,0.32316121065434356
+contenidos,tableros,negativa,1,de,-0.852133723313105
+contenidos,tableros,negativa,2,arq,-0.617355630170797
+contenidos,tableros,negativa,3,saavedra,-0.6046330927737599
+contenidos,tableros,negativa,4,del,-0.5694412572907886
+contenidos,tableros,negativa,5,plano,-0.563311966929202
+contenidos,tableros,negativa,6,esc,-0.5498319133507765
+contenidos,tableros,negativa,7,proyecto,-0.5369881443619793
+contenidos,tableros,negativa,8,00,-0.5048711980869569
+contenidos,tableros,negativa,9,20,-0.46903662928556866
+contenidos,tableros,negativa,10,10,-0.46750144519504966
+contenidos,tableros,negativa,11,01,-0.44250524619447373
+contenidos,tableros,negativa,12,planta,-0.4065235230967287
+contenidos,tableros,negativa,13,50,-0.3931159901518019
+contenidos,tableros,negativa,14,detalle,-0.38661899156836577
+contenidos,tableros,negativa,15,en,-0.3844227927373572
+contenidos,terminaciones,positiva,1,detalle de,1.2773004781751798
+contenidos,terminaciones,positiva,2,detalle,1.2389072107079653
+contenidos,terminaciones,positiva,3,20,0.9145571133499819
+contenidos,terminaciones,positiva,4,de,0.8976809573497012
+contenidos,terminaciones,positiva,5,70,0.883990996478707
+contenidos,terminaciones,positiva,6,esc 20,0.8478905579042979
+contenidos,terminaciones,positiva,7,esc,0.8016092275326094
+contenidos,terminaciones,positiva,8,saavedra detalle,0.785690000906011
+contenidos,terminaciones,positiva,9,10,0.7852100798192362
+contenidos,terminaciones,positiva,10,vista,0.7702806206177684
+contenidos,terminaciones,positiva,11,isla,0.7594034045953669
+contenidos,terminaciones,positiva,12,pano,0.7282938820426862
+contenidos,terminaciones,positiva,13,pano fijo,0.7282938820426862
+contenidos,terminaciones,positiva,14,lavadero,0.7062176730689927
+contenidos,terminaciones,positiva,15,de locales,0.6860900896029856
+contenidos,terminaciones,negativa,1,bano,-0.4332540059254999
+contenidos,terminaciones,negativa,2,de bano,-0.2809336907693558
+contenidos,terminaciones,negativa,3,60 casa,-0.26203758357579765
+contenidos,terminaciones,negativa,4,2025 60,-0.2533102050537982
+contenidos,terminaciones,negativa,5,alta,-0.22617980447656846
+contenidos,terminaciones,negativa,6,estructura,-0.2203713601531355
+contenidos,terminaciones,negativa,7,inodoro,-0.2152191246861868
+contenidos,terminaciones,negativa,8,27,-0.2072479524380339
+contenidos,terminaciones,negativa,9,zocalo,-0.18981989734324484
+contenidos,terminaciones,negativa,10,planta alta,-0.18769587058306206
+contenidos,terminaciones,negativa,11,cm,-0.18641657603548434
+contenidos,terminaciones,negativa,12,20 60,-0.18148628592240637
+contenidos,terminaciones,negativa,13,aplicado,-0.1796401793865864
+contenidos,terminaciones,negativa,14,31,-0.17606474916659703
+contenidos,terminaciones,negativa,15,replanteo,-0.17510651332772365
+contenidos,terreno,positiva,1,00 54,1.5852816864511234
+contenidos,terreno,positiva,2,emplazamiento,1.5740758516049131
+contenidos,terreno,positiva,3,000,1.481195696351184
+contenidos,terreno,positiva,4,an,1.2109801195414893
+contenidos,terreno,positiva,5,by,1.2109801195414893
+contenidos,terreno,positiva,6,produced by,1.2109801195414893
+contenidos,terreno,positiva,7,autodesk,1.2109801195414893
+contenidos,terreno,positiva,8,educational,1.2109801195414893
+contenidos,terreno,positiva,9,educational product,1.2109801195414893
+contenidos,terreno,positiva,10,product,1.2109801195414893
+contenidos,terreno,positiva,11,an autodesk,1.2109801195414893
+contenidos,terreno,positiva,12,autodesk educational,1.2109801195414893
+contenidos,terreno,positiva,13,by an,1.2109801195414893
+contenidos,terreno,positiva,14,produced,1.2109801195414893
+contenidos,terreno,positiva,15,25 00,1.0753925005356568
+contenidos,terreno,negativa,1,20,-0.26548951608468846
+contenidos,terreno,negativa,2,60,-0.22574585567343453
+contenidos,terreno,negativa,3,40,-0.2249650942919022
+contenidos,terreno,negativa,4,30,-0.21134275169818212
+contenidos,terreno,negativa,5,80,-0.1979600526720093
+contenidos,terreno,negativa,6,del,-0.18788632457790275
+contenidos,terreno,negativa,7,arq,-0.18442712430733083
+contenidos,terreno,negativa,8,saavedra,-0.18010264031741868
+contenidos,terreno,negativa,9,70,-0.178517836287446
+contenidos,terreno,negativa,10,esc,-0.16605949508494205
+contenidos,terreno,negativa,11,en,-0.15909392111275492
+contenidos,terreno,negativa,12,90,-0.1563241030151398
+contenidos,terreno,negativa,13,proyecto,-0.1559945123239409
+contenidos,terreno,negativa,14,15,-0.1476040358813626
+contenidos,terreno,negativa,15,planta,-0.14261732539676122
+contenidos,tomacorrientes,positiva,1,electricidad,1.402594908642073
+contenidos,tomacorrientes,positiva,2,de electricidad,0.9249268644529814
+contenidos,tomacorrientes,positiva,3,tv,0.875795816910519
+contenidos,tomacorrientes,positiva,4,instalacion,0.8729780722312709
+contenidos,tomacorrientes,positiva,5,tomas,0.7432891673223172
+contenidos,tomacorrientes,positiva,6,instalacion electrica,0.6223975436508662
+contenidos,tomacorrientes,positiva,7,electricidad instalacion,0.6223975436508662
+contenidos,tomacorrientes,positiva,8,electrica planta,0.6223975436508662
+contenidos,tomacorrientes,positiva,9,saavedra planteo,0.6223975436508662
+contenidos,tomacorrientes,positiva,10,planteo,0.6223975436508662
+contenidos,tomacorrientes,positiva,11,tv plano,0.6223975436508662
+contenidos,tomacorrientes,positiva,12,planteo electricidad,0.6223975436508662
+contenidos,tomacorrientes,positiva,13,electrica,0.5729294930048725
+contenidos,tomacorrientes,positiva,14,bocas,0.5667540277943102
+contenidos,tomacorrientes,positiva,15,t2,0.5327471833430456
+contenidos,tomacorrientes,negativa,1,de,-0.7272146279674292
+contenidos,tomacorrientes,negativa,2,00,-0.5614558372488867
+contenidos,tomacorrientes,negativa,3,20,-0.5446192015776441
+contenidos,tomacorrientes,negativa,4,10,-0.5177555751397582
+contenidos,tomacorrientes,negativa,5,detalle,-0.45469275903035355
+contenidos,tomacorrientes,negativa,6,50,-0.4499864911498141
+contenidos,tomacorrientes,negativa,7,en,-0.4193776691005588
+contenidos,tomacorrientes,negativa,8,40,-0.4092248046125709
+contenidos,tomacorrientes,negativa,9,detalle de,-0.3961400991268862
+contenidos,tomacorrientes,negativa,10,arq,-0.33607735755716456
+contenidos,tomacorrientes,negativa,11,la,-0.3356487250972848
+contenidos,tomacorrientes,negativa,12,cm,-0.3339105840887418
+contenidos,tomacorrientes,negativa,13,30,-0.3136236844228852
+contenidos,tomacorrientes,negativa,14,saavedra,-0.31184014691556106
+contenidos,tomacorrientes,negativa,15,vista,-0.31086431774186374
+contenidos,ventanas_carpinterias,positiva,1,planilla de,0.9636514538851296
+contenidos,ventanas_carpinterias,positiva,2,planilla,0.9636514538851296
+contenidos,ventanas_carpinterias,positiva,3,aberturas,0.896585809221526
+contenidos,ventanas_carpinterias,positiva,4,de aberturas,0.896585809221526
+contenidos,ventanas_carpinterias,positiva,5,cordoba planilla,0.896585809221526
+contenidos,ventanas_carpinterias,positiva,6,marco,0.7549221528696325
+contenidos,ventanas_carpinterias,positiva,7,viviendas,0.6044662743534597
+contenidos,ventanas_carpinterias,positiva,8,arriba,0.6044662743534597
+contenidos,ventanas_carpinterias,positiva,9,lugar oliva,0.6044662743534597
+contenidos,ventanas_carpinterias,positiva,10,viviendas del,0.6044662743534597
+contenidos,ventanas_carpinterias,positiva,11,proyecto viviendas,0.6044662743534597
+contenidos,ventanas_carpinterias,positiva,12,del sur,0.6044662743534597
+contenidos,ventanas_carpinterias,positiva,13,tercero arriba,0.6044662743534597
+contenidos,ventanas_carpinterias,positiva,14,tercero,0.6044662743534597
+contenidos,ventanas_carpinterias,positiva,15,pcia,0.6044662743534597
+contenidos,ventanas_carpinterias,negativa,1,100,-0.623454106366355
+contenidos,ventanas_carpinterias,negativa,2,esc 100,-0.5650111421355644
+contenidos,ventanas_carpinterias,negativa,3,esc,-0.4672572663245691
+contenidos,ventanas_carpinterias,negativa,4,cordoba plano,-0.37674743439856817
+contenidos,ventanas_carpinterias,negativa,5,plano instalacion,-0.3370201812389815
+contenidos,ventanas_carpinterias,negativa,6,instalacion,-0.32998878087140376
+contenidos,ventanas_carpinterias,negativa,7,instalacion de,-0.3259336621679998
+contenidos,ventanas_carpinterias,negativa,8,detalle,-0.2974259373557877
+contenidos,ventanas_carpinterias,negativa,9,cordoba planta,-0.2735693595533243
+contenidos,ventanas_carpinterias,negativa,10,detalle de,-0.26391542033433557
+contenidos,ventanas_carpinterias,negativa,11,plano,-0.21885436172021464
+contenidos,ventanas_carpinterias,negativa,12,cl,-0.21508608780399419
+contenidos,ventanas_carpinterias,negativa,13,planta de,-0.20879902308237175
+contenidos,ventanas_carpinterias,negativa,14,cl cl,-0.20784176016285355
+contenidos,ventanas_carpinterias,negativa,15,agua,-0.16167265963560778
+contenidos,vigas,positiva,1,15 cm,0.5603583778095893
+contenidos,vigas,positiva,2,viga,0.5450607063374917
+contenidos,vigas,positiva,3,cm,0.525769663728609
+contenidos,vigas,positiva,4,vt,0.446000810452784
+contenidos,vigas,positiva,5,muro,0.4109541036736308
+contenidos,vigas,positiva,6,ø6c 15,0.4078307651269479
+contenidos,vigas,positiva,7,clt,0.37257672307157635
+contenidos,vigas,positiva,8,lvl,0.371525072407884
+contenidos,vigas,positiva,9,losa,0.36933293130807454
+contenidos,vigas,positiva,10,2ø8,0.36020097985906874
+contenidos,vigas,positiva,11,cv cv,0.3585130430209843
+contenidos,vigas,positiva,12,3ø12,0.35731858829424007
+contenidos,vigas,positiva,13,vt vt,0.3510378910938148
+contenidos,vigas,positiva,14,estrib,0.34621456176680804
+contenidos,vigas,positiva,15,correa,0.3443632707287225
+contenidos,vigas,negativa,1,plano,-0.5464756851049529
+contenidos,vigas,negativa,2,esc,-0.5192611346993632
+contenidos,vigas,negativa,3,de,-0.5018115870792194
+contenidos,vigas,negativa,4,arq,-0.5008919306809135
+contenidos,vigas,negativa,5,proyecto,-0.49332144879952977
+contenidos,vigas,negativa,6,00,-0.48668243284748247
+contenidos,vigas,negativa,7,saavedra,-0.48010469862619026
+contenidos,vigas,negativa,8,50,-0.4381093552664484
+contenidos,vigas,negativa,9,del,-0.43633713578333716
+contenidos,vigas,negativa,10,20,-0.40194607005483046
+contenidos,vigas,negativa,11,sur,-0.3616790850179708
+contenidos,vigas,negativa,12,vista,-0.3531115196084366
+contenidos,vigas,negativa,13,pcia de,-0.3430384367068781
+contenidos,vigas,negativa,14,oliva depto,-0.3430384367068781
+contenidos,vigas,negativa,15,del sur,-0.3430384367068781

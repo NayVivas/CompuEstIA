@@ -1,0 +1,20 @@
+:root {font-family: system-ui, sans-serif; color:#1b2835; background:#f4f7fa}
+* {box-sizing:border-box} body {margin:0} header {height:68px; display:flex; align-items:center; justify-content:space-between; gap:20px; padding:10px 22px; background:#132b42; color:white}
+header strong,header span {display:block} header span {font-size:12px; color:#c6d6e3; margin-top:3px}
+main {display:grid; grid-template-columns:220px minmax(360px,1fr) 290px; height:calc(100vh - 68px)}
+aside {overflow-y:auto; padding:18px; background:white; border-right:1px solid #d9e2e9} aside.editor {border-right:0; border-left:1px solid #d9e2e9}
+label {display:block; font-size:13px; font-weight:600; margin:12px 0 6px} select,input:not([type=checkbox]) {width:100%; font:inherit; padding:9px; border:1px solid #aebdc9; border-radius:5px; background:white; color:inherit}
+#pagina {padding:0} #pagina option {padding:8px; border-bottom:1px solid #ecf0f3} #origen {font-size:13px; overflow-wrap:anywhere; line-height:1.5}
+.aviso {font-size:12px; background:#fff5dc; border:1px solid #efcf7e; border-radius:6px; padding:10px; line-height:1.5}
+.centro {min-width:0; display:flex; flex-direction:column}.barra {display:flex; align-items:center; gap:6px; padding:10px; background:#e9eff4; border-bottom:1px solid #d1dbe4; flex-wrap:wrap}
+#encabezado {margin:auto; font-weight:650; font-size:13px}.lienzo {flex:1; min-height:0; overflow:auto; background:#c5d0d8; padding:20px; text-align:center}
+.papel {position:relative; margin:auto; max-width:none; box-shadow:0 4px 24px #4456; background:white; line-height:0; cursor:crosshair}
+.papel img {display:block; width:100%; pointer-events:none} svg {position:absolute; inset:0; width:100%; height:100%; touch-action:none}
+.ayuda {font-size:12px; line-height:1.5; background:white; padding:8px 16px; margin:0; border-top:1px solid #d1dbe4}
+button {font:inherit; font-size:13px; border-radius:5px; border:1px solid #a7b9c8; background:white; padding:8px 10px; cursor:pointer; color:inherit}
+button:hover {background:#e2edf5} button:disabled {opacity:.5;cursor:default}.principal {width:100%; background:#145f9b; color:white; border-color:#145f9b; font-weight:650; margin-top:18px}.principal:hover {background:#0d4a7d}
+h2 {font-size:15px; margin:18px 0 8px} h2:first-child {margin-top:0}.fila {display:flex;gap:6px}.fila button {flex:1}
+#elementos {padding-left:0; list-style:none; margin:0} #elementos li {border-bottom:1px solid #e4e9ee; padding:8px 0; font-size:12px; line-height:1.5; display:flex; justify-content:space-between; gap:6px}
+.casilla {display:flex;gap:8px;line-height:1.4;align-items:flex-start;font-weight:400} .casilla input {margin-top:3px} #mensaje {min-height:30px; font-size:13px; line-height:1.4} #mensaje.error {color:#a83125} #mensaje.ok {color:#226840}
+@media(max-width:1000px){main{grid-template-columns:180px minmax(300px,1fr)}.editor{grid-column:1/-1;min-height:450px;border-top:1px solid #d9e2e9}.centro{min-height:600px} main{height:auto} .lienzo{height:530px}}
+@media(max-width:650px){main{display:block}.centro{height:70vh;min-height:450px} aside{max-height:300px}.editor{max-height:none}}

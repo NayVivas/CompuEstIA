@@ -1,5 +1,5 @@
 import unittest
-from backend.computos.ia.limpieza_contenidos import limpiar_texto
+from computos.ia.limpieza_contenidos import limpiar_texto
 
 class TestLimpiezaContenidosReal(unittest.TestCase):
     def test_remover_cajetin_y_autores(self):

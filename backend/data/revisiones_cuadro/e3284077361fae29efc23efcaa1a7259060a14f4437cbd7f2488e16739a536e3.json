@@ -1,0 +1,49 @@
+{
+  "huellas_archivos": {
+    "planta": "92e911771bde4443f13b1a7d5097b1cd09be4ac79ae2dd796521b8096f2431f9",
+    "detalles": "415bbb2c15743f7fb2ea8becbb42a830dba2f9ea803c8b4f64e860362ebc7397",
+    "columnas": "b6b0c747409872bfa9d84e2b0daf1b131078433131811651949713f49d066621"
+  },
+  "proyecto_id": "1791919092776",
+  "configuracion": {
+    "nombre": null,
+    "archivo_configuracion": null,
+    "archivos_esperados": {},
+    "correcciones_referencias_cuadro": [
+      {
+        "referencia_original": "F12",
+        "aparicion": 2,
+        "referencia_correcta": "F13",
+        "motivo": "• La segunda fila F12 corresponde a F13 según la planta de fundaciones del plano Fundaciones_1.pdf.\""
+      }
+    ],
+    "correcciones_columnas_fundaciones": [],
+    "reasignaciones_detalles_columnas": [],
+    "selecciones_fuentes_columnas": [],
+    "secciones_manuales_columnas": []
+  },
+  "revisiones": [
+    {
+      "revision_id": "4864af2f1ff94e25adc13c4186b72d5b",
+      "familia": "fundaciones",
+      "tipo_revision": "referencias_duplicadas_cuadro",
+      "revisor": "ng. de Control",
+      "identidad_verificada": false,
+      "fecha_revision": "2026-10-28T23:27:00.168507+00:00",
+      "estado": "aplicada_por_ingeniero",
+      "correcciones": [
+        {
+          "referencia_original": "F12",
+          "aparicion": 2,
+          "referencia_correcta": "F13",
+          "motivo": "• La segunda fila F12 corresponde a F13 según la planta de fundaciones del plano Fundaciones_1.pdf.\""
+        }
+      ],
+      "huellas_archivos": {
+        "planta": "92e911771bde4443f13b1a7d5097b1cd09be4ac79ae2dd796521b8096f2431f9",
+        "detalles": "415bbb2c15743f7fb2ea8becbb42a830dba2f9ea803c8b4f64e860362ebc7397",
+        "columnas": "b6b0c747409872bfa9d84e2b0daf1b131078433131811651949713f49d066621"
+      }
+    }
+  ]
+}

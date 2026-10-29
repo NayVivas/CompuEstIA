@@ -146,7 +146,17 @@ function App() {
   // =========================================================
 
   function handleLogin() {
+  console.log("[CómputoEstIA][App] handleLogin() invocado", {
+    origen: "frontend/src/App.jsx > handleLogin",
+    url: window.location.href,
+    sesionAntes: readSession(),
+  });
+
   writeSession(true);
+
+  console.log("[CómputoEstIA][App] sesión persistida", {
+    sesionDespues: readSession(),
+  });
 
   setIsAuthenticated(true);
 

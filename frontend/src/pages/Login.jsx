@@ -1,6 +1,19 @@
 import { useState } from "react";
 import Icon from "../components/Icon";
 
+const LOG_PREFIX = "[CómputoEstIA][Login]";
+
+function maskEmail(value) {
+  const [usuario = "", dominio = ""] = value.trim().split("@");
+
+  if (!usuario || !dominio) return "(email incompleto)";
+
+  const visibles = usuario.slice(0, 2);
+  const ocultos = "*".repeat(Math.max(usuario.length - visibles.length, 1));
+
+  return `${visibles}${ocultos}@${dominio}`;
+}
+
 export default function Login({ onLogin }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -9,16 +22,37 @@ export default function Login({ onLogin }) {
   function handleSubmit(event) {
     event.preventDefault();
 
+    console.log(`${LOG_PREFIX} submit interceptado`, {
+      origen: "frontend/src/pages/Login.jsx > handleSubmit",
+      url: window.location.href,
+      email: maskEmail(email),
+      passwordPresente: password.trim().length > 0,
+    });
+
     setError("");
 
     if (!email.trim() || !password.trim()) {
+      const motivo = !email.trim() ? "email vacío" : "contraseña vacía";
+
+      console.warn(`${LOG_PREFIX} validación local rechazó el formulario`, {
+        motivo,
+      });
+
       setError("Ingresá tu email y contraseña.");
       return;
     }
 
-    // Autenticación provisoria.
-    // Más adelante esto se conecta con Django.
-    onLogin();
+    console.log(`${LOG_PREFIX} validación local OK; ejecutando onLogin()`, {
+      onLoginEsFuncion: typeof onLogin === "function",
+    });
+
+    try {
+      onLogin();
+      console.log(`${LOG_PREFIX} onLogin() ejecutado sin excepciones`);
+    } catch (errorLogin) {
+      console.error(`${LOG_PREFIX} onLogin() lanzó una excepción`, errorLogin);
+      throw errorLogin;
+    }
   }
 
   return (

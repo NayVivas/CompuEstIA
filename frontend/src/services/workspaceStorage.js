@@ -128,13 +128,35 @@ export function downloadWorkspace(data) {
 }
 
 export function readSession() {
-  try { return localStorage.getItem("computoestia-auth") === "true"; }
-  catch { return false; }
+  try {
+    const valor = localStorage.getItem("computoestia-auth");
+    const authenticated = valor === "true";
+
+    console.log("[CómputoEstIA][storage] readSession()", {
+      origen: "frontend/src/services/workspaceStorage.js > readSession",
+      clave: "computoestia-auth",
+      valor,
+      authenticated,
+    });
+
+    return authenticated;
+  } catch (error) {
+    console.error("[CómputoEstIA][storage] readSession() falló", error);
+    return false;
+  }
 }
 
 export function writeSession(authenticated) {
   try {
     if (authenticated) localStorage.setItem("computoestia-auth", "true");
     else localStorage.removeItem("computoestia-auth");
-  } catch { /* La sesión sigue funcionando en memoria si el navegador bloquea Storage. */ }
+
+    console.log("[CómputoEstIA][storage] writeSession()", {
+      origen: "frontend/src/services/workspaceStorage.js > writeSession",
+      solicitado: authenticated,
+      persistido: localStorage.getItem("computoestia-auth"),
+    });
+  } catch (error) {
+    console.error("[CómputoEstIA][storage] writeSession() falló", error);
+  }
 }

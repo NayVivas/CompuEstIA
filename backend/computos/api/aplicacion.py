@@ -22,6 +22,7 @@ from computos.api.revisiones import (
     aplicar_revision_seccion_viga,
 )
 from computos.api.exp02_anotador import router as exp02_router
+from computos.api.exp11_anotador import router as exp11_router
 from computos.api.exp16_anotador import router as exp16_router
 from computos.ia.flujo_hibrido import procesar_archivos_hibrido
 from computos.ia.enrutador_documentos import (
@@ -1010,4 +1011,53 @@ def revisar_seccion_viga(
 
 
 app.include_router(exp02_router)
+app.include_router(exp11_router)
 app.include_router(exp16_router)
+
+
+RUTA_METRICAS_IA = (
+    DATA_DIR
+    / "experimentos"
+    / "contenidos_ligero"
+    / "palabras_b1_s1"
+    / "resumen.json"
+)
+
+
+class MetricasClasificadorIA(BaseModel):
+    """Métricas de validación del clasificador semántico."""
+
+    f1_score: float
+    precision: float
+    recall: float
+    macro_f1: float
+    cardinalidad: str
+
+
+@app.get(
+    "/api/ia/metricas-experimento",
+    response_model=MetricasClasificadorIA,
+    tags=["ia-asistida"],
+)
+def consultar_metricas_experimento() -> MetricasClasificadorIA:
+    """Lee el artefacto de métricas generado por el experimento."""
+
+    try:
+        datos = json.loads(RUTA_METRICAS_IA.read_text(encoding="utf-8"))
+    except FileNotFoundError as error:
+        raise HTTPException(
+            status_code=404,
+            detail="Artefacto de métricas no disponible",
+        ) from error
+
+    metricas = datos["metricas_validation"]
+    return MetricasClasificadorIA(
+        f1_score=float(metricas["f1"]),
+        precision=float(metricas["precision"]),
+        recall=float(metricas["recall"]),
+        macro_f1=float(metricas["macro_f1"]),
+        cardinalidad=(
+            f"real={float(metricas['cardinalidad_real']):.3f}; "
+            f"predicha={float(metricas['cardinalidad_predicha']):.3f}"
+        ),
+    )

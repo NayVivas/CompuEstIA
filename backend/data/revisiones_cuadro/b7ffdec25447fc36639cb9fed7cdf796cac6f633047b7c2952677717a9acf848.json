@@ -1,0 +1,49 @@
+{
+  "huellas_archivos": {
+    "planta": "92e911771bde4443f13b1a7d5097b1cd09be4ac79ae2dd796521b8096f2431f9",
+    "detalles": "415bbb2c15743f7fb2ea8becbb42a830dba2f9ea803c8b4f64e860362ebc7397",
+    "columnas": "b6b0c747409872bfa9d84e2b0daf1b131078433131811651949713f49d066621"
+  },
+  "proyecto_id": "sin-proyecto",
+  "configuracion": {
+    "nombre": null,
+    "archivo_configuracion": null,
+    "archivos_esperados": {},
+    "correcciones_referencias_cuadro": [
+      {
+        "referencia_original": "F12",
+        "aparicion": 2,
+        "referencia_correcta": "F13",
+        "motivo": "La planta identifica como F13 la fundación de la última fila; el cuadro repite F12."
+      }
+    ],
+    "correcciones_columnas_fundaciones": [],
+    "reasignaciones_detalles_columnas": [],
+    "selecciones_fuentes_columnas": [],
+    "secciones_manuales_columnas": []
+  },
+  "revisiones": [
+    {
+      "revision_id": "2ff520537e20493b82e8bd06a71d9f24",
+      "familia": "fundaciones",
+      "tipo_revision": "referencias_duplicadas_cuadro",
+      "revisor": "Prueba automatizada",
+      "identidad_verificada": false,
+      "fecha_revision": "2026-10-28T19:55:56.042592+00:00",
+      "estado": "aplicada_por_ingeniero",
+      "correcciones": [
+        {
+          "referencia_original": "F12",
+          "aparicion": 2,
+          "referencia_correcta": "F13",
+          "motivo": "La planta identifica como F13 la fundación de la última fila; el cuadro repite F12."
+        }
+      ],
+      "huellas_archivos": {
+        "planta": "92e911771bde4443f13b1a7d5097b1cd09be4ac79ae2dd796521b8096f2431f9",
+        "detalles": "415bbb2c15743f7fb2ea8becbb42a830dba2f9ea803c8b4f64e860362ebc7397",
+        "columnas": "b6b0c747409872bfa9d84e2b0daf1b131078433131811651949713f49d066621"
+      }
+    }
+  ]
+}

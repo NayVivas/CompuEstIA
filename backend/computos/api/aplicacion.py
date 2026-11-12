@@ -1061,3 +1061,36 @@ def consultar_metricas_experimento() -> MetricasClasificadorIA:
             f"predicha={float(metricas['cardinalidad_predicha']):.3f}"
         ),
     )
+
+
+RUTA_DEMO_PROYECTO_8 = (
+    Path(__file__).resolve().parents[2]
+    / "data"
+    / "demo"
+    / "proyecto_8.json"
+)
+
+
+@app.get("/api/demo/proyecto-8", tags=["demo"])
+def obtener_demo_proyecto_8():
+    try:
+        resultado = json.loads(
+            RUTA_DEMO_PROYECTO_8.read_text(encoding="utf-8")
+        )
+    except FileNotFoundError:
+        raise HTTPException(
+            status_code=404,
+            detail="No se encontró el análisis de demostración."
+        )
+    except json.JSONDecodeError:
+        raise HTTPException(
+            status_code=500,
+            detail="El archivo de demostración no contiene JSON válido."
+        )
+
+    return {
+        "analisis_id": "proyecto-8-demo",
+        "estado": "completado",
+        "resultado": resultado
+    }
+

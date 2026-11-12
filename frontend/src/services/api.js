@@ -106,3 +106,31 @@ export function documentarIncidencia(analysisId, incidentId, data) {
     method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data),
   });
 }
+
+export async function consultarDemoProyecto8() {
+  const baseUrl = String(
+    import.meta.env.VITE_API_URL ||
+      "https://compuestia.onrender.com/api"
+  ).replace(/\/$/, "");
+
+  const response = await fetch(
+    `${baseUrl}/demo/proyecto-8`
+  );
+
+  const body = await response.json().catch(() => ({}));
+
+  if (!response.ok) {
+    throw new Error(
+      body?.detail ||
+        "No se pudieron cargar los resultados de la demostración."
+    );
+  }
+
+  if (!body?.resultado) {
+    throw new Error(
+      "La API no devolvió los resultados del Proyecto 8."
+    );
+  }
+
+  return body.resultado;
+}

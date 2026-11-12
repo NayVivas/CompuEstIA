@@ -1067,17 +1067,37 @@ if (activeView === "demo") {
             <button className="rounded border px-3 py-2" onClick={() => { setStorageWritable(true); setSaveAttempt((n) => n + 1); }}>Reintentar guardado</button>
           </div>
         </section>}
-        {selectedProjectId === null && !showNewProject && (
-  <div className="flex justify-end border-b border-slate-200 bg-white px-6 py-3">
+        
+{selectedProjectId === null && !showNewProject && (
+  <div className="flex justify-center border-b border-slate-200 bg-gradient-to-r from-slate-50 via-white to-slate-50 px-6 py-5">
     <button
       type="button"
       onClick={openDemoProyecto8}
-      className="rounded-xl bg-accent px-4 py-2 text-xs font-bold text-white shadow-sm hover:opacity-90"
+      className="group flex items-center gap-4 rounded-2xl bg-gradient-to-r from-indigo-700 to-blue-600 px-8 py-4 text-left text-white shadow-lg shadow-blue-900/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-900/30"
     >
-      Ver demostración · Proyecto 8
+      <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/15 text-2xl">
+        <span aria-hidden="true">▶</span>
+      </span>
+
+      <span className="flex flex-col">
+        <span className="text-xs font-semibold uppercase tracking-widest text-blue-100">
+          Demostración para la defensa
+        </span>
+        <span className="text-lg font-extrabold">
+          Ver Proyecto 8
+        </span>
+        <span className="text-xs text-blue-100">
+          Explorar resultados completos del análisis
+        </span>
+      </span>
+
+      <span className="ml-3 text-2xl transition-transform group-hover:translate-x-1">
+        →
+      </span>
     </button>
   </div>
 )}
+
         {renderContent()}
       </div>
     </div>

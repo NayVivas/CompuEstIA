@@ -4306,6 +4306,7 @@ function Results({
   onDownload,
   onResultsChange,
   apiBaseUrl = DEFAULT_API_BASE_URL,
+  readOnly = false,
 }) {
   const [reviewedResults, setReviewedResults] =
     useState(null);
@@ -5156,18 +5157,16 @@ function Results({
             Descargar JSON
           </button>
 
-          <button
-            className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border border-accent bg-accent px-4 text-xs font-bold text-white shadow-[0_8px_18px_rgba(36,183,166,.18)] transition hover:-translate-y-px hover:bg-accent-dark"
-            type="button"
-            onClick={onNewAnalysis}
-          >
-            Nuevo análisis
-
-            <Icon
-              name="plus"
-              size={17}
-            />
-          </button>
+          {!readOnly && (
+  <button
+    className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border border-accent bg-accent px-4 text-xs font-bold text-white"
+    type="button"
+    onClick={onNewAnalysis}
+  >
+    Nuevo análisis
+    <Icon name="plus" size={17} />
+  </button>
+)}
         </div>
       </div>
 
@@ -5276,28 +5275,28 @@ function Results({
         alerts={groupedAnalysisAlerts.inconsistencia}
         title="Inconsistencias nuevas del cómputo"
         description="Son contradicciones detectadas durante el cálculo. No corresponden a correcciones documentales que ya habían sido cerradas."
-        onReviewAlert={openEngineeringReview}
+        onReviewAlert={readOnly ? undefined : openEngineeringReview}
       />
 
       <AnalysisAlerts
         alerts={groupedAnalysisAlerts.dato_requerido}
         title="Datos requeridos para completar cantidades"
         description="El cálculo disponible ya fue realizado; estas cantidades permanecen pendientes hasta ingresar o confirmar los datos indicados."
-        onReviewAlert={openEngineeringReview}
+        onReviewAlert={readOnly ? undefined : openEngineeringReview}
       />
 
       <AnalysisAlerts
         alerts={groupedAnalysisAlerts.revision_tecnica}
         title="Validaciones técnicas pendientes"
         description="Son asociaciones o interpretaciones que el profesional debe revisar antes de aprobar la familia afectada."
-        onReviewAlert={openEngineeringReview}
+        onReviewAlert={readOnly ? undefined : openEngineeringReview}
       />
 
       <AnalysisAlerts
         alerts={groupedAnalysisAlerts.observacion}
         title="Observaciones de lectura"
         description="Son advertencias de trazabilidad; se muestran separadas de las inconsistencias y de los datos faltantes."
-        onReviewAlert={openEngineeringReview}
+        onReviewAlert={readOnly ? undefined : openEngineeringReview}
       />
 
       {/* FAMILIAS ESTRUCTURALES */}

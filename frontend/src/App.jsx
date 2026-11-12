@@ -32,6 +32,7 @@ import {
   assertCompatibleBackend,
   consultarEstado,
   iniciarAnalisis,
+  consultarDemoProyecto8,
 } from "./services/api";
 import { loadWorkspace, saveWorkspace, downloadWorkspace, writeSession } from "./services/workspaceStorage";
 
@@ -95,7 +96,10 @@ function App() {
   // =========================================================
 
   const [showNewProject, setShowNewProject] = useState(false);
-
+  const [demoResults, setDemoResults] = useState(null);
+  const [demoLoading, setDemoLoading] = useState(false);
+  const [demoError, setDemoError] = useState("");
+  
   // =========================================================
   // PERSISTENCIA
   // =========================================================
@@ -699,6 +703,27 @@ function openProject(projectId) {
     return <Welcome onEnter={() => setShowWelcome(false)} />;
   }
 
+async function openDemoProyecto8() {
+  setActiveView("demo");
+  setSelectedProjectId(null);
+  setShowNewProject(false);
+  setDemoLoading(true);
+  setDemoError("");
+  setDemoResults(null);
+
+  try {
+    const resultado = await consultarDemoProyecto8();
+    setDemoResults(resultado);
+  } catch (err) {
+    setDemoError(
+      err instanceof Error
+        ? err.message
+        : "No se pudo cargar la demostración."
+    );
+  } finally {
+    setDemoLoading(false);
+  }
+}
 
   // =========================================================
   // CONTENIDO
@@ -723,6 +748,46 @@ function openProject(projectId) {
       if (activeView === "exp16") {
         return <Exp02Annotator dataset="exp16" />;
       }
+
+    // DEMOSTRACIÓN PÚBLICA · PROYECTO 8
+if (activeView === "demo") {
+  if (demoLoading) {
+    return (
+      <div className="p-10 text-center">
+        <h2 className="text-xl font-bold">
+          Cargando demostración...
+        </h2>
+        <p className="mt-2 text-sm text-slate-500">
+          Estamos recuperando los resultados del Proyecto 8.
+        </p>
+      </div>
+    );
+  }
+
+  if (demoError) {
+    return (
+      <PlaceholderView
+        title="No se pudo cargar la demostración"
+        description={demoError}
+        icon="alert"
+        action="Volver al inicio"
+        onAction={() => navigate("dashboard")}
+      />
+    );
+  }
+
+  return (
+    <Results
+      results={demoResults}
+      error=""
+      readOnly={true}
+      onBack={() => navigate("dashboard")}
+      onNewAnalysis={() => navigate("projects")}
+      onDownload={() => downloadResults(demoResults)}
+      onResultsChange={setDemoResults}
+    />
+  );
+}
 
     // -------------------------------------------------------
     // DENTRO DE UN PROYECTO

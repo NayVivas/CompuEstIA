@@ -139,7 +139,7 @@ class RevisionIngenieroEntrada(BaseModel):
 def _origenes_permitidos() -> list[str]:
     valor = os.getenv(
         "COMPUTOESTIA_CORS_ORIGINS",
-        "http://localhost:5173,http://127.0.0.1:5173",
+        "http://localhost:5173,http://127.0.0.1:5173,https://computoestia.vercel.app",
     )
 
     return [
@@ -147,6 +147,7 @@ def _origenes_permitidos() -> list[str]:
         for origen in valor.split(",")
         if origen.strip()
     ]
+
 
 
 app = FastAPI(

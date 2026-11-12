@@ -14,7 +14,7 @@ COPY app.py analizar_planos.py ./
 COPY computos ./computos
 COPY configuraciones ./configuraciones
 
-RUN mkdir -p /app/data
+COPY data ./data
 
 EXPOSE 8000
 

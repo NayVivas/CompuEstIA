@@ -1067,6 +1067,17 @@ if (activeView === "demo") {
             <button className="rounded border px-3 py-2" onClick={() => { setStorageWritable(true); setSaveAttempt((n) => n + 1); }}>Reintentar guardado</button>
           </div>
         </section>}
+        {selectedProjectId === null && !showNewProject && (
+  <div className="flex justify-end border-b border-slate-200 bg-white px-6 py-3">
+    <button
+      type="button"
+      onClick={openDemoProyecto8}
+      className="rounded-xl bg-accent px-4 py-2 text-xs font-bold text-white shadow-sm hover:opacity-90"
+    >
+      Ver demostración · Proyecto 8
+    </button>
+  </div>
+)}
         {renderContent()}
       </div>
     </div>

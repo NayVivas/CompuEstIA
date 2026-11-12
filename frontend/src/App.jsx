@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 import Sidebar from "./components/Sidebar";
-import Login from "./pages/Login";
+import Welcome from "./pages/Welcome";
 
 import Dashboard from "./pages/Dashboard";
 import Projects from "./pages/Projects";
@@ -33,7 +33,7 @@ import {
   consultarEstado,
   iniciarAnalisis,
 } from "./services/api";
-import { loadWorkspace, saveWorkspace, downloadWorkspace, readSession, writeSession } from "./services/workspaceStorage";
+import { loadWorkspace, saveWorkspace, downloadWorkspace, writeSession } from "./services/workspaceStorage";
 
 const INITIAL_WORKSPACE = { projects: [], analyses: [] };
 
@@ -42,7 +42,7 @@ function App() {
   // AUTENTICACIÓN
   // =========================================================
 
-  const [isAuthenticated, setIsAuthenticated] = useState(readSession);
+  const [showWelcome, setShowWelcome] = useState(true);
 
   // =========================================================
   // NAVEGACIÓN
@@ -141,57 +141,6 @@ function App() {
     return () => { active = false; };
   }, []);
 
-  // =========================================================
-  // LOGIN
-  // =========================================================
-
-  function handleLogin() {
-  console.log("[CómputoEstIA][App] handleLogin() invocado", {
-    origen: "frontend/src/App.jsx > handleLogin",
-    url: window.location.href,
-    sesionAntes: readSession(),
-  });
-
-  writeSession(true);
-
-  console.log("[CómputoEstIA][App] sesión persistida", {
-    sesionDespues: readSession(),
-  });
-
-  setIsAuthenticated(true);
-
-  setActiveView("dashboard");
-  setSelectedProjectId(null);
-  setUploadingProjectId(null);
-  setScreen("idle");
-  setCurrentResults(null);
-  setRoutingReview(null);
-  setGeometryReview(null);
-  setPendingAnalysis(null);
-}
-
-  // =========================================================
-  // LOGOUT
-  // =========================================================
-
-  function handleLogout() {
-    setIncidentReview(null);
-    writeSession(false);
-
-    setIsAuthenticated(false);
-
-    setActiveView("dashboard");
-    setSelectedProjectId(null);
-    setUploadingProjectId(null);
-    setScreen("idle");
-    setFiles(INITIAL_FILES);
-    setError("");
-    setProgress(0);
-    setCurrentResults(null);
-    setRoutingReview(null);
-    setGeometryReview(null);
-    setPendingAnalysis(null);
-  }
 
   // =========================================================
   // ANALISIS
@@ -746,9 +695,10 @@ function openProject(projectId) {
 
   if (!storageReady) return <main className="p-10" role="status">Recuperando proyectos y análisis…</main>;
 
-  if (!isAuthenticated) {
-    return <Login onLogin={handleLogin} />;
+  if (showWelcome) {
+    return <Welcome onEnter={() => setShowWelcome(false)} />;
   }
+
 
   // =========================================================
   // CONTENIDO
@@ -1041,7 +991,6 @@ function openProject(projectId) {
         onNavigate={navigate}
         selectedProject={selectedProject}
         backendStatus={backendStatus}
-        onLogout={handleLogout}
       />
 
       <div className="min-w-0 flex-1">

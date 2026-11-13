@@ -781,15 +781,15 @@ if (activeView === "demo") {
   }
 
   if (demoView === "model-3d") {
-    return (
-      <Motor3D
-        key="demo-proyecto-8"
-        project={null}
-        results={demoResults}
-        onBack={() => setDemoView("results")}
-      />
-    );
-  }
+  return (
+    <Motor3D
+      key="demo-proyecto-8"
+      project={{ name: "Proyecto 8 · Demostración" }}
+      results={demoResults}
+      onBack={() => setDemoView("results")}
+    />
+  );
+}
 
   return (
     <>

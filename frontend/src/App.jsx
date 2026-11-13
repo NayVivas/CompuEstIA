@@ -99,6 +99,7 @@ function App() {
   const [demoResults, setDemoResults] = useState(null);
   const [demoLoading, setDemoLoading] = useState(false);
   const [demoError, setDemoError] = useState("");
+  const [demoView, setDemoView] = useState("results");
   
   // =========================================================
   // PERSISTENCIA
@@ -710,6 +711,8 @@ async function openDemoProyecto8() {
   setDemoLoading(true);
   setDemoError("");
   setDemoResults(null);
+  setDemoView("results");
+  setActiveView("demo");
 
   try {
     const resultado = await consultarDemoProyecto8();
@@ -749,7 +752,8 @@ async function openDemoProyecto8() {
         return <Exp02Annotator dataset="exp16" />;
       }
 
-    // DEMOSTRACIÓN PÚBLICA · PROYECTO 8
+   
+// DEMOSTRACIÓN PÚBLICA · PROYECTO 8
 if (activeView === "demo") {
   if (demoLoading) {
     return (
@@ -776,18 +780,43 @@ if (activeView === "demo") {
     );
   }
 
+  if (demoView === "model-3d") {
+    return (
+      <Motor3D
+        key="demo-proyecto-8"
+        project={null}
+        results={demoResults}
+        onBack={() => setDemoView("results")}
+      />
+    );
+  }
+
   return (
-    <Results
-      results={demoResults}
-      error=""
-      readOnly={true}
-      onBack={() => navigate("dashboard")}
-      onNewAnalysis={() => navigate("projects")}
-      onDownload={() => downloadResults(demoResults)}
-      onResultsChange={setDemoResults}
-    />
+    <>
+      <div className="flex justify-end px-6 py-3">
+        <button
+          type="button"
+          onClick={() => setDemoView("model-3d")}
+          className="flex items-center gap-2 rounded-xl bg-indigo-700 px-5 py-3 font-bold text-white shadow-lg hover:bg-indigo-800"
+        >
+          <span>◈</span>
+          Ver modelo estructural 3D
+        </button>
+      </div>
+
+      <Results
+        results={demoResults}
+        error=""
+        readOnly={true}
+        onBack={() => navigate("dashboard")}
+        onNewAnalysis={() => navigate("projects")}
+        onDownload={() => downloadResults(demoResults)}
+        onResultsChange={setDemoResults}
+      />
+    </>
   );
 }
+
 
     // -------------------------------------------------------
     // DENTRO DE UN PROYECTO

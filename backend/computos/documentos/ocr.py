@@ -74,7 +74,6 @@ def resolver_tessdata(comando: str | None = None) -> Path | None:
     return None
 
 
-
 def diagnostico_ocr() -> dict:
     """Estado real del OCR para la API y las pantallas de diagnóstico."""
 
@@ -82,22 +81,48 @@ def diagnostico_ocr() -> dict:
     comando = resolver_tesseract() if habilitado else None
     tessdata = resolver_tessdata(comando) if comando else None
     idiomas = sorted(_idiomas_disponibles(tessdata)) if tessdata else []
+
     ejecutable_valido = False
+
     if comando:
         try:
-            prueba = subprocess.run([comando, "--version"], capture_output=True, text=True, timeout=5)
-            ejecutable_valido = prueba.returncode == 0 and "tesseract" in (prueba.stdout + prueba.stderr).lower()
+            prueba = subprocess.run(
+                [comando, "--version"],
+                capture_output=True,
+                text=True,
+                timeout=5,
+            )
+            ejecutable_valido = (
+                prueba.returncode == 0
+                and "tesseract" in (
+                    prueba.stdout + prueba.stderr
+                ).lower()
+            )
         except (OSError, subprocess.SubprocessError):
             pass
-    listo = habilitado and ejecutable_valido and bool(set(idiomas) - {"osd", "equ"})
-       if listo:
-        mensaje = "Tesseract está disponible para recuperar cotas y texto rasterizado."
+
+    listo = (
+        habilitado
+        and ejecutable_valido
+        and bool(set(idiomas) - {"osd", "equ"})
+    )
+
+    if listo:
+        mensaje = (
+            "Tesseract está disponible para recuperar cotas "
+            "y texto rasterizado."
+        )
     elif not habilitado:
         mensaje = "El OCR local está desactivado por COMPUTOESTIA_OCR."
     elif comando and not ejecutable_valido:
-        mensaje = "Se encontró Tesseract, pero su ejecutable no pudo iniciarse."
+        mensaje = (
+            "Se encontró Tesseract, pero su ejecutable "
+            "no pudo iniciarse."
+        )
     elif comando and not (set(idiomas) - {"osd", "equ"}):
-        mensaje = "Se encontró Tesseract, pero faltan sus datos de idioma."
+        mensaje = (
+            "Se encontró Tesseract, pero faltan sus datos de idioma."
+        )
     else:
         mensaje = (
             "Tesseract no se encontró. Instalalo o definí "

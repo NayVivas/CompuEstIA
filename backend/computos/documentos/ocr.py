@@ -1,12 +1,15 @@
+
+"""OCR local y opcional para páginas PDF sin texto utilizable."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass
+import math
 import os
 from pathlib import Path
 import re
 import shutil
 import subprocess
-import math
 
 import pymupdf
 
@@ -27,12 +30,43 @@ class OCRNoDisponible(RuntimeError):
 
 def ocr_habilitado() -> bool:
     return os.getenv("COMPUTOESTIA_OCR", "1").strip().casefold() not in {
-        "0",
-        "false",
-        "no",
-        "off",
+        "0", "false", "no", "off",
     }
 
+
+def resolver_tesseract() -> str | None:
+    """Localiza Tesseract en Windows y Linux."""
+
+    configurado = os.getenv("COMPUTOESTIA_TESSERACT_CMD", "").strip()
+
+    if configurado:
+        ruta = Path(configurado).expanduser()
+        if ruta.is_file():
+            return str(ruta)
+
+        localizado = shutil.which(configurado)
+        if localizado:
+            return localizado
+
+    localizado = shutil.which("tesseract")
+    if localizado:
+        return localizado
+
+    candidatos = []
+
+    for variable in ("ProgramFiles", "ProgramFiles(x86)", "LOCALAPPDATA"):
+        base = os.getenv(variable, "").strip()
+        if base:
+            raiz = Path(base)
+            candidatos.extend([
+                raiz / "Tesseract-OCR" / "tesseract.exe",
+                raiz / "Programs" / "Tesseract-OCR" / "tesseract.exe",
+            ])
+
+    return next(
+        (str(ruta) for ruta in candidatos if ruta.is_file()),
+        None,
+    )
 
 
 def resolver_tessdata(comando: str | None = None) -> Path | None:
@@ -51,7 +85,6 @@ def resolver_tessdata(comando: str | None = None) -> Path | None:
             carpeta / "share" / "tessdata",
         ])
 
-    # Ubicaciones habituales en Linux (Debian/Ubuntu y Docker).
     carpeta_linux = Path("/usr/share/tesseract-ocr")
     if carpeta_linux.is_dir():
         candidatos.extend(carpeta_linux.glob("*/tessdata"))
@@ -61,7 +94,6 @@ def resolver_tessdata(comando: str | None = None) -> Path | None:
         Path("/usr/local/share/tessdata"),
     ])
 
-    # Ubicación detectada por PyMuPDF.
     try:
         candidatos.append(Path(pymupdf.get_tessdata()))
     except Exception:
@@ -108,21 +140,13 @@ def diagnostico_ocr() -> dict:
     )
 
     if listo:
-        mensaje = (
-            "Tesseract está disponible para recuperar cotas "
-            "y texto rasterizado."
-        )
+        mensaje = "Tesseract está disponible para recuperar cotas y texto rasterizado."
     elif not habilitado:
         mensaje = "El OCR local está desactivado por COMPUTOESTIA_OCR."
     elif comando and not ejecutable_valido:
-        mensaje = (
-            "Se encontró Tesseract, pero su ejecutable "
-            "no pudo iniciarse."
-        )
+        mensaje = "Se encontró Tesseract, pero su ejecutable no pudo iniciarse."
     elif comando and not (set(idiomas) - {"osd", "equ"}):
-        mensaje = (
-            "Se encontró Tesseract, pero faltan sus datos de idioma."
-        )
+        mensaje = "Se encontró Tesseract, pero faltan sus datos de idioma."
     else:
         mensaje = (
             "Tesseract no se encontró. Instalalo o definí "
@@ -140,21 +164,6 @@ def diagnostico_ocr() -> dict:
     }
 
 
-def resolver_tessdata(comando: str | None = None) -> Path | None:
-    """Encuentra también los idiomas junto al ejecutable de Windows."""
-    candidatos = []
-    configurado = os.getenv("TESSDATA_PREFIX", "").strip()
-    if configurado:
-        candidatos.append(Path(configurado))
-    if comando:
-        candidatos.extend([Path(comando).parent / "tessdata", Path(comando).parent / "share" / "tessdata"])
-    try:
-        candidatos.append(Path(pymupdf.get_tessdata()))
-    except Exception:
-        pass
-    return next((p for p in candidatos if p.is_dir() and any(p.glob("*.traineddata"))), None)
-
-
 def _dpi_configurado() -> int:
     try:
         dpi = int(os.getenv("COMPUTOESTIA_OCR_DPI", "200"))
@@ -166,7 +175,10 @@ def _dpi_configurado() -> int:
 def _idiomas_disponibles(tessdata: Path) -> set[str]:
     if not tessdata.is_dir():
         return set()
-    return {archivo.stem for archivo in tessdata.glob("*.traineddata")}
+    return {
+        archivo.stem
+        for archivo in tessdata.glob("*.traineddata")
+    }
 
 
 def _seleccionar_idiomas(tessdata: Path) -> str:
@@ -178,16 +190,24 @@ def _seleccionar_idiomas(tessdata: Path) -> str:
         )
         if parte.strip()
     ]
+
     disponibles = _idiomas_disponibles(tessdata) - {"osd", "equ"}
-    seleccionados = [idioma for idioma in solicitados if idioma in disponibles]
+    seleccionados = [
+        idioma for idioma in solicitados
+        if idioma in disponibles
+    ]
+
     if not seleccionados and "eng" in disponibles:
         seleccionados = ["eng"]
+
     if not seleccionados and disponibles:
         seleccionados = [sorted(disponibles)[0]]
+
     if not seleccionados:
         raise OCRNoDisponible(
             "Tesseract está instalado, pero no se encontraron idiomas entrenados."
         )
+
     return "+".join(seleccionados)
 
 
@@ -199,16 +219,18 @@ def reconocer_pagina(
 
     if not ocr_habilitado():
         raise OCRNoDisponible("El OCR local está desactivado por configuración.")
-    if resolver_tesseract() is None:
+
+    comando = resolver_tesseract()
+    if comando is None:
         raise OCRNoDisponible(
             "Tesseract no está instalado. También podés indicar su ruta "
             "mediante COMPUTOESTIA_TESSERACT_CMD."
         )
 
-    tessdata = resolver_tessdata(resolver_tesseract())
+    tessdata = resolver_tessdata(comando)
     if tessdata is None:
         raise OCRNoDisponible(
-            "PyMuPDF no pudo localizar los datos de idioma de Tesseract."
+            "No se pudieron localizar los datos de idioma de Tesseract."
         )
 
     idioma = _seleccionar_idiomas(tessdata)
@@ -217,37 +239,90 @@ def reconocer_pagina(
     destino.parent.mkdir(parents=True, exist_ok=True)
 
     try:
-        # TextPage mantiene las coordenadas PDF originales. No se sustituye la
-        # planta vectorial por una imagen ni se reescala la página al aplicar OCR.
-        textpage = pagina.get_textpage_ocr(language=idioma, dpi=dpi, full=True, tessdata=str(tessdata))
-        reconocidas = pagina.get_text("words", textpage=textpage, sort=False)
-        originales = [pymupdf.Rect(w[:4]) for w in pagina.get_text("words", sort=False)]
+        textpage = pagina.get_textpage_ocr(
+            language=idioma,
+            dpi=dpi,
+            full=True,
+            tessdata=str(tessdata),
+        )
+
+        reconocidas = pagina.get_text(
+            "words", textpage=textpage, sort=False
+        )
+        originales = [
+            pymupdf.Rect(w[:4])
+            for w in pagina.get_text("words", sort=False)
+        ]
+
         direcciones = {}
-        for indice, bloque in enumerate(pagina.get_text("dict", textpage=textpage).get("blocks", [])):
+
+        for indice, bloque in enumerate(
+            pagina.get_text("dict", textpage=textpage).get("blocks", [])
+        ):
             for linea_i, linea in enumerate(bloque.get("lines", [])):
                 dx, dy = linea.get("dir", (1, 0))
-                direcciones[(bloque.get("number", indice), linea_i)] = int(round(math.degrees(math.atan2(-dy, dx)) / 90) * 90) % 360
+                direcciones[(bloque.get("number", indice), linea_i)] = (
+                    int(
+                        round(
+                            math.degrees(math.atan2(-dy, dx)) / 90
+                        ) * 90
+                    ) % 360
+                )
+
         agregadas = 0
+
         with pymupdf.open() as copia:
-            copia.insert_pdf(pagina.parent, from_page=pagina.number, to_page=pagina.number)
+            copia.insert_pdf(
+                pagina.parent,
+                from_page=pagina.number,
+                to_page=pagina.number,
+            )
+
             salida = copia[0]
+
             for x0, y0, x1, y1, valor, bloque, linea, _pos in reconocidas:
                 caja = pymupdf.Rect(x0, y0, x1, y1)
+
                 if not valor.strip() or caja.is_empty:
                     continue
-                if any((caja & otra).get_area() / max(1.0, min(caja.get_area(), otra.get_area())) > .25 for otra in originales):
-                    continue  # El texto nativo tiene prioridad sobre una lectura OCR.
+
+                if any(
+                    (caja & otra).get_area()
+                    / max(1.0, min(caja.get_area(), otra.get_area()))
+                    > 0.25
+                    for otra in originales
+                ):
+                    continue
+
                 rotacion = direcciones.get((bloque, linea), 0)
-                alto = caja.height if rotacion in {0, 180} else caja.width
+                alto = (
+                    caja.height
+                    if rotacion in {0, 180}
+                    else caja.width
+                )
                 tamano = max(2.0, alto / 1.375)
+
                 punto = {
-                    0: (x0, y1 - alto * .2), 90: (x1 - alto * .2, y1),
-                    180: (x1, y0 + alto * .2), 270: (x0 + alto * .2, y0),
+                    0: (x0, y1 - alto * 0.2),
+                    90: (x1 - alto * 0.2, y1),
+                    180: (x1, y0 + alto * 0.2),
+                    270: (x0 + alto * 0.2, y0),
                 }[rotacion]
-                salida.insert_text(punto, valor, fontsize=tamano, fontname="helv", rotate=rotacion, render_mode=3)
+
+                salida.insert_text(
+                    punto,
+                    valor,
+                    fontsize=tamano,
+                    fontname="helv",
+                    rotate=rotacion,
+                    render_mode=3,
+                )
+
                 agregadas += 1
+
             texto = salida.get_text("text", sort=False).strip()
             copia.save(destino, no_new_id=True)
+
     except Exception as error:
         destino.unlink(missing_ok=True)
         raise OCRNoDisponible(
@@ -267,4 +342,3 @@ def reconocer_pagina(
         dpi=dpi,
         palabras_agregadas=agregadas,
     )
-

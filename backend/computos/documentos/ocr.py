@@ -41,41 +41,45 @@ def ocr_habilitado() -> bool:
     }
 
 
-def resolver_tesseract() -> str | None:
-    """Localiza Tesseract también en las rutas habituales de Windows.
 
-    La instalación oficial de Windows no siempre agrega el ejecutable a
-    ``PATH``.  El motor no debe confundir ese caso con un PDF ilegible.
-    ``COMPUTOESTIA_TESSERACT_CMD`` permite indicar otra ubicación sin tocar
-    el código.
-    """
-
-    configurado = os.getenv("COMPUTOESTIA_TESSERACT_CMD", "").strip()
-    if configurado:
-        ruta = Path(configurado).expanduser()
-        if ruta.is_file():
-            return str(ruta)
-        localizado = shutil.which(configurado)
-        if localizado:
-            return localizado
-
-    localizado = shutil.which("tesseract")
-    if localizado:
-        return localizado
+def resolver_tessdata(comando: str | None = None) -> Path | None:
+    """Encuentra los datos de idioma de Tesseract en Windows y Linux."""
 
     candidatos = []
-    for variable in ("ProgramFiles", "ProgramFiles(x86)", "LOCALAPPDATA"):
-        base = os.getenv(variable, "").strip()
-        if not base:
-            continue
-        raiz = Path(base)
-        candidatos.extend(
-            (
-                raiz / "Tesseract-OCR" / "tesseract.exe",
-                raiz / "Programs" / "Tesseract-OCR" / "tesseract.exe",
-            )
-        )
-    return next((str(ruta) for ruta in candidatos if ruta.is_file()), None)
+
+    configurado = os.getenv("TESSDATA_PREFIX", "").strip()
+    if configurado:
+        candidatos.append(Path(configurado).expanduser())
+
+    if comando:
+        carpeta = Path(comando).parent
+        candidatos.extend([
+            carpeta / "tessdata",
+            carpeta / "share" / "tessdata",
+        ])
+
+    # Ubicaciones habituales en Linux (Debian/Ubuntu y Docker).
+    carpeta_linux = Path("/usr/share/tesseract-ocr")
+    if carpeta_linux.is_dir():
+        candidatos.extend(carpeta_linux.glob("*/tessdata"))
+
+    candidatos.extend([
+        Path("/usr/share/tessdata"),
+        Path("/usr/local/share/tessdata"),
+    ])
+
+    # Ubicación detectada por PyMuPDF.
+    try:
+        candidatos.append(Path(pymupdf.get_tessdata()))
+    except Exception:
+        pass
+
+    for carpeta in candidatos:
+        if carpeta.is_dir() and any(carpeta.glob("*.traineddata")):
+            return carpeta
+
+    return None
+
 
 
 def diagnostico_ocr() -> dict:
@@ -102,10 +106,10 @@ def diagnostico_ocr() -> dict:
     elif comando and not (set(idiomas) - {"osd", "equ"}):
         mensaje = "Se encontró Tesseract, pero faltan sus datos de idioma. Ejecutá INSTALAR_OCR_WINDOWS.bat y volvé a verificar."
     else:
-        mensaje = (
-            "Tesseract no se encontró. Instalalo o definí "
-            "COMPUTOESTIA_TESSERACT_CMD con la ruta a tesseract.exe."
-        )
+    mensaje = (
+        "Tesseract no se encontró. Instalalo o definí "
+        "COMPUTOESTIA_TESSERACT_CMD con la ruta al ejecutable."
+    )
     return {
         "habilitado": habilitado,
         "tesseract_disponible": comando is not None,

@@ -1,8 +1,17 @@
+
 FROM python:3.13-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
-    PIP_NO_CACHE_DIR=1
+    PIP_NO_CACHE_DIR=1 \
+    COMPUTOESTIA_TESSERACT_CMD=/usr/bin/tesseract
+
+# Instalar Tesseract OCR y el idioma español
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        tesseract-ocr \
+        tesseract-ocr-spa \
+    && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
@@ -13,7 +22,6 @@ RUN python -m pip install --upgrade pip \
 COPY app.py analizar_planos.py ./
 COPY computos ./computos
 COPY configuraciones ./configuraciones
-
 COPY data ./data
 
 EXPOSE 8000

@@ -1,10 +1,3 @@
-"""OCR local y opcional para páginas PDF sin texto utilizable.
-
-El resultado no es solamente una cadena: también se conserva una página PDF
-buscable. De ese modo los motores posteriores reciben palabras con coordenadas
-y no pierden la relación entre el texto reconocido y el dibujo.
-"""
-
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -97,19 +90,20 @@ def diagnostico_ocr() -> dict:
         except (OSError, subprocess.SubprocessError):
             pass
     listo = habilitado and ejecutable_valido and bool(set(idiomas) - {"osd", "equ"})
-    if listo:
+       if listo:
         mensaje = "Tesseract está disponible para recuperar cotas y texto rasterizado."
     elif not habilitado:
         mensaje = "El OCR local está desactivado por COMPUTOESTIA_OCR."
     elif comando and not ejecutable_valido:
-        mensaje = "Se encontró Tesseract, pero su ejecutable no pudo iniciarse. Ejecutá VERIFICAR_ENTORNO.bat."
+        mensaje = "Se encontró Tesseract, pero su ejecutable no pudo iniciarse."
     elif comando and not (set(idiomas) - {"osd", "equ"}):
-        mensaje = "Se encontró Tesseract, pero faltan sus datos de idioma. Ejecutá INSTALAR_OCR_WINDOWS.bat y volvé a verificar."
+        mensaje = "Se encontró Tesseract, pero faltan sus datos de idioma."
     else:
-    mensaje = (
-        "Tesseract no se encontró. Instalalo o definí "
-        "COMPUTOESTIA_TESSERACT_CMD con la ruta al ejecutable."
-    )
+        mensaje = (
+            "Tesseract no se encontró. Instalalo o definí "
+            "COMPUTOESTIA_TESSERACT_CMD con la ruta al ejecutable."
+        )
+
     return {
         "habilitado": habilitado,
         "tesseract_disponible": comando is not None,

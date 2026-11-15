@@ -3552,20 +3552,21 @@ function CameraController({
         )
       : 0;
     const target = focusSelected
-      ? new Vector3(
-          selected.x,
-          selectedStructureHeight / 2,
-          selected.z
-        )
-      : modelFrame.center.clone();
-    const span = focusSelected
-      ? Math.max(
-          selected.width,
-          selected.depth,
-          selectedStructureHeight,
-          1
-        ) * 2.25
-      : modelFrame.span * 1.25;
+  ? new Vector3(
+      selected.x,
+      selected.height / 2,
+      selected.z
+    )
+  : modelFrame.center.clone();
+
+const span = focusSelected
+  ? Math.max(
+      selected.width,
+      selected.depth,
+      selected.height,
+      0.8
+    ) * 1.35
+  : modelFrame.span * 1.25;
 
     if (
       viewCommand.type === "zoomIn" ||

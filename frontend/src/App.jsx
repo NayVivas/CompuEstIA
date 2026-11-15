@@ -32,9 +32,9 @@ import {
   assertCompatibleBackend,
   consultarEstado,
   iniciarAnalisis,
-  consultarDemoProyecto8,
 } from "./services/api";
 import { loadWorkspace, saveWorkspace, downloadWorkspace, writeSession } from "./services/workspaceStorage";
+import Presentacion from "./pages/Presentacion";
 
 const INITIAL_WORKSPACE = { projects: [], analyses: [] };
 
@@ -96,11 +96,7 @@ function App() {
   // =========================================================
 
   const [showNewProject, setShowNewProject] = useState(false);
-  const [demoResults, setDemoResults] = useState(null);
-  const [demoLoading, setDemoLoading] = useState(false);
-  const [demoError, setDemoError] = useState("");
-  const [demoView, setDemoView] = useState("results");
-  
+
   // =========================================================
   // PERSISTENCIA
   // =========================================================
@@ -698,35 +694,23 @@ function openProject(projectId) {
   // LOGIN
   // =========================================================
 
-  if (!storageReady) return <main className="p-10" role="status">Recuperando proyectos y análisis…</main>;
+ // PRESENTACIÓN INDEPENDIENTE
+if (window.location.pathname === "/presentacion") {
+  return <Presentacion />;
+}
+
+if (!storageReady) {
+  return (
+    <main className="p-10" role="status">
+      Recuperando proyectos y análisis…
+    </main>
+  );
+}
 
   if (showWelcome) {
     return <Welcome onEnter={() => setShowWelcome(false)} />;
   }
 
-async function openDemoProyecto8() {
-  setActiveView("demo");
-  setSelectedProjectId(null);
-  setShowNewProject(false);
-  setDemoLoading(true);
-  setDemoError("");
-  setDemoResults(null);
-  setDemoView("results");
-  setActiveView("demo");
-
-  try {
-    const resultado = await consultarDemoProyecto8();
-    setDemoResults(resultado);
-  } catch (err) {
-    setDemoError(
-      err instanceof Error
-        ? err.message
-        : "No se pudo cargar la demostración."
-    );
-  } finally {
-    setDemoLoading(false);
-  }
-}
 
   // =========================================================
   // CONTENIDO
@@ -751,72 +735,6 @@ async function openDemoProyecto8() {
       if (activeView === "exp16") {
         return <Exp02Annotator dataset="exp16" />;
       }
-
-   
-// DEMOSTRACIÓN PÚBLICA · PROYECTO 8
-if (activeView === "demo") {
-  if (demoLoading) {
-    return (
-      <div className="p-10 text-center">
-        <h2 className="text-xl font-bold">
-          Cargando demostración...
-        </h2>
-        <p className="mt-2 text-sm text-slate-500">
-          Estamos recuperando los resultados del Proyecto 8.
-        </p>
-      </div>
-    );
-  }
-
-  if (demoError) {
-    return (
-      <PlaceholderView
-        title="No se pudo cargar la demostración"
-        description={demoError}
-        icon="alert"
-        action="Volver al inicio"
-        onAction={() => navigate("dashboard")}
-      />
-    );
-  }
-
-  if (demoView === "model-3d") {
-  return (
-    <Motor3D
-      key="demo-proyecto-8"
-      project={{ name: "Proyecto 8 · Demostración" }}
-      results={demoResults}
-      onBack={() => setDemoView("results")}
-    />
-  );
-}
-
-  return (
-    <>
-      <div className="flex justify-end px-6 py-3">
-        <button
-          type="button"
-          onClick={() => setDemoView("model-3d")}
-          className="flex items-center gap-2 rounded-xl bg-indigo-700 px-5 py-3 font-bold text-white shadow-lg hover:bg-indigo-800"
-        >
-          <span>◈</span>
-          Ver modelo estructural 3D
-        </button>
-      </div>
-
-      <Results
-        results={demoResults}
-        error=""
-        readOnly={true}
-        onBack={() => navigate("dashboard")}
-        onNewAnalysis={() => navigate("projects")}
-        onDownload={() => downloadResults(demoResults)}
-        onResultsChange={setDemoResults}
-      />
-    </>
-  );
-}
-
 
     // -------------------------------------------------------
     // DENTRO DE UN PROYECTO
@@ -1096,37 +1014,6 @@ if (activeView === "demo") {
             <button className="rounded border px-3 py-2" onClick={() => { setStorageWritable(true); setSaveAttempt((n) => n + 1); }}>Reintentar guardado</button>
           </div>
         </section>}
-        
-{selectedProjectId === null && !showNewProject && (
-  <div className="flex justify-center border-b border-slate-200 bg-gradient-to-r from-slate-50 via-white to-slate-50 px-6 py-5">
-    <button
-      type="button"
-      onClick={openDemoProyecto8}
-      className="group flex items-center gap-4 rounded-2xl bg-gradient-to-r from-indigo-700 to-blue-600 px-8 py-4 text-left text-white shadow-lg shadow-blue-900/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-900/30"
-    >
-      <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/15 text-2xl">
-        <span aria-hidden="true">▶</span>
-      </span>
-
-      <span className="flex flex-col">
-        <span className="text-xs font-semibold uppercase tracking-widest text-blue-100">
-          Demostración para la defensa
-        </span>
-        <span className="text-lg font-extrabold">
-          Ver Proyecto 8
-        </span>
-        <span className="text-xs text-blue-100">
-          Explorar resultados completos del análisis
-        </span>
-      </span>
-
-      <span className="ml-3 text-2xl transition-transform group-hover:translate-x-1">
-        →
-      </span>
-    </button>
-  </div>
-)}
-
         {renderContent()}
       </div>
     </div>

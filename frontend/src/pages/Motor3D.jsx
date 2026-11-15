@@ -3891,13 +3891,16 @@ function StructuralMotor3D({
   };
 
   const selectFoundation = (foundationId) => {
-    setSelectedId(foundationId);
-    setSelectedElement({
-      kind: "foundation",
-      id: foundationId,
-      foundationId,
-    });
-  };
+  setSelectedId(foundationId);
+
+  setSelectedElement({
+    kind: "foundation",
+    id: foundationId,
+    foundationId,
+  });
+
+  requestView("focus");
+};
 
   const focusFoundation = (
     foundationId,

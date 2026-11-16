@@ -5577,7 +5577,7 @@ function Results({
               activeSectionTitle.title.toLowerCase()
             }`}
             description="Aquí se distinguen inconsistencias, datos requeridos, validaciones técnicas y observaciones de esta familia."
-            onReviewAlert={openEngineeringReview}
+            onReviewAlert={readOnly ? undefined : openEngineeringReview}
           />
 
           {activeEngineeringReviews.length > 0 && (
@@ -5714,8 +5714,8 @@ function Results({
         </section>
       )}
 
-      {reviewDialog && (
-        <EngineeringReviewDialog
+      {!readOnly && reviewDialog && (
+  <EngineeringReviewDialog
           key={reviewDialog.alert.id}
           alert={reviewDialog.alert}
           results={results}

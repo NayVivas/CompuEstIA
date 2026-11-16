@@ -26,7 +26,7 @@ export default function Dashboard({
       <p className="text-xs font-bold uppercase tracking-widest text-teal-300">Centro de análisis estructural</p>
       <h1 className="mt-3 text-3xl font-bold">CómputoEstIA</h1>
       <p className="mt-2 max-w-2xl text-sm text-slate-300">Cargá planos, revisá evidencias y calculá solo las cantidades respaldadas por el proyecto.</p>
-      <div className="mt-5 flex flex-wrap gap-3">
+     <div className="mt-5 flex flex-wrap gap-3">
   <button
     type="button"
     onClick={onNewAnalysis}

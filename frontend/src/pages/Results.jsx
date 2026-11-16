@@ -4305,6 +4305,7 @@ function Results({
   onNewAnalysis,
   onDownload,
   onResultsChange,
+  onOpen3D,
   apiBaseUrl = DEFAULT_API_BASE_URL,
   readOnly = false,
 }) {
@@ -5156,6 +5157,17 @@ function Results({
             />
             Descargar JSON
           </button>
+
+          {onOpen3D && (
+  <button
+    className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border border-slate-800 bg-slate-900 px-4 text-xs font-bold text-white transition hover:bg-slate-700"
+    type="button"
+    onClick={onOpen3D}
+  >
+    <Icon name="box" size={17} />
+    Ver modelo 3D
+  </button>
+)}
 
           {!readOnly && (
   <button

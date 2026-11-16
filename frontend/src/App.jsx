@@ -32,6 +32,7 @@ import {
   assertCompatibleBackend,
   consultarEstado,
   iniciarAnalisis,
+  consultarDemoProyecto8,
 } from "./services/api";
 import { loadWorkspace, saveWorkspace, downloadWorkspace, writeSession } from "./services/workspaceStorage";
 import Presentacion from "./pages/Presentacion";
@@ -80,6 +81,10 @@ function App() {
 
   const [currentResults, setCurrentResults] = useState(null);
   const [currentResultsProjectId, setCurrentResultsProjectId] = useState(null);
+
+  const [demoResults, setDemoResults] = useState(null);
+  const [demoLoading, setDemoLoading] = useState(false);
+  const [demoError, setDemoError] = useState("");
 
   const [uploadingProjectId, setUploadingProjectId] =
     useState(null);
@@ -473,6 +478,27 @@ function backToAnalyses() {
     setActiveView("documentation");
   }
 
+  async function openDemoProyecto8() {
+  setDemoLoading(true);
+  setDemoError("");
+  setActiveView("demo-results");
+
+  try {
+    const resultado = await consultarDemoProyecto8();
+
+    setDemoResults(resultado);
+    setActiveView("demo-results");
+  } catch (err) {
+    setDemoError(
+      err instanceof Error
+        ? err.message
+        : "No se pudieron cargar los resultados del Proyecto 8."
+    );
+  } finally {
+    setDemoLoading(false);
+  }
+}
+
   // =========================================================
   // NAVEGACIÓN GENERAL / PROYECTO
   // =========================================================
@@ -737,6 +763,73 @@ if (!storageReady) {
       }
 
     // -------------------------------------------------------
+// DEMOSTRACIÓN · PROYECTO 8
+// -------------------------------------------------------
+
+if (activeView === "demo-results") {
+  if (demoLoading) {
+    return (
+      <main className="p-10 text-center">
+        Cargando resultados del Proyecto 8…
+      </main>
+    );
+  }
+
+  if (demoError || !demoResults) {
+    return (
+      <main className="mx-auto max-w-3xl p-10">
+        <div className="rounded-2xl border border-amber-200 bg-amber-50 p-6">
+          <h2 className="text-lg font-bold text-amber-950">
+            No se pudieron cargar los resultados
+          </h2>
+          <p className="mt-2 text-sm text-amber-900">
+            {demoError || "No hay resultados disponibles."}
+          </p>
+          <div className="mt-5 flex gap-3">
+            <button
+              className="rounded-lg bg-accent px-4 py-2 text-sm font-bold text-white"
+              onClick={openDemoProyecto8}
+            >
+              Reintentar
+            </button>
+            <button
+              className="rounded-lg border border-slate-300 bg-white px-4 py-2 text-sm font-bold"
+              onClick={() => setActiveView("dashboard")}
+            >
+              Volver
+            </button>
+          </div>
+        </div>
+      </main>
+    );
+  }
+
+  return (
+    <Results
+      results={demoResults}
+      readOnly={true}
+      onBack={() => setActiveView("dashboard")}
+      onOpen3D={() => setActiveView("demo-model-3d")}
+      onDownload={downloadResults}
+    />
+  );
+}
+
+if (activeView === "demo-model-3d") {
+  return (
+    <Motor3D
+      key={`demo-proyecto-8:${demoResults?.analisis_id ?? "demo"}`}
+      project={{
+        id: "demo-proyecto-8",
+        name: "Proyecto 8",
+      }}
+      results={demoResults}
+      onBack={() => setActiveView("demo-results")}
+    />
+  );
+}
+
+    // -------------------------------------------------------
     // DENTRO DE UN PROYECTO
     // -------------------------------------------------------
 
@@ -964,9 +1057,16 @@ if (!storageReady) {
     // -------------------------------------------------------
 
     if (activeView === "dashboard") {
-      return <Dashboard projects={projects} analyses={analyses}
-        onNewAnalysis={() => navigate("projects")} onOpenProject={openProject} />;
-    }
+  return (
+    <Dashboard
+      projects={projects}
+      analyses={analyses}
+      onNewAnalysis={() => navigate("projects")}
+      onOpenProject={openProject}
+      onOpenDemo={openDemoProyecto8}
+    />
+  );
+}
 
     if (activeView === "projects") {
       return (

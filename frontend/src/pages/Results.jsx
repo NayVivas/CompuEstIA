@@ -5158,14 +5158,36 @@ function Results({
             Descargar JSON
           </button>
 
-          {onOpen3D && (
+         {onOpen3D && (
   <button
-    className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border border-slate-800 bg-slate-900 px-4 text-xs font-bold text-white transition hover:bg-slate-700"
     type="button"
     onClick={onOpen3D}
+    className="group relative inline-flex min-h-16 items-center gap-4 overflow-hidden
+    rounded-2xl border border-violet-300/40
+    bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-700
+    px-6 py-3 text-left text-white
+    shadow-[0_8px_30px_rgba(139,92,246,0.4)]
+    transition-all duration-300
+    hover:-translate-y-1 hover:scale-[1.02]
+    hover:shadow-[0_14px_40px_rgba(139,92,246,0.6)]
+    active:scale-[0.98]"
   >
-    <Icon name="box" size={17} />
-    Ver modelo 3D
+    <span className="absolute -right-5 -top-8 h-28 w-28 rounded-full bg-white/10 transition-transform duration-500 group-hover:scale-150" />
+
+    <span className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white/20 ring-1 ring-white/30">
+      <Icon name="box" size={29} />
+    </span>
+
+    <span className="relative">
+      <span className="block text-sm font-black tracking-wide">
+        VER MODELO 3D
+      </span>
+      <span className="mt-1 block text-xs font-medium text-violet-100">
+        Explorar estructura e instalaciones
+      </span>
+    </span>
+
+    <Icon name="arrow-up-right" size={20} />
   </button>
 )}
 

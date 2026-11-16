@@ -3,7 +3,13 @@ import { confirmedConcreteVolume } from "../utils/analysisMetrics";
 
 const format = (value) => new Intl.NumberFormat("es-AR", { maximumFractionDigits: 2 }).format(value);
 
-export default function Dashboard({ projects = [], analyses = [], onNewAnalysis, onOpenProject }) {
+export default function Dashboard({
+  projects = [],
+  analyses = [],
+  onNewAnalysis,
+  onOpenProject,
+  onOpenDemo,
+}) {
   const completed = analyses.filter((item) => item.status === "Completado" && item.resultado);
   const concrete = confirmedConcreteVolume(analyses);
   const reviewed = projects.filter((item) => item.status === "Revisión requerida" || item.status === "Revisión geométrica requerida").length;
@@ -20,10 +26,26 @@ export default function Dashboard({ projects = [], analyses = [], onNewAnalysis,
       <p className="text-xs font-bold uppercase tracking-widest text-teal-300">Centro de análisis estructural</p>
       <h1 className="mt-3 text-3xl font-bold">CómputoEstIA</h1>
       <p className="mt-2 max-w-2xl text-sm text-slate-300">Cargá planos, revisá evidencias y calculá solo las cantidades respaldadas por el proyecto.</p>
-      <button type="button" onClick={onNewAnalysis}
-        className="mt-5 rounded-xl bg-teal-500 px-5 py-3 text-sm font-bold text-white hover:bg-teal-600">
-        {projects.length ? "Elegir proyecto" : "Crear primer proyecto"}
-      </button>
+      <div className="mt-5 flex flex-wrap gap-3">
+  <button
+    type="button"
+    onClick={onNewAnalysis}
+    className="rounded-xl bg-teal-500 px-5 py-3 text-sm font-bold text-white hover:bg-teal-600"
+  >
+    {projects.length ? "Elegir proyecto" : "Crear primer proyecto"}
+  </button>
+
+  <button
+    type="button"
+    onClick={onOpenDemo}
+    className="rounded-xl bg-blue-600 px-5 py-3 text-sm font-bold text-white shadow-lg shadow-blue-950/20 transition hover:bg-blue-700"
+  >
+    <span className="inline-flex items-center gap-2">
+      <Icon name="box" size={17} />
+      Ver Proyecto 8
+    </span>
+  </button>
+</div>
     </header>
     <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4" aria-label="Indicadores del espacio de trabajo">
       {stats.map(([label, value, icon]) => <div key={label} className="rounded-2xl border bg-white p-5">

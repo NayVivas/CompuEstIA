@@ -32,8 +32,8 @@ from computos.ia.clasificador_multimodal import (
 from computos.ia.revision_documental import aplicar_decision, validar_revisiones
 
 
-ROLES_MOTOR = ("planta", "detalles", "columnas")
-ROLES_MOTOR_OPCIONALES = ("porticos",)
+ROLES_MOTOR = ("planta", "detalles")
+ROLES_MOTOR_OPCIONALES = ("columnas", "porticos")
 ROLES_MOTOR_TODOS = (*ROLES_MOTOR, *ROLES_MOTOR_OPCIONALES)
 TIPOLOGIAS_NO_IMPLEMENTADAS = {
     "losa_cimentacion",
@@ -103,7 +103,7 @@ def _analizar_fuente_tecnica(texto: str) -> dict:
     )
     titulo_planta = bool(
         re.search(
-            rf"^\s*(?:PLANTA|IMPLANTACION|PLANO)\s+(?:INDICE\s+)?(?:DE\s+)?{familia_fundacion}\b",
+            rf"^\s*(?:PLANTA|IMPLANTACION|PLANO)\s+(?:GENERAL\s+)?(?:INDICE\s+)?(?:DE\s+)?{familia_fundacion}\b",
             lineas,
             re.M,
         )
@@ -532,8 +532,8 @@ class Enrutamiento:
                 {
                     "id": "columnas",
                     "nombre": "Columnas y pedestales",
-                    "estado": "requiere_validacion_profesional" if self.listo else "pendiente_fuente_compatible",
-                    "produce_cantidades": self.listo,
+                    "estado": "requiere_validacion_profesional" if self.listo and "columnas" in self.fuentes_por_rol else "pendiente_fuente_compatible",
+                    "produce_cantidades": self.listo and "columnas" in self.fuentes_por_rol,
                     "motivo": "Las alturas, secciones, asociaciones y armaduras deben quedar verificadas.",
                 },
                 {
@@ -864,25 +864,43 @@ def enrutar_documentos(
             "Una revisión no corresponde a una página legible de los PDF cargados; no se aplicó a otro documento."
         )
 
-    # Los títulos técnicos explícitos y las revisiones prevalecen sobre las
-    # inferencias. Sin ellos, se conservan solo las páginas mejor respaldadas.
+    # Una elección explícita del profesional y un título técnico tienen más
+    # peso que una sugerencia contextual. Conservar varias fuentes verdaderas
+    # sigue obligando a delimitar su alcance antes de sumar cantidades.
     for rol, fuentes in candidatos.items():
-        prioritarias = [
+        documento_elegido = (asignaciones or {}).get(rol)
+        if documento_elegido:
+            candidatos[rol] = [
+                fuente for fuente in fuentes
+                if fuente["documento_id"] == documento_elegido
+            ]
+            if not candidatos[rol]:
+                resultado.motivos_motor.append(
+                    f"La fuente elegida para {rol} no contiene una página compatible."
+                )
+            continue
+        confirmadas = [
             fuente
             for fuente in fuentes
             if fuente.get("origen_rol")
             in {
                 "titulo_tecnico_explicito",
-                "inferencia_multimodal_con_contexto_tecnico",
                 "revision_profesional",
             }
         ]
-        if prioritarias:
-            candidatos[rol] = prioritarias
-            if len(prioritarias) < len(fuentes):
+        if confirmadas:
+            candidatos[rol] = confirmadas
+            if len(confirmadas) < len(fuentes):
                 resultado.motivos_motor.append(
-                    f"Para {rol} se priorizaron {len(prioritarias)} láminas combinadas o con título técnico sobre {len(fuentes) - len(prioritarias)} candidatos menos específicos."
+                    f"Para {rol} se priorizaron {len(confirmadas)} páginas con título técnico o revisión profesional sobre {len(fuentes) - len(confirmadas)} inferencias."
                 )
+            continue
+        contextuales = [
+            fuente for fuente in fuentes
+            if fuente.get("origen_rol") == "inferencia_multimodal_con_contexto_tecnico"
+        ]
+        if contextuales:
+            candidatos[rol] = contextuales
             continue
         if not fuentes:
             continue

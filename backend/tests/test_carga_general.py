@@ -59,6 +59,11 @@ class CargaGeneralTests(unittest.TestCase):
         resultado = enrutar_documentos(rutas, clasificador=SinModelo())
         self.assertNotIn("planta", resultado.asignaciones_sugeridas)
         self.assertFalse(resultado.listo)
+        validado = enrutar_documentos(
+            rutas, asignaciones={"planta": "doc-001"}, clasificador=SinModelo()
+        )
+        self.assertEqual(validado.asignaciones["planta"], "doc-001")
+        self.assertTrue(validado.listo)
 
     def test_pdf_vacio_y_roto_no_se_asignan(self):
         for contenido in [pdf_bytes(), b"%PDF-invalido"]:

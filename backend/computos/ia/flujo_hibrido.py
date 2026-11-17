@@ -167,7 +167,7 @@ def procesar_archivos_hibrido(
     *,
     planta: Path,
     detalles: Path,
-    columnas: Path,
+    columnas: Path | None = None,
     porticos: Path | None = None,
     paginas_origen_porticos: list[int] | None = None,
     revision_cuadro: dict | None = None,
@@ -187,8 +187,9 @@ def procesar_archivos_hibrido(
     archivos = {
         "planta": Path(planta),
         "detalles": Path(detalles),
-        "columnas": Path(columnas),
     }
+    if columnas is not None:
+        archivos["columnas"] = Path(columnas)
     if porticos is not None:
         archivos["porticos"] = Path(porticos)
     clasificador = clasificador or ClasificadorExp19()

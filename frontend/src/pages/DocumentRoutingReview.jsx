@@ -17,7 +17,7 @@ function download(review) {
   document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
-export default function DocumentRoutingReview({ review: originalReview, error, onConfirm, onBack, projectId, files = EMPTY_FILES, onReviewUpdated }) {
+export default function DocumentRoutingReview({ review: originalReview, error, onConfirm, onRevalidate, onBack, projectId, files = EMPTY_FILES, onReviewUpdated }) {
   const [review, setReview] = useState(originalReview);
   const [editing, setEditing] = useState(null);
   const [notice, setNotice] = useState('');
@@ -199,6 +199,7 @@ export default function DocumentRoutingReview({ review: originalReview, error, o
       </> : <>
         <p>No se ejecutó un cómputo automático. Esto no se resuelve clasificando todas las páginas: el motor no pudo elegir una fuente estructural o no reconoce todavía la tipología. {review.capacidad_computo?.motivo}</p>
         <details open><summary>Diagnóstico exacto de las fuentes</summary><ul className="list-disc pl-5">{review.motor?.motivos?.map((message, i) => <li key={i}>{message}</li>)}</ul></details>
+        {onRevalidate && <button type="button" disabled={!ready || !!loadError} className="rounded bg-blue-800 px-4 py-3 font-semibold text-white disabled:opacity-50" onClick={onRevalidate}>Revalidar fuentes después de corregir las páginas</button>}
       </>}
       {!!review.motores?.length && <details><summary>Estado de todos los motores</summary><ul className="mt-2 space-y-2">{review.motores.map(engine => <li key={engine.id} className="rounded border bg-white p-2"><strong>{engine.nombre}:</strong> {label(engine.estado)}{engine.motivo ? ` · ${engine.motivo}` : ''}</li>)}</ul></details>}
     </section>

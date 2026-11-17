@@ -934,6 +934,7 @@ if (activeView === "demo-model-3d") {
             review={routingReview}
             error={error}
             onConfirm={() => startAnalysis(null, null, true)}
+            onRevalidate={() => startAnalysis(null, null, false)}
             onBack={backToUploadedFiles}
           />
         );

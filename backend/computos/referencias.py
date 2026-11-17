@@ -142,6 +142,15 @@ def normalizar_etiqueta(texto: str) -> str:
     return re.sub(r"[^A-Z0-9Ñ]", "", texto)
 
 
+def _es_encabezado_datos(palabra: PalabraNormalizada) -> bool:
+    """Reconoce columnas dimensionales aun si el rótulo trae la unidad."""
+
+    etiqueta = normalizar_etiqueta(palabra.texto)
+    return (etiqueta in ALIAS_ENCABEZADOS_DATOS
+            or etiqueta in {"AXB", "XXY", "AXBMM", "AXBCM", "AXBM", "XXYMM", "XXYCM", "XXYM"}
+            or bool(re.fullmatch(r"(?:H|E|ESPESOR)(?:MM|CM|M)", etiqueta)))
+
+
 def interpretar_referencia(texto: str) -> ReferenciaNormalizada | None:
     """Interpreta referencias alfanuméricas sin imponer un prefijo específico.
 
@@ -289,7 +298,7 @@ def _encabezados_datos_en_linea(
         for palabra in palabras
         if palabra.pagina == encabezado.pagina
         and palabra is not encabezado
-        and normalizar_etiqueta(palabra.texto) in ALIAS_ENCABEZADOS_DATOS
+        and _es_encabezado_datos(palabra)
         and izquierda < _centro_x(palabra.caja_visual) < derecha
         and abs(_centro_y(palabra.caja_visual) - centro_y) <= max(8.0, altura * 3)
     ]
@@ -402,7 +411,7 @@ def _inferir_encabezados_referencia(palabras, titulos, candidatos, existentes):
                 continue
             primero = min(grupo, key=lambda c: c.caja_visual.y0)
             datos = [p for p in palabras if p.pagina == titulo.pagina
-                     and normalizar_etiqueta(p.texto) in ALIAS_ENCABEZADOS_DATOS
+                     and _es_encabezado_datos(p)
                      and titulo.caja.y1 < p.caja_visual.y0 < primero.caja_visual.y0
                      and 0 < p.caja_visual.x0 - primero.caja_visual.x0 < max(300.0, alto * 40)]
             bandas = []

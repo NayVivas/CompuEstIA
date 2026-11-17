@@ -48,7 +48,6 @@ export default function FoundationGeometryReview({
   const [rows, setRows] = useState(() => initialRows(review));
   const [reviewer, setReviewer] = useState("");
   const [reason, setReason] = useState("");
-  const [commonHeight, setCommonHeight] = useState("");
   const [selectedId, setSelectedId] = useState(
     review.elementos?.[0]?.id || null
   );
@@ -100,6 +99,26 @@ export default function FoundationGeometryReview({
   const excludedWithoutReason = rows.filter(
     (row) => !row.incluir && row.motivo_exclusion.trim().length < 10
   ).length;
+  const types = useMemo(() => {
+    const grouped = new Map(
+      (review.tipos_fundaciones || []).map((type) => [type.referencia, { ...type, rows: [] }])
+    );
+    for (const row of rows) {
+      const reference = row.referencia.trim().toUpperCase();
+      if (!reference) continue;
+      if (!grouped.has(reference)) grouped.set(reference, { referencia: reference, rows: [] });
+      grouped.get(reference).rows.push(row);
+    }
+    return [...grouped.values()].map((type) => {
+      const values = {};
+      for (const field of ["x_m", "y_m", "h_m"]) {
+        const distinct = [...new Set(type.rows.map((row) => String(row[field] ?? "")))];
+        values[field] = distinct.length === 1 ? distinct[0] : "";
+        values[`${field}_distinct`] = distinct.length > 1;
+      }
+      return { ...type, ...values, included: type.rows.filter((row) => row.incluir).length };
+    }).sort((a, b) => a.referencia.localeCompare(b.referencia, "es", { numeric: true }));
+  }, [review.tipos_fundaciones, rows]);
 
   function updateRow(id, changes) {
     setRows((current) =>
@@ -135,16 +154,10 @@ export default function FoundationGeometryReview({
     setPlacementMode(null);
   }
 
-  function applyHeight() {
-    if (!validPositive(commonHeight)) {
-      setLocalError("Ingresá una altura común mayor que 0 y menor o igual que 100 m.");
-      return;
-    }
-    setRows((current) =>
-      current.map((row) =>
-        row.incluir ? { ...row, h_m: commonHeight } : row
-      )
-    );
+  function updateType(reference, field, value) {
+    setRows((current) => current.map((row) =>
+      row.referencia.trim().toUpperCase() === reference ? { ...row, [field]: value } : row
+    ));
     setLocalError("");
   }
 
@@ -210,9 +223,9 @@ export default function FoundationGeometryReview({
       <header className="space-y-3">
         <h1 className="text-3xl font-bold">Revisión de geometría de fundaciones</h1>
         <p>
-          El plano contiene cotas distribuidas en lugar de un cuadro único. El
-          sistema propone dimensiones por ocurrencia; un profesional debe
-          confirmarlas, corregirlas o excluir el elemento antes de calcular.
+          {review.requiere_revisar_dimensiones_agrupadas
+            ? "El cuadro presenta cotas agrupadas. Verificá X, Y y H contra el plano antes de calcular."
+            : "Las cotas están distribuidas en los planos. Confirmá, corregí o excluí cada elemento antes de calcular."}
         </p>
         <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-950">
           Esta revisión habilita solamente hormigón y encofrado de las zapatas
@@ -242,24 +255,61 @@ export default function FoundationGeometryReview({
         </p>
       )}
 
+      <section className="space-y-3 rounded-2xl border bg-white p-5">
+        <h2 className="text-xl font-bold">Medidas por tipo de fundación</h2>
+        <p className="text-sm text-slate-700">
+          Revisá las medidas propuestas en el cuadro. Al cambiar X, Y o H de un tipo, el valor se aplica
+          a todas sus ubicaciones. Después revisá las ubicaciones en la planta y corregí las excepciones
+          individuales si corresponde. Ninguna medida se computa hasta guardar la revisión profesional.
+        </p>
+        <div className="overflow-x-auto rounded-xl border">
+          <table className="w-full min-w-[740px] border-collapse text-left text-sm">
+            <thead className="bg-slate-100">
+              <tr>
+                <th className="px-3 py-2">Tipo</th>
+                <th className="px-3 py-2">Ubicaciones</th>
+                <th className="px-3 py-2">X (m)</th>
+                <th className="px-3 py-2">Y (m)</th>
+                <th className="px-3 py-2">H (m)</th>
+                <th className="px-3 py-2">Evidencia del cuadro</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y">
+              {types.map((type) => (
+                <tr key={type.referencia}>
+                  <th scope="row" className="px-3 py-2 font-semibold">{type.referencia}</th>
+                  <td className="px-3 py-2">{type.included} incluidas / {type.rows.length} ubicaciones</td>
+                  {[["x_m", "X"], ["y_m", "Y"], ["h_m", "H"]].map(([field, label]) => (
+                    <td key={field} className="px-3 py-2">
+                      <input
+                        className="w-24 rounded border px-2 py-1 disabled:bg-slate-100"
+                        aria-label={`${label} de todas las ${type.referencia} en metros`}
+                        inputMode="decimal"
+                        value={type[field]}
+                        placeholder={type[`${field}_distinct`] ? "Distintas" : "Falta"}
+                        disabled={!type.rows.length}
+                        onChange={(event) => updateType(type.referencia, field, event.target.value)}
+                      />
+                    </td>
+                  ))}
+                  <td className="max-w-xs px-3 py-2 text-xs text-slate-700">
+                    {type.texto_celda ? `«${type.texto_celda}»` : "Sin fila asociada al cuadro"}
+                    {type.unidad_inferida && " · Unidad a confirmar: m"}
+                    {!!type.observaciones?.length && <p className="mt-1 text-amber-900">{type.observaciones.join(" ")}</p>}
+                    {!type.rows.length && <p className="mt-1 text-amber-900">Sin ubicación detectada: revisá la planta y añadila si existe.</p>}
+                    {["x_m", "y_m", "h_m"].some((field) => type[`${field}_distinct`]) &&
+                      <p className="mt-1 text-amber-900">Hay medidas individuales distintas para este tipo. Revisá cada ubicación o unificalas aquí.</p>}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
       <section className="grid gap-5 lg:grid-cols-[minmax(0,1.15fr)_minmax(360px,.85fr)]">
         <div className="space-y-3 rounded-2xl border bg-white p-4">
-          <div className="flex flex-wrap items-end gap-3">
-            <label className="text-sm font-semibold">
-              Altura común H (m)
-              <input
-                className="mt-1 block w-40 rounded border px-3 py-2"
-                value={commonHeight}
-                onChange={(event) => setCommonHeight(event.target.value)}
-                inputMode="decimal"
-                placeholder="Ej. 0,40"
-              />
-            </label>
-            <button className="rounded bg-blue-800 px-4 py-2 text-white" onClick={applyHeight} type="button">
-              Aplicar a incluidas
-            </button>
-          </div>
-
+          <h2 className="font-bold">Ubicaciones y excepciones</h2>
           <div className="max-h-[720px] overflow-auto rounded-xl border">
             <table className="min-w-[860px] w-full border-collapse text-left text-sm">
               <thead className="sticky top-0 z-10 bg-slate-100">
@@ -370,7 +420,11 @@ export default function FoundationGeometryReview({
             <p>No se pudo generar la vista previa de esta página.</p>
           )}
           <p className="text-sm text-slate-600">
-            {selected?.origen_dimensiones === "cuadro_local_tipado"
+            {selected?.origen_dimensiones === "cuadro_agrupado_interpretado"
+              ? "Medidas propuestas desde la fila de este tipo en el cuadro agrupado. Verificá tipo, unidad y cotas antes de confirmar."
+              : selected?.origen_dimensiones === "cuadro_agrupado_requiere_revision"
+              ? "El cuadro tiene cotas agrupadas; algunas medidas no se pudieron asociar con certeza. Completá los campos faltantes y verificá las observaciones del tipo."
+              : selected?.origen_dimensiones === "cuadro_local_tipado"
               ? "X, Y y H propuestas desde la fila del cuadro de fundaciones."
               : selected?.origen_dimensiones === "contorno_y_dos_cotas_coherentes"
                 ? "X e Y propuestas desde dos cotas exteriores con escala coherente con el contorno."

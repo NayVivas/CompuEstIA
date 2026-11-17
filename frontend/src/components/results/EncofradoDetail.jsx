@@ -137,7 +137,7 @@ function EncofradoDetail({
 
           return (
             <details
-              key={item.referencia}
+              key={`${item.referencia}-${dimensiones.x}-${dimensiones.y}-${dimensiones.h}-${index}`}
               className="group overflow-hidden rounded-2xl border border-slate-200 bg-white"
               open={index === 0}
             >
@@ -149,7 +149,7 @@ function EncofradoDetail({
 
                   <div>
                     <strong className="block text-sm font-extrabold text-ink">
-                      {item.cantidad} fundaciones
+                      {item.cantidad} {Number(item.cantidad) === 1 ? "fundación" : "fundaciones"}
                     </strong>
 
                     <span className="mt-0.5 block text-[10px] font-semibold text-slate-400">
@@ -352,18 +352,18 @@ function EncofradoDetail({
                   </div>
                 </div>
 
-                <div className="mt-4 rounded-xl border border-slate-200 bg-white p-4">
-                  <div>
-                    <h4 className="text-xs font-extrabold text-ink">
-                      Control individual en obra
-                    </h4>
+                <details className="mt-4 rounded-xl border border-slate-200 bg-white">
+                  <summary className="cursor-pointer px-4 py-3 text-xs font-extrabold text-ink">
+                    Ver {elementos.length} {elementos.length === 1 ? "ubicación individual" : "ubicaciones individuales"}
+                  </summary>
+
+                  <div className="border-t border-slate-100 p-4">
 
                     <p className="mt-1 text-[10px] leading-5 text-slate-400">
                       Son identificadores internos. La
                       asociación definitiva con ejes o
                       coordenadas se incorporará después.
                     </p>
-                  </div>
 
                   {elementos.length === 0 ? (
                     <p className="mt-4 rounded-lg bg-amber-50 px-4 py-3 text-xs text-amber-700">
@@ -399,7 +399,8 @@ function EncofradoDetail({
                       ))}
                     </div>
                   )}
-                </div>
+                  </div>
+                </details>
               </div>
             </details>
           );

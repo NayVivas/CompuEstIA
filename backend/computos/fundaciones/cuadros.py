@@ -15,6 +15,8 @@ from statistics import median
 from typing import Iterable
 import re
 
+from computos.fundaciones.cuadros_agrupados import es_encabezado_agrupado
+
 from computos.documentos.modelos import Caja, PalabraNormalizada
 from computos.referencias import (
     ALIAS_ENCABEZADO_REFERENCIA,
@@ -32,6 +34,10 @@ CAMPO_ARMADURA = "ARMADURA"
 CAMPO_ARMADURA_SUPERIOR = "ARMADURA_SUPERIOR"
 CAMPO_ARMADURA_INFERIOR = "ARMADURA_INFERIOR"
 CAMPO_PEDESTAL = "PEDESTAL"
+
+
+class DimensionesAgrupadasRequierenRevision(LecturaCuadroNoCompatible):
+    """Las dimensiones comparten una celda y no admiten columnas X/Y/H ficticias."""
 
 
 ALIAS_CAMPOS_CUADRO: dict[str, set[str]] = {
@@ -711,6 +717,30 @@ def localizar_estructura_cuadro(
         _centro_y(candidato.caja_visual)
         for candidato in catalogo.referencias
     )
+    centro_encabezado = _centro_y(encabezado_referencia.caja_visual)
+    tolerancia = max(6.0, encabezado_referencia.caja_visual.alto * 2.5)
+    banda_encabezado = sorted(
+        (palabra for palabra in palabras
+         if abs(_centro_y(palabra.caja_visual) - centro_encabezado) <= tolerancia
+         and _centro_y(palabra.caja_visual) < (centro_encabezado + primera_fila_y) / 2),
+        key=lambda palabra: palabra.caja_visual.x0,
+    )
+    # "A x B" ocupa una sola columna; usar A y B como dos encabezados
+    # independientes desplaza H y puede convertir 0,35 m en 0,0035 m.
+    for inicio in range(len(banda_encabezado)):
+        for cantidad in (4, 3, 2, 1):
+            grupo = banda_encabezado[inicio:inicio + cantidad]
+            if len(grupo) != cantidad or not all(
+                _misma_linea(izquierda, derecha)
+                for izquierda, derecha in zip(grupo, grupo[1:])
+            ):
+                continue
+            texto = " ".join(p.texto for p in grupo)
+            if es_encabezado_agrupado(texto):
+                raise DimensionesAgrupadasRequierenRevision(
+                    "Las cotas A x B o X x Y comparten una columna: "
+                    "se necesitan X, Y y H verificados por un profesional."
+                )
     candidatos = _crear_candidatos_encabezados(
         palabras,
         encabezado_referencia,

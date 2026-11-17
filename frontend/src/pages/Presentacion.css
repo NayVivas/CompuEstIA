@@ -6,7 +6,7 @@
   overflow-y: auto;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
   background: #07111f;
   color: #f8fafc;
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
@@ -190,6 +190,116 @@
   pointer-events: none;
 }
 
+.presentacion-escenario {
+  display: contents;
+}
+
+.presentacion-escena.escena-demo {
+  display: block;
+  height: 170svh;
+  min-height: 170svh;
+  overflow: visible;
+  padding: 0;
+}
+
+.escena-demo .presentacion-escenario {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 12px;
+  height: 100svh;
+  padding: 96px 5vw 42px;
+}
+
+.escena-demo .presentacion-contenido {
+  flex: 0 0 auto;
+  width: min(100%, 1500px);
+  height: var(--demo-intro-alto, auto);
+  margin-inline: auto;
+  overflow: hidden;
+  animation: none;
+  opacity: var(--demo-texto-opacidad, 1);
+  text-shadow: none;
+}
+
+.escena-demo .presentacion-etiqueta {
+  margin-bottom: 6px;
+  font-size: 10px;
+}
+
+.escena-demo .presentacion-numero {
+  display: none;
+}
+
+.escena-demo .presentacion-contenido h1 {
+  max-width: none;
+  font-size: clamp(24px, 2.5vw, 38px);
+  line-height: 1.1;
+}
+
+.escena-demo .presentacion-contenido h2 {
+  max-width: none;
+  margin-top: 5px;
+  font-size: clamp(15px, 1.5vw, 20px);
+  line-height: 1.25;
+}
+
+.presentacion-demostracion {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  width: min(100%, 1500px);
+  min-height: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid rgba(148, 163, 184, .32);
+  border-radius: 14px;
+  background: #080f1c;
+  box-shadow: 0 20px 70px rgba(0, 0, 0, .35);
+}
+
+.presentacion-demo-barra {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 40px;
+  padding: 4px 12px;
+}
+
+.presentacion-ampliar {
+  border: 1px solid rgba(148, 163, 184, .3);
+  border-radius: 7px;
+  padding: 6px 11px;
+  color: #e2e8f0;
+  background: #17243a;
+  cursor: pointer;
+  font: inherit;
+  letter-spacing: 0;
+}
+
+.presentacion-ampliar:focus-visible {
+  outline: 2px solid #67e8e8;
+  outline-offset: 2px;
+}
+
+.presentacion-video.presentacion-video-demo {
+  position: relative;
+  z-index: auto;
+  flex: 1 1 auto;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  object-fit: contain;
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .presentacion-velo {
   position: absolute;
   z-index: -1;
@@ -265,16 +375,14 @@
   line-height: 1.85;
 }
 
-.presentacion-palabras,
-.presentacion-elementos {
+.presentacion-palabras {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
   margin-top: 40px;
 }
 
-.presentacion-palabras span,
-.presentacion-elementos span {
+.presentacion-palabras span {
   border: 1px solid rgba(94, 234, 212, .35);
   border-radius: 8px;
   padding: 11px 16px;
@@ -303,51 +411,6 @@
   font-weight: 800;
 }
 
-.presentacion-pasos {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 12px;
-  max-width: 760px;
-  margin-top: 42px;
-}
-
-.presentacion-pasos div {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  border-top: 1px solid rgba(94, 234, 212, .5);
-  padding-top: 15px;
-}
-
-.presentacion-pasos span {
-  color: #5ee7e7;
-  font-size: 11px;
-}
-
-.presentacion-pasos strong {
-  color: #e2e8f0;
-  font-size: 14px;
-}
-
-.presentacion-gracias {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-top: 40px;
-}
-
-.presentacion-gracias span {
-  color: #5ee7e7;
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: .25em;
-}
-
-.presentacion-gracias strong {
-  color: white;
-  font-size: clamp(30px, 4vw, 48px);
-}
-
 .presentacion-pie {
   position: absolute;
   right: 5vw;
@@ -361,10 +424,52 @@
   letter-spacing: .15em;
 }
 
-.escena-cierre .presentacion-fondo {
+.escena-equipo .presentacion-fondo {
   background:
     radial-gradient(ellipse at 50% 50%, rgba(13, 148, 136, .3), transparent 50%),
     linear-gradient(120deg, #07111f, #0b1c30, #07111f);
+}
+
+.escena-equipo {
+  justify-content: center;
+  text-align: center;
+}
+
+.escena-equipo .presentacion-contenido {
+  width: min(1050px, 100%);
+}
+
+.escena-equipo .presentacion-etiqueta {
+  justify-content: center;
+}
+
+.escena-equipo .presentacion-contenido h1,
+.escena-equipo .presentacion-contenido h2 {
+  max-width: none;
+}
+
+.escena-equipo .presentacion-descripcion {
+  max-width: none;
+}
+
+.presentacion-integrantes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 40px;
+}
+
+.presentacion-integrante {
+  display: grid;
+  min-height: 86px;
+  place-items: center;
+  border: 1px solid rgba(94, 231, 231, .3);
+  border-radius: 12px;
+  padding: 15px;
+  color: #f8fafc;
+  background: rgba(8, 26, 42, .78);
+  font-size: clamp(15px, 1.4vw, 20px);
+  font-weight: 650;
 }
 
 @keyframes presentacion-entrada {
@@ -415,12 +520,51 @@
     padding: 110px 35px 90px 25px;
   }
 
-  .presentacion-velo {
-  background: rgba(5, 13, 25, .45);
-}
+  .escena-demo .presentacion-escenario {
+    gap: 10px;
+    padding: 86px 16px 42px;
+  }
 
-  .presentacion-pasos {
+  .escena-demo .presentacion-contenido h1 {
+    font-size: clamp(20px, 5vw, 30px);
+  }
+
+  .escena-demo .presentacion-contenido h2 {
+    font-size: 14px;
+  }
+
+  .presentacion-demo-barra {
+    min-height: 36px;
+    padding-inline: 8px;
+  }
+
+  .presentacion-ampliar {
+    padding: 5px 7px;
+  }
+
+  .presentacion-demostracion {
+    flex: 1 1 auto;
+  }
+
+  .presentacion-video.presentacion-video-demo {
+    flex: 1 1 auto;
+    height: 100%;
+  }
+
+  .presentacion-integrantes {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 9px;
+    margin-top: 24px;
+  }
+
+  .presentacion-integrante {
+    min-height: 65px;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .presentacion-velo {
+    background: rgba(5, 13, 25, .45);
   }
 
   .presentacion-pie {
@@ -434,6 +578,18 @@
   }
 }
 
+@media (max-height: 670px) {
+  .escena-demo .presentacion-etiqueta,
+  .escena-demo .presentacion-contenido h2 {
+    display: none;
+  }
+
+  .escena-demo .presentacion-escenario {
+    padding-top: 76px;
+    padding-bottom: 28px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .presentacion {
     scroll-behavior: auto;
@@ -441,5 +597,10 @@
 
   .presentacion-contenido {
     animation: none;
+  }
+
+  .escena-demo .presentacion-contenido {
+    height: auto;
+    opacity: 1;
   }
 }

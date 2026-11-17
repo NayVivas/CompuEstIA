@@ -6,6 +6,10 @@ import EncofradoDetail from "../components/results/EncofradoDetail";
 import ArmadurasDetail from "../components/results/ArmadurasDetail";
 import UbicacionesDetail from "../components/results/UbicacionesDetail";
 import { getPdf } from "../services/documentReviewStorage";
+import {
+  groupFoundationComputations,
+  groupFormworkComputations,
+} from "../utils/groupFoundationComputations";
 
 const DEFAULT_API_BASE_URL =
   import.meta.env.VITE_API_URL ||
@@ -4388,6 +4392,12 @@ function Results({
   const formwork =
     results.encofrado_zapatas_detalle || [];
 
+  const foundationsByType =
+    groupFoundationComputations(foundations);
+
+  const formworkByType =
+    groupFormworkComputations(formwork, foundations);
+
   const reinforcements =
     results.armaduras || [];
 
@@ -5635,7 +5645,7 @@ function Results({
           {activeStructure === "fundaciones" &&
             detailTab === "hormigon" && (
               <HormigonDetail
-                items={foundations}
+                items={foundationsByType}
                 totalGeneral={
                   results.volumen_hormigon_m3
                 }
@@ -5645,7 +5655,7 @@ function Results({
           {activeStructure === "fundaciones" &&
             detailTab === "encofrado" && (
               <EncofradoDetail
-                items={formwork}
+                items={formworkByType}
                 totalGeneral={
                   results.encofrado_zapatas_m2
                 }
@@ -5666,8 +5676,8 @@ function Results({
             detailTab === "ubicaciones" && (
               <UbicacionesDetail
                 locations={locations}
-                foundations={foundations}
-                formwork={formwork}
+                foundations={foundationsByType}
+                formwork={formworkByType}
                 reinforcements={reinforcements}
                 validation={locationValidation}
               />

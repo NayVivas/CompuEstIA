@@ -510,7 +510,7 @@ def procesar_archivos(
     *,
     planta: Path,
     detalles: Path,
-    columnas: Path,
+    columnas: Path | None = None,
     porticos: Path | None = None,
     paginas_origen_porticos: list[int] | None = None,
     revision_cuadro: dict | None = None,
@@ -518,15 +518,16 @@ def procesar_archivos(
     resoluciones_tecnicas: list[dict] | None = None,
 ) -> dict:
     """
-    Procesa tres PDF cargados y devuelve una respuesta
+    Procesa las fuentes disponibles y devuelve una respuesta
     trazable para el frontend.
     """
 
     archivos = {
         "planta": Path(planta),
         "detalles": Path(detalles),
-        "columnas": Path(columnas),
     }
+    if columnas is not None:
+        archivos["columnas"] = Path(columnas)
     if porticos is not None:
         archivos["porticos"] = Path(porticos)
 
@@ -556,7 +557,7 @@ def procesar_archivos(
                 archivos["planta"],
                 archivos["detalles"],
                 configuracion,
-                ruta_columnas=archivos["columnas"],
+                ruta_columnas=archivos.get("columnas"),
                 ruta_porticos=archivos.get("porticos"),
                 paginas_origen_porticos=paginas_origen_porticos,
             )

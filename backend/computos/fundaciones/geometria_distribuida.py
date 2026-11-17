@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import base64
 from collections import Counter
+from hashlib import sha256
 import math
 from pathlib import Path
 import re
@@ -19,7 +20,12 @@ import pymupdf
 from computos.documentos.analisis import extraer_palabras_normalizadas
 from computos.documentos.modelos import Caja, PalabraNormalizada
 from computos.referencias import extraer_candidatos_referencias, descubrir_catalogo_referencias
-from computos.fundaciones.cuadros import localizar_estructura_cuadro, extraer_dimensiones_cuadro
+from computos.fundaciones.cuadros import (
+    DimensionesAgrupadasRequierenRevision,
+    localizar_estructura_cuadro,
+    extraer_dimensiones_cuadro,
+)
+from computos.fundaciones.cuadros_agrupados import extraer_tipos_agrupados
 from computos.fundaciones.geometria_cotas import (
     contornos_y_segmentos, dimensiones_del_contorno, altura_detalle_tipico,
 )
@@ -310,18 +316,30 @@ def preparar_revision_geometrica(
     ruta_planta = Path(ruta_planta)
     palabras = extraer_palabras_normalizadas(ruta_planta)
     dimensiones_por_tipo = {}
+    tipos_cuadro = []
+    referencias_cuadro = None
+    dimensiones_agrupadas = False
     if ruta_detalles is not None:
         try:
             palabras_detalle = extraer_palabras_normalizadas(ruta_detalles)
             catalogo = descubrir_catalogo_referencias(palabras_detalle)
+            if catalogo.contexto_local_confirmado:
+                referencias_cuadro = set(catalogo.canonicas)
             cuadro = localizar_estructura_cuadro(palabras_detalle, catalogo, exigir_armadura=False)
             filas = extraer_dimensiones_cuadro(cuadro)
             repetidas = {ref for ref, cantidad in Counter(f['referencia'] for f in filas).items() if cantidad > 1}
             if catalogo.contexto_local_confirmado:
                 dimensiones_por_tipo = {f['referencia']: f for f in filas if f['referencia'] not in repetidas}
+        except DimensionesAgrupadasRequierenRevision:
+            dimensiones_agrupadas = True
+            tipos_cuadro = extraer_tipos_agrupados(palabras_detalle, catalogo)
         except ValueError:
             pass  # Sin una tabla verificable se conservan las propuestas geométricas.
-    referencias = _referencias_planta(palabras, set(dimensiones_por_tipo) if dimensiones_por_tipo else None)
+    referencias = _referencias_planta(
+        palabras,
+        referencias_cuadro or (set(dimensiones_por_tipo) if dimensiones_por_tipo else None),
+    )
+    tipos_agrupados = {tipo["referencia"]: tipo for tipo in tipos_cuadro}
     referencias_no_interpretadas = [
         {"texto": p.texto, "pagina_motor": p.pagina,
          "caja_visual": _caja_diccionario(p.caja_visual)}
@@ -367,6 +385,7 @@ def preparar_revision_geometrica(
             alto,
         )
         tipo_tabla = dimensiones_por_tipo.get(referencia['referencia'])
+        tipo_agrupado = tipos_agrupados.get(referencia['referencia'])
         contorno = dimensiones_del_contorno(
             referencia, numeros, geometria_paginas[referencia['pagina']],
         )
@@ -378,6 +397,10 @@ def preparar_revision_geometrica(
             h_m = altura_tipica['h_m']
         if tipo_tabla:
             x_m, y_m, h_m = (float(tipo_tabla[c]) for c in ('x', 'y', 'h'))
+        if dimensiones_agrupadas:
+            x_m = tipo_agrupado.get("x_m") if tipo_agrupado else None
+            y_m = tipo_agrupado.get("y_m") if tipo_agrupado else None
+            h_m = tipo_agrupado.get("h_m") if tipo_agrupado else None
         fuente = (
             fuentes_planta[referencia["pagina"] - 1]
             if referencia["pagina"] - 1 < len(fuentes_planta)
@@ -403,11 +426,14 @@ def preparar_revision_geometrica(
                 "x_m_propuesto": x_m,
                 "y_m_propuesto": y_m,
                 "h_m_propuesto": h_m,
-                "origen_dimensiones": "cuadro_local_tipado" if tipo_tabla else (
+                "origen_dimensiones": (
+                    "cuadro_agrupado_interpretado" if tipo_agrupado and x_m and y_m and h_m
+                    else "cuadro_agrupado_requiere_revision"
+                ) if dimensiones_agrupadas else "cuadro_local_tipado" if tipo_tabla else (
                     contorno['origen'] if contorno else 'sin_asociacion_verificable'
                 ),
-                "evidencia_dimensiones": contorno if not tipo_tabla else None,
-                "evidencia_altura": altura_tipica if not tipo_tabla else None,
+                "evidencia_dimensiones": tipo_agrupado if dimensiones_agrupadas else contorno if not tipo_tabla else None,
+                "evidencia_altura": None if dimensiones_agrupadas else altura_tipica if not tipo_tabla else None,
                 "alternativas_dimensiones": alternativas,
                 "requiere_revision": True,
             }
@@ -416,7 +442,12 @@ def preparar_revision_geometrica(
     return {
         "version": 1,
         "tipo": "zapatas_aisladas_geometria_distribuida",
-        "identidad_fuentes": identidad_fuentes["sha256"],
+        "identidad_fuentes": (
+            sha256((identidad_fuentes["sha256"] + ":agrupadas:v1").encode()).hexdigest()
+            if dimensiones_agrupadas else identidad_fuentes["sha256"]
+        ),
+        "requiere_revisar_dimensiones_agrupadas": dimensiones_agrupadas,
+        "tipos_fundaciones": tipos_cuadro,
         "fuentes": identidad_fuentes["fuentes"],
         "cantidad_elementos": len(elementos),
         "cantidad_referencias": len(apariciones),
@@ -424,8 +455,9 @@ def preparar_revision_geometrica(
         "referencias_no_interpretadas": referencias_no_interpretadas,
         "paginas": paginas,
         "alcance": (
-            "Se proponen dimensiones desde cuadros locales o contornos con dos cotas coherentes; "
-            "un número cercano sin asociación queda solo como alternativa, no como dimensión. "
+            ("El cuadro de dimensiones agrupadas se interpreta por tipo como propuesta revisable; "
+             if dimensiones_agrupadas else "Se proponen dimensiones desde cuadros locales o contornos con dos cotas coherentes; ")
+            + "un número cercano sin asociación queda solo como alternativa, no como dimensión. "
             "Cada ocurrencia puede confirmarse, reubicarse o excluirse; el profesional "
             "puede añadir las omitidas indicando su posición en la planta. "
             "Este flujo habilita hormigón y encofrado; no supone armaduras ausentes."

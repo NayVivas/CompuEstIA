@@ -44,6 +44,35 @@ function numericValue(value) {
   return Number.isFinite(numeric) ? numeric : 0;
 }
 
+function indexComputations(items) {
+  const byReference = new Map();
+  const byId = new Map();
+  for (const item of items) {
+    const reference = String(item.referencia || "");
+    if (!byReference.has(reference)) byReference.set(reference, []);
+    byReference.get(reference).push(item);
+    if (item.identificador) byId.set(item.identificador, item);
+    for (const element of item.elementos || []) {
+      if (element.identificador) byId.set(element.identificador, item);
+    }
+  }
+  return { byReference, byId };
+}
+
+function computationForLocation(index, location) {
+  const identified = index.byId.get(location.identificador);
+  if (identified) return identified;
+  const variants = index.byReference.get(String(location.referencia || "")) || [];
+  if (variants.length === 1) return variants[0];
+  const dimensions = location.dimensiones_m;
+  return variants.find((item) => {
+    const candidate = item.dimensiones_m || item;
+    return dimensions && ["x", "y", "h"].every((axis) =>
+      Math.abs(numericValue(candidate[axis]) - numericValue(dimensions[axis])) < 0.00001
+    );
+  }) || {};
+}
+
 function SummaryCard({ label, value, detail, tone = "slate" }) {
   const tones = {
     slate: "border-slate-200 bg-white",
@@ -157,19 +186,8 @@ function UbicacionesDetail({
   const [selectedReference, setSelectedReference] = useState("todas");
   const [query, setQuery] = useState("");
 
-  const foundationByReference = useMemo(
-    () =>
-      new Map(
-        foundations.map((item) => [String(item.referencia), item])
-      ),
-    [foundations]
-  );
-
-  const formworkByReference = useMemo(
-    () =>
-      new Map(formwork.map((item) => [String(item.referencia), item])),
-    [formwork]
-  );
+  const foundationIndex = useMemo(() => indexComputations(foundations), [foundations]);
+  const formworkIndex = useMemo(() => indexComputations(formwork), [formwork]);
 
   const reinforcementByReference = useMemo(() => {
     const grouped = new Map();
@@ -242,7 +260,7 @@ function UbicacionesDetail({
   }, [filteredLocations]);
 
   const detectedCount = locations.filter(
-    (item) => item.ubicacion_pdf_detectada
+    (item) => item.ubicacion_pdf_detectada ?? Boolean(item.posicion)
   ).length;
 
   const confirmedAxesCount = locations.filter(
@@ -391,8 +409,15 @@ function UbicacionesDetail({
       ) : (
         <div className="mt-5 space-y-5">
           {groupedLocations.map(([reference, elements]) => {
-            const foundation = foundationByReference.get(reference) || {};
-            const formworkItem = formworkByReference.get(reference) || {};
+            const foundationVariants = foundationIndex.byReference.get(reference) || [];
+            const formworkVariants = formworkIndex.byReference.get(reference) || [];
+            const foundation = foundationVariants[0] || {};
+            const concreteTotal = foundationVariants.reduce(
+              (sum, item) => sum + numericValue(item.volumen_total), 0
+            );
+            const formworkTotal = formworkVariants.reduce(
+              (sum, item) => sum + numericValue(item.area_total_m2), 0
+            );
             const reinforcementItems =
               reinforcementByReference.get(reference) || [];
 
@@ -431,8 +456,10 @@ function UbicacionesDetail({
                         </span>
                       </div>
                       <p className="mt-2 text-[10px] text-slate-400">
-                        Dimensiones: {formatNumber(foundation.x)} ×{" "}
-                        {formatNumber(foundation.y)} × {formatNumber(foundation.h)} m
+                        {foundationVariants.length > 1
+                          ? "Dimensiones: hay variantes revisadas para este tipo"
+                          : <>Dimensiones: {formatNumber(foundation.x)} ×{" "}
+                              {formatNumber(foundation.y)} × {formatNumber(foundation.h)} m</>}
                       </p>
                     </div>
 
@@ -441,16 +468,19 @@ function UbicacionesDetail({
                         Totales del tipo
                       </span>
                       <strong className="mt-1 block text-xs text-ink">
-                        {formatNumber(foundation.volumen_total, "m³")} ·{" "}
-                        {formatNumber(formworkItem.area_total_m2, "m²")} ·{" "}
-                        {formatNumber(steelTotal, "kg")}
+                        {formatNumber(concreteTotal, "m³")} ·{" "}
+                        {formatNumber(formworkTotal, "m²")} ·{" "}
+                        {formatNumber(reinforcementItems.length ? steelTotal : undefined, "kg")}
                       </strong>
                     </div>
                   </div>
                 </div>
 
                 <div className="grid gap-3 p-4 xl:grid-cols-2 xl:p-5">
-                  {elements.map((location) => (
+                  {elements.map((location) => {
+                    const foundationForLocation = computationForLocation(foundationIndex, location);
+                    const formworkForLocation = computationForLocation(formworkIndex, location);
+                    return (
                     <article
                       key={location.identificador}
                       className="rounded-2xl border border-slate-200 p-4 transition hover:border-accent/40 hover:shadow-[0_12px_30px_rgba(16,34,53,.06)]"
@@ -472,12 +502,12 @@ function UbicacionesDetail({
                         <div className="flex flex-col items-end gap-1.5">
                           <span
                             className={`rounded-full px-2.5 py-1 text-[9px] font-extrabold ${
-                              location.ubicacion_pdf_detectada
+                              (location.ubicacion_pdf_detectada ?? Boolean(location.posicion))
                                 ? "bg-emerald-100 text-emerald-700"
                                 : "bg-rose-100 text-rose-700"
                             }`}
                           >
-                            {location.ubicacion_pdf_detectada
+                            {(location.ubicacion_pdf_detectada ?? Boolean(location.posicion))
                               ? "Ubicada en PDF"
                               : "Ubicación pendiente"}
                           </span>
@@ -499,7 +529,7 @@ function UbicacionesDetail({
                         <UnitMetric
                           label="Hormigón"
                           value={formatNumber(
-                            foundation.volumen_unitario,
+                            foundationForLocation.volumen_unitario,
                             "m³"
                           )}
                           detail="por elemento"
@@ -507,19 +537,19 @@ function UbicacionesDetail({
                         <UnitMetric
                           label="Encofrado"
                           value={formatNumber(
-                            formworkItem.area_unitaria_m2,
+                            formworkForLocation.area_unitaria_m2,
                             "m²"
                           )}
                           detail="por elemento"
                         />
                         <UnitMetric
                           label="Acero"
-                          value={formatNumber(steelPerElement, "kg")}
+                          value={formatNumber(reinforcementItems.length ? steelPerElement : undefined, "kg")}
                           detail="por elemento"
                         />
                         <UnitMetric
                           label="Barras"
-                          value={formatNumber(barsPerElement)}
+                          value={formatNumber(reinforcementItems.length ? barsPerElement : undefined)}
                           detail="todas las capas"
                         />
                       </div>
@@ -530,7 +560,7 @@ function UbicacionesDetail({
                             Centro visual X
                           </span>
                           <strong className="mt-1 block text-[11px] text-ink">
-                            {formatCoordinate(location.centro_x_visual)}
+                            {formatCoordinate(location.centro_x_visual ?? location.centro_x)}
                           </strong>
                         </div>
                         <div>
@@ -538,7 +568,7 @@ function UbicacionesDetail({
                             Centro visual Y
                           </span>
                           <strong className="mt-1 block text-[11px] text-ink">
-                            {formatCoordinate(location.centro_y_visual)}
+                            {formatCoordinate(location.centro_y_visual ?? location.centro_y)}
                           </strong>
                         </div>
                         <div>
@@ -559,12 +589,12 @@ function UbicacionesDetail({
                         <div className="border-t border-slate-100 p-3">
                           <div className="grid gap-2 text-[9px] text-slate-500 sm:grid-cols-2">
                             <span>
-                              Caja PDF: X {formatCoordinate(location.x0)}–
-                              {formatCoordinate(location.x1)}
+                              Caja PDF: X {formatCoordinate(location.x0 ?? location.rectangulo_pdf?.x0)}–
+                              {formatCoordinate(location.x1 ?? location.rectangulo_pdf?.x1)}
                             </span>
                             <span>
-                              Caja PDF: Y {formatCoordinate(location.y0)}–
-                              {formatCoordinate(location.y1)}
+                              Caja PDF: Y {formatCoordinate(location.y0 ?? location.rectangulo_pdf?.y0)}–
+                              {formatCoordinate(location.y1 ?? location.rectangulo_pdf?.y1)}
                             </span>
                           </div>
 
@@ -572,7 +602,8 @@ function UbicacionesDetail({
                         </div>
                       </details>
                     </article>
-                  ))}
+                    );
+                  })}
                 </div>
               </section>
             );

@@ -2762,6 +2762,11 @@ function FoundationMesh({
     STATUS_PRESENTATION[
       foundation.technicalStatus || "validated"
     ].color;
+  const foundationSteelVisible = showReinforcement && active && reinforcementRows.some(
+    (row) => normalizeReinforcementLevel(row?.nivel) === "SUPERIOR"
+      ? showUpperReinforcement
+      : showLowerReinforcement
+  );
   const positionedColumns =
     showColumns || showPedestals
     ? positionColumnsOnFoundation(
@@ -2852,13 +2857,13 @@ function FoundationMesh({
           emissiveIntensity={
             selected ? 0.3 : hovered ? 0.18 : 0
           }
-          transparent={!showConcrete || showReinforcement}
-          opacity={showConcrete ? (showReinforcement ? 0.32 : 1) : 0.1}
-          depthWrite={!showReinforcement}
+          transparent={!showConcrete || foundationSteelVisible}
+          opacity={showConcrete ? (foundationSteelVisible ? 0.32 : 1) : 0.1}
+          depthWrite={!foundationSteelVisible}
         />
       </mesh>
 
-      {active && showReinforcement ? (
+      {foundationSteelVisible ? (
         <ReinforcementMesh
           foundation={foundation}
           rows={reinforcementRows}
@@ -3639,7 +3644,7 @@ const span = focusSelected
       panSpeed={0.85}
       zoomSpeed={1.05}
       minDistance={0.45}
-      maxDistance={120}
+      maxDistance={Math.max(120, modelFrame.span * 5)}
       minPolarAngle={0.01}
       maxPolarAngle={Math.PI / 2 - 0.01}
       mouseButtons={{
@@ -3681,6 +3686,11 @@ function ModelScene({
   showLowerReinforcement,
   showUpperReinforcement,
 }) {
+  const sceneExtent = foundations.reduce(
+    (extent, item) => Math.max(extent, Math.abs(item.x), Math.abs(item.z)),
+    15
+  );
+
   return (
     <Canvas
       shadows
@@ -3717,7 +3727,7 @@ function ModelScene({
           sectionThickness={1.2}
           cellColor="#1e293b"
           sectionColor="#475569"
-          fadeDistance={30}
+          fadeDistance={Math.max(30, sceneExtent * 2)}
           fadeStrength={1}
           infiniteGrid
         />
@@ -3753,7 +3763,7 @@ function ModelScene({
   onSelectElement={onSelectElement}
   showConcrete={showConcrete}
   showReinforcement={showReinforcement}
-  showLabels={showLabels}
+  showLabels={showLabels && (foundations.length <= 35 || foundation.id === selectedId)}
   showColumns={showColumns}
   showPedestals={showPedestals}
   showPedestalReinforcement={
@@ -3809,6 +3819,61 @@ function ModelScene({
         />
       </GizmoHelper>
     </Canvas>
+  );
+}
+
+function FoundationDetailPreview({ foundation }) {
+  if (!foundation) return null;
+
+  const size = Math.max(foundation.width, foundation.depth, foundation.height, 0.8);
+
+  return (
+    <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white">
+      <div className="border-b border-slate-100 px-4 py-3">
+        <h2 className="text-sm font-extrabold text-slate-900">
+          Detalle 3D · {foundation.label}
+        </h2>
+        <p className="mt-1 text-[10px] text-slate-500">Arrastrá para girar la fundación seleccionada.</p>
+      </div>
+      <div className="h-56 bg-slate-950">
+        <Canvas
+          shadows
+          dpr={[1, 1.5]}
+          camera={{ position: [size * 1.5, size * 1.25, size * 1.5], fov: 42, near: 0.05, far: 100 }}
+        >
+          <color attach="background" args={["#0f172a"]} />
+          <hemisphereLight args={["#e2e8f0", "#334155", 2]} />
+          <directionalLight position={[5, 8, 5]} intensity={2.2} castShadow />
+          <Grid
+            position={[0, -0.02, 0]}
+            args={[size * 4, size * 4]}
+            cellSize={0.5}
+            sectionSize={1}
+            cellColor="#334155"
+            sectionColor="#64748b"
+            fadeDistance={size * 5}
+          />
+          <mesh position={[0, foundation.height / 2, 0]} castShadow receiveShadow>
+            <boxGeometry args={[foundation.width, foundation.height, foundation.depth]} />
+            <meshStandardMaterial
+              color={STATUS_PRESENTATION[foundation.technicalStatus || "validated"].color}
+              roughness={0.65}
+            />
+            <Edges scale={1.002} threshold={15} color="#cbd5e1" />
+          </mesh>
+          <OrbitControls
+            enablePan={false}
+            enableZoom={false}
+            enableDamping
+            target={[0, foundation.height / 2, 0]}
+            maxPolarAngle={Math.PI / 2 - 0.02}
+          />
+        </Canvas>
+      </div>
+      <p className="px-4 py-3 text-[11px] font-semibold text-slate-600">
+        {foundation.width.toFixed(2)} × {foundation.depth.toFixed(2)} × {foundation.height.toFixed(2)} m
+      </p>
+    </section>
   );
 }
 
@@ -4482,15 +4547,14 @@ const computedBeamReinforcements = beamLinks.filter(
   (beam) => beam.steelComputed
 ).length;
 
-const selectedTypeCount = selectedFoundation
-  ? foundations.filter(
-      (item) =>
-        item.type === selectedFoundation.type
-    ).length
-  : 0;
-
-const selectedTypeVolume =
-  selectedUnitVolume * selectedTypeCount;
+const selectedTypeFoundations = selectedFoundation
+  ? foundations.filter((item) => item.type === selectedFoundation.type)
+  : [];
+const selectedTypeCount = selectedTypeFoundations.length;
+const selectedTypeVolume = selectedTypeFoundations.reduce(
+  (total, item) => total + item.width * item.depth * item.height,
+  0
+);
 
   const calculatedVolume = foundations.reduce(
     (total, foundation) =>
@@ -4513,6 +4577,9 @@ const selectedTypeVolume =
   const types = new Set(foundations.map((item) => item.type)).size;
   const reportedCount = parseNumber(results?.cantidad_fundaciones);
   const missingGeometry = Math.max(0, sourceRows.length - foundations.length);
+  const steelAvailable = reinforcementByType.size > 0 ||
+    readyColumnReinforcements > 0 || readyPedestalReinforcements > 0 ||
+    readyBeamReinforcements > 0;
   const emptySceneMessage = !results
     ? "Abrí un análisis de este proyecto para construir su modelo."
     : results?.tipologia_fundacion === "cimientos_corridos"
@@ -4753,6 +4820,16 @@ const selectedTypeVolume =
 </div>}
             </div>
 
+            {foundations.length ? (
+              <p className="border-t border-white/10 bg-slate-900 px-5 py-3 text-xs leading-5 text-slate-300">
+                Las zapatas usan las dimensiones X, Y y H del resultado. La separación entre ellas
+                representa las posiciones de los rótulos del PDF y es esquemática hasta contar con
+                una escala de planta calibrada. Seleccioná una y pulsá «Enfocar» para verla de cerca.
+                {!readyColumns && !readyPedestals && !beamLinks.length && !steelAvailable
+                  ? " Este análisis aún no aporta columnas, vigas ni armaduras computadas para dibujarlas." : ""}
+              </p>
+            ) : null}
+
             {(missingGeometry > 0 || (reportedCount !== null && reportedCount > foundations.length)) ? (
               <p className="border-t border-amber-500/30 bg-amber-950 px-5 py-3 text-xs text-amber-100" role="status">
                 Se muestran {foundations.length} fundaciones ubicadas y dimensionadas.
@@ -4776,18 +4853,19 @@ const selectedTypeVolume =
               <label className="flex cursor-pointer items-center gap-2 text-xs font-semibold text-slate-300">
                 <input
                   type="checkbox"
-                  checked={showReinforcement}
+                  checked={steelAvailable && showReinforcement}
+                  disabled={!steelAvailable}
                   onChange={(event) => setShowReinforcement(event.target.checked)}
-                  className="accent-cyan-400"
+                  className="accent-cyan-400 disabled:opacity-40"
                 />
-                Mostrar aceros
+                {steelAvailable ? "Mostrar aceros" : "Acero pendiente"}
               </label>
 
               <label className="flex cursor-pointer items-center gap-2 text-xs font-semibold text-sky-300">
                 <input
                   type="checkbox"
                   checked={showLowerReinforcement}
-                  disabled={!showReinforcement}
+                  disabled={!steelAvailable || !showReinforcement}
                   onChange={(event) =>
                     setShowLowerReinforcement(event.target.checked)
                   }
@@ -4800,7 +4878,7 @@ const selectedTypeVolume =
                 <input
                   type="checkbox"
                   checked={showUpperReinforcement}
-                  disabled={!showReinforcement}
+                  disabled={!steelAvailable || !showReinforcement}
                   onChange={(event) =>
                     setShowUpperReinforcement(event.target.checked)
                   }
@@ -4813,7 +4891,7 @@ const selectedTypeVolume =
                 <input
                   type="checkbox"
                   checked={showPedestalReinforcement}
-                  disabled={!showReinforcement}
+                  disabled={!steelAvailable || !showReinforcement}
                   onChange={(event) =>
                     setShowPedestalReinforcement(
                       event.target.checked
@@ -4828,7 +4906,7 @@ const selectedTypeVolume =
                 <input
                   type="checkbox"
                   checked={showColumnReinforcement}
-                  disabled={!showReinforcement}
+                  disabled={!steelAvailable || !showReinforcement}
                   onChange={(event) =>
                     setShowColumnReinforcement(
                       event.target.checked
@@ -4843,7 +4921,7 @@ const selectedTypeVolume =
                 <input
                   type="checkbox"
                   checked={showBeamReinforcement}
-                  disabled={!showReinforcement || !showBeams}
+                  disabled={!steelAvailable || !showReinforcement || !showBeams}
                   onChange={(event) =>
                     setShowBeamReinforcement(
                       event.target.checked
@@ -4875,7 +4953,7 @@ const selectedTypeVolume =
                   }
                   className="accent-cyan-400"
                 />
-                Etiquetas
+                {foundations.length > 35 ? "Etiqueta seleccionada" : "Etiquetas"}
               </label>
 
               <label className="flex cursor-pointer items-center gap-2 text-xs font-semibold text-slate-300">
@@ -5073,6 +5151,8 @@ const selectedTypeVolume =
   value={resultVolume === null ? "—" : `${resultVolume.toFixed(3)} m³`}
 />
             </div>
+
+            <FoundationDetailPreview foundation={selectedFoundation} />
 
             <div className="rounded-2xl border border-slate-200 bg-white p-5">
               <p className="text-[10px] font-extrabold uppercase tracking-[0.18em] text-slate-400">

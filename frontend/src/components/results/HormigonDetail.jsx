@@ -35,6 +35,13 @@ function coinciden(firstValue, secondValue) {
 }
 
 function crearElementos(item) {
+  if (Array.isArray(item.elementos) && item.elementos.length) {
+    return item.elementos.map((elemento) => ({
+      identificador: elemento.identificador,
+      volumen_m3: toNumber(elemento.volumen_m3 ?? item.volumen_unitario),
+    }));
+  }
+
   const cantidad = Math.max(
     0,
     Math.trunc(toNumber(item.cantidad))
@@ -238,7 +245,7 @@ function HormigonDetail({
 
           return (
             <details
-              key={item.referencia}
+              key={`${item.referencia}-${item.x}-${item.y}-${item.h}-${index}`}
               className="group overflow-hidden rounded-2xl border border-slate-200 bg-white"
               open={index === 0}
             >
@@ -250,7 +257,7 @@ function HormigonDetail({
 
                   <div>
                     <strong className="block text-sm font-extrabold text-ink">
-                      {item.cantidad} fundaciones
+                      {item.cantidad} {Number(item.cantidad) === 1 ? "fundación" : "fundaciones"}
                     </strong>
 
                     <span className="mt-0.5 block text-[10px] font-semibold text-slate-400">
@@ -433,10 +440,12 @@ function HormigonDetail({
 
                 {/* ELEMENTOS INDIVIDUALES */}
 
-                <div className="mt-4 rounded-xl border border-slate-200 bg-white p-4">
-                  <h4 className="text-xs font-extrabold text-ink">
-                    Control individual en obra
-                  </h4>
+                <details className="mt-4 rounded-xl border border-slate-200 bg-white">
+                  <summary className="cursor-pointer px-4 py-3 text-xs font-extrabold text-ink">
+                    Ver {elementos.length} {elementos.length === 1 ? "ubicación individual" : "ubicaciones individuales"}
+                  </summary>
+
+                  <div className="border-t border-slate-100 p-4">
 
                   <p className="mt-1 text-[10px] leading-5 text-slate-400">
                     Cada elemento debe verificar las mismas
@@ -489,7 +498,8 @@ function HormigonDetail({
                       )}
                     </strong>
                   </div>
-                </div>
+                  </div>
+                </details>
               </div>
             </details>
           );

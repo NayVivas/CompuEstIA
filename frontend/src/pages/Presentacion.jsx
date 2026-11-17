@@ -1,7 +1,14 @@
-
 import { useEffect, useRef, useState } from "react";
 import "./Presentacion.css";
 
+const integrantes = [
+  "Irene Rendón",
+  "Naylu Vivas",
+  "Federico Guillardoy",
+  "Pablo Vaccotti",
+  "Maximiliano Martínez",
+  "Alejandro Bachmann",
+];
 
 const escenas = [
   {
@@ -27,6 +34,7 @@ const escenas = [
     destacado: "La tecnología asiste. El profesional decide.",
     video: "/presentacion/escena-03.mp4",
     tipo: "proceso",
+    modo: "demo",
   },
   {
     numero: "04",
@@ -35,6 +43,7 @@ const escenas = [
     destacado: "Información técnica para tomar decisiones.",
     video: "/presentacion/escena-04.mp4",
     tipo: "modelo",
+    modo: "demo",
   },
   {
     numero: "05",
@@ -43,17 +52,17 @@ const escenas = [
     destacado: "Y la información en mejores herramientas para la ingeniería.",
     video: "/presentacion/escena-05.mp4",
     tipo: "cierre",
+    modo: "demo",
   },
   {
-  numero: "06",
-  etiqueta: "AGRADECIMIENTO",
-  titulo: "¡Muchas gracias!",
-  destacado: "CómputoEstIA",
-  descripcion:
-    "De los planos a la información. De la información a mejores decisiones.",
-  video: "/presentacion/escena-06.mp4",
-  tipo: "cierre",
-},
+    numero: "06",
+    etiqueta: "EL EQUIPO",
+    titulo: "¡Muchas gracias!",
+    destacado: "CómputoEstIA",
+    descripcion:
+      "Proyecto Integrador · Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial",
+    tipo: "equipo",
+  },
 ];
 
 function Presentacion() {
@@ -105,17 +114,42 @@ function Presentacion() {
       setProgreso(
         maximo > 0 ? (contenedor.scrollTop / maximo) * 100 : 0
       );
+
+      seccionesRef.current.forEach((seccion) => {
+        if (!seccion?.classList.contains("escena-demo")) return;
+
+        const recorrido = seccion.offsetHeight - contenedor.clientHeight;
+        const avance = Math.max(
+          0,
+          Math.min(1, (contenedor.scrollTop - seccion.offsetTop) / (recorrido * 0.6))
+        );
+        const contenido = seccion.querySelector(".presentacion-contenido");
+        const altura = contenido?.scrollHeight || 0;
+
+        seccion.style.setProperty("--demo-intro-alto", `${altura * (1 - avance)}px`);
+        seccion.style.setProperty("--demo-texto-opacidad", String(Math.max(0, 1 - avance * 1.6)));
+      });
     };
 
     contenedor.addEventListener("scroll", actualizarProgreso);
+    window.addEventListener("resize", actualizarProgreso);
     actualizarProgreso();
 
-    return () =>
+    return () => {
       contenedor.removeEventListener("scroll", actualizarProgreso);
+      window.removeEventListener("resize", actualizarProgreso);
+    };
   }, []);
 
   useEffect(() => {
     function manejarTeclado(evento) {
+      if (
+        escenas[escenaActiva]?.modo === "demo" &&
+        ["ArrowDown", "ArrowUp", "PageDown", "PageUp"].includes(evento.key)
+      ) {
+        return;
+      }
+
       if (evento.key === "ArrowDown" || evento.key === "PageDown") {
         evento.preventDefault();
         irAEscena(Math.min(escenaActiva + 1, escenas.length - 1));
@@ -170,6 +204,10 @@ function Presentacion() {
     }
   }
 
+  function ampliarVideo(indice) {
+    seccionesRef.current[indice]?.querySelector("video")?.requestFullscreen?.();
+  }
+
   return (
     <main className="presentacion" ref={contenedorRef}>
       <div className="presentacion-progreso">
@@ -187,7 +225,8 @@ function Presentacion() {
 
         <div className="presentacion-controles">
           <span className="presentacion-contador">
-            {String(escenaActiva + 1).padStart(2, "0")} / 06
+            {String(escenaActiva + 1).padStart(2, "0")} /{" "}
+            {String(escenas.length).padStart(2, "0")}
           </span>
           <button
             type="button"
@@ -219,96 +258,115 @@ function Presentacion() {
         ))}
       </nav>
 
-      {escenas.map((escena, indice) => (
-        <section
-          key={escena.numero}
-          data-index={indice}
-          ref={(elemento) => {
-            seccionesRef.current[indice] = elemento;
-          }}
-          className={`presentacion-escena escena-${escena.tipo}`}
-        >
-          <div className="presentacion-fondo" />
-          <div className="presentacion-luz" />
+      {escenas.map((escena, indice) => {
+        const esDemo = escena.modo === "demo";
+        return (
+          <section
+            key={escena.numero}
+            data-index={indice}
+            ref={(elemento) => {
+              seccionesRef.current[indice] = elemento;
+            }}
+            className={`presentacion-escena escena-${escena.tipo}${esDemo ? " escena-demo" : ""}`}
+          >
+            <div className="presentacion-fondo" />
+            <div className="presentacion-luz" />
 
-          <video
-            className="presentacion-video"
-            src={escena.video}
-            muted
-            loop
-            playsInline
-            preload="none"
-            aria-hidden="true"
-          />
-
-          <div className="presentacion-velo" />
-
-          <div className="presentacion-contenido">
-            <div className="presentacion-etiqueta">
-              <span />
-              {escena.etiqueta}
-            </div>
-
-            {indice === 1 && (
-              <div className="presentacion-marca-grande">
-                <div className="presentacion-simbolo">C</div>
-                <span>CómputoEstIA</span>
-              </div>
+            {!esDemo && escena.video && (
+              <video
+                className="presentacion-video presentacion-video-fondo"
+                src={escena.video}
+                muted
+                loop
+                playsInline
+                preload="none"
+                aria-hidden="true"
+              />
             )}
 
-            <p className="presentacion-numero">{escena.numero}</p>
+            {!esDemo && <div className="presentacion-velo" />}
 
-            <h1>{escena.titulo}</h1>
+            <div className="presentacion-escenario">
+              <div className="presentacion-contenido">
+                <div className="presentacion-etiqueta">
+                  <span />
+                  {escena.etiqueta}
+                </div>
 
-            <h2>{escena.destacado}</h2>
+                {indice === 1 && (
+                  <div className="presentacion-marca-grande">
+                    <div className="presentacion-simbolo">C</div>
+                    <span>CómputoEstIA</span>
+                  </div>
+                )}
 
-            <p className="presentacion-descripcion">
-              {escena.descripcion}
-            </p>
+                <p className="presentacion-numero">{escena.numero}</p>
 
-            {indice === 0 && (
-              <div className="presentacion-palabras">
-                <span>PLANOS</span>
-                <span>DATOS</span>
-                <span>CÓMPUTOS</span>
-              </div>
-            )}
+                <h1>{escena.titulo}</h1>
 
-            {indice === 2 && (
-              <div className="presentacion-pasos">
-                {["Lectura", "Clasificación", "Extracción", "Asociación"].map(
-                  (paso, i) => (
-                    <div key={paso}>
-                      <span>0{i + 1}</span>
-                      <strong>{paso}</strong>
-                    </div>
-                  )
+                <h2>{escena.destacado}</h2>
+
+                {escena.descripcion && (
+                  <p className="presentacion-descripcion">
+                    {escena.descripcion}
+                  </p>
+                )}
+
+                {indice === 0 && (
+                  <div className="presentacion-palabras">
+                    <span>PLANOS</span>
+                    <span>DATOS</span>
+                    <span>CÓMPUTOS</span>
+                  </div>
+                )}
+
+                {escena.tipo === "equipo" && (
+                  <div className="presentacion-integrantes">
+                    {integrantes.map((nombre) => (
+                      <div className="presentacion-integrante" key={nombre}>
+                        {nombre}
+                      </div>
+                    ))}
+                  </div>
                 )}
               </div>
-            )}
 
-            {indice === 3 && (
-              <div className="presentacion-elementos">
-                <span>Fundaciones</span>
-                <span>Pedestales</span>
-                <span>Vigas de riostra</span>
-                <span>Columnas</span>
+              {esDemo && (
+                <div className="presentacion-demostracion">
+                  <div className="presentacion-demo-barra">
+                    <button
+                      type="button"
+                      className="presentacion-ampliar"
+                      onClick={() => ampliarVideo(indice)}
+                    >
+                      Ampliar video ↗
+                    </button>
+                  </div>
+                  <video
+                    className="presentacion-video presentacion-video-demo"
+                    src={escena.video}
+                    muted
+                    loop
+                    playsInline
+                    controls
+                    preload="metadata"
+                    aria-label={escena.etiqueta}
+                  />
+                </div>
+              )}
+
+              <div className="presentacion-pie">
+                <span>PROYECTO DE CIENCIA DE DATOS E INTELIGENCIA ARTIFICIAL</span>
+                <span>
+                  {indice === escenas.length - 1
+                    ? "FIN DE LA PRESENTACIÓN"
+                    : "SCROLL PARA CONTINUAR ↓"}
+                </span>
               </div>
-            )}
-
-            {indice === 5 && (
-              <div className="presentacion-gracias">
-                
-              </div>
-            )}
-          </div>
-
-          <div className="presentacion-pie">
-            <span>PROYECTO DE CIENCIA DE DATOS E INTELIGENCIA ARTIFICIAL</span>
-            <span>SCROLL PARA CONTINUAR ↓</span>
-          </div>
-        </section>
-      ))}
+            </div>
+          </section>
+        );
+      })}
     </main>
   );
 }

@@ -26,7 +26,7 @@ from computos.api.exp11_anotador import router as exp11_router
 from computos.api.exp16_anotador import router as exp16_router
 from computos.ia.flujo_hibrido import procesar_archivos_hibrido
 from computos.ia.enrutador_documentos import (
-    ROLES_MOTOR,
+    ROLES_MOTOR_TODOS,
     enrutar_documentos,
 )
 from computos.ia.proveedor import (
@@ -336,7 +336,7 @@ def _leer_asignaciones_documentales(
             detail="Las asignaciones documentales deben ser un objeto JSON.",
         )
 
-    roles_desconocidos = set(datos) - set(ROLES_MOTOR)
+    roles_desconocidos = set(datos) - set(ROLES_MOTOR_TODOS)
     if roles_desconocidos:
         raise HTTPException(
             status_code=422,

@@ -1,0 +1,23 @@
+ backend/computos/api/aplicacion.py                 |   4 [32m+[m[31m-[m
+ backend/computos/api/servicio.py                   |   9 [32m+[m[31m-[m
+ backend/computos/fundaciones/cuadros.py            |  30 [32m+++[m
+ backend/computos/fundaciones/cuadros_agrupados.py  | 205 [32m++++++++++++++++[m
+ .../computos/fundaciones/geometria_distribuida.py  |  48 [32m+++[m[31m-[m
+ backend/computos/ia/enrutador_documentos.py        |  44 [32m+++[m[31m-[m
+ backend/computos/ia/flujo_hibrido.py               |   5 [32m+[m[31m-[m
+ backend/computos/referencias.py                    |  13 [32m+[m[31m-[m
+ backend/tests/test_carga_general.py                |   5 [32m+[m
+ backend/tests/test_recuperacion_extraccion_api.py  | 104 [32m++++++++[m
+ frontend/src/App.jsx                               |   1 [32m+[m
+ .../src/components/results/EncofradoDetail.jsx     |  21 [32m+[m[31m-[m
+ frontend/src/components/results/HormigonDetail.jsx |  26 [32m+[m[31m-[m
+ .../src/components/results/UbicacionesDetail.jsx   | 103 [32m+++++[m[31m---[m
+ frontend/src/pages/DocumentRoutingReview.jsx       |   3 [32m+[m[31m-[m
+ frontend/src/pages/FoundationGeometryReview.jsx    | 116 [32m++++++[m[31m---[m
+ frontend/src/pages/Motor3D.jsx                     | 130 [32m++++++++[m[31m--[m
+ frontend/src/pages/Presentacion.jsx                | 240 [32m+++++++++++[m[31m-------[m
+ frontend/src/pages/Results.jsx                     |  18 [32m+[m[31m-[m
+ frontend/src/pages/presentacion.css                | 271 [32m++++++++++++++++[m[31m-----[m
+ frontend/src/utils/groupFoundationComputations.js  | 119 [32m+++++++++[m
+ .../src/utils/groupFoundationComputations.test.js  |  51 [32m++++[m
+ 22 files changed, 1274 insertions(+), 292 deletions(-)

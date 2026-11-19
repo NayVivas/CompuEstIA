@@ -10,60 +10,61 @@ const integrantes = [
   "Alejandro Bachmann",
 ];
 
+
 const escenas = [
   {
     numero: "01",
     etiqueta: "EL DESAFÍO",
-    titulo: "La información está en los planos.",
-    destacado: "El desafío es convertirla en conocimiento.",
+    titulo: "Toda construcción comienza mucho antes del primer ladrillo.",
+    destacado: "Detrás de cada obra hay planos, medidas y decisiones.",
     video: "/presentacion/escena-01.mp4",
     tipo: "intro",
   },
   {
-    numero: "02",
-    etiqueta: "LA PROPUESTA",
-    titulo: "CómputoEstIA",
-    destacado: "Ingeniería civil + Ciencia de datos + Inteligencia artificial.",
-    video: "/presentacion/escena-02.mp4",
-    tipo: "marca",
-  },
+  numero: "02",
+  etiqueta: "LA PROPUESTA",
+  titulo: "CómputoEstIA",
+  destacado: "Una nueva forma de transformar planos en información útil.",
+  video: "/presentacion/escena-02.mp4",
+  tipo: "marca",
+},
   {
     numero: "03",
-    etiqueta: "EL PROCESO Y LA REVISIÓN",
-    titulo: "De múltiples documentos a información organizada.",
-    destacado: "La tecnología asiste. El profesional decide.",
+    etiqueta: "EL PROCESO",
+    titulo: "De los planos a la información.",
+    destacado: "Cargamos. Organizamos. Revisamos.",
     video: "/presentacion/escena-03.mp4",
     tipo: "proceso",
     modo: "demo",
   },
   {
     numero: "04",
-    etiqueta: "VISUALIZACIÓN Y RESULTADOS",
-    titulo: "Del modelo 3D al cómputo métrico.",
-    destacado: "Información técnica para tomar decisiones.",
+    etiqueta: "VISUALIZACIÓN 3D",
+    titulo: "Una forma diferente de ver la estructura.",
+    destacado: "Comprender también es poder visualizar.",
     video: "/presentacion/escena-04.mp4",
     tipo: "modelo",
     modo: "demo",
   },
   {
     numero: "05",
-    etiqueta: "EL FUTURO",
-    titulo: "Transformamos planos en información.",
-    destacado: "Y la información en mejores herramientas para la ingeniería.",
+    etiqueta: "LOS RESULTADOS",
+    titulo: "Información organizada para tomar mejores decisiones.",
+    destacado: "Resultados que podemos revisar y verificar.",
     video: "/presentacion/escena-05.mp4",
     tipo: "cierre",
     modo: "demo",
   },
   {
-    numero: "06",
-    etiqueta: "EL EQUIPO",
-    titulo: "¡Muchas gracias!",
-    destacado: "CómputoEstIA",
-    descripcion:
-      "Proyecto Integrador · Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial",
-    tipo: "equipo",
-  },
+  numero: "06",
+  etiqueta: "NUESTRO PROYECTO",
+  titulo: "CómputoEstIA",
+  destacado: "Una idea que une conocimientos para resolver desafíos reales.",
+  descripcion: "Muchas gracias",
+  tipo: "equipo",
+},
 ];
+
 
 function Presentacion() {
   const [escenaActiva, setEscenaActiva] = useState(0);
@@ -310,14 +311,6 @@ function Presentacion() {
                   <p className="presentacion-descripcion">
                     {escena.descripcion}
                   </p>
-                )}
-
-                {indice === 0 && (
-                  <div className="presentacion-palabras">
-                    <span>PLANOS</span>
-                    <span>DATOS</span>
-                    <span>CÓMPUTOS</span>
-                  </div>
                 )}
 
                 {escena.tipo === "equipo" && (
